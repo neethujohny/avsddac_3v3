@@ -2,6 +2,6 @@
 
 ## Need for a potentiometric DAC IP
 
-### Open source EDA Tools used to develop the IP
+## Open source EDA Tools used to develop the IP
 
-#### IP Specifications
+## IP Specifications
