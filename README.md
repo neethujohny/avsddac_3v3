@@ -4,6 +4,6 @@
 
 ## Open source EDA Tools used to develop the IP
 
-### Steps to Install eSim
+*  Steps to Install eSim
 
-### Steps to Install Magic tool
+*  Steps to Install Magic tool
