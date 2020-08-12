@@ -16,7 +16,7 @@ Note: The accuracy of the conversion can be still improved by adjusting the numb
 
 #### Stage 3 Circuit Diagram
 
-
+![2bitdac_circuit](https://user-images.githubusercontent.com/65214115/89986616-6c673980-dc9a-11ea-8813-d7d20a94bbf4.PNG)
 
 
 
