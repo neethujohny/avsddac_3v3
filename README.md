@@ -35,6 +35,18 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
 
+## To obtain DNL vs digital code characteristics @T=27C and VREF&VDD=3.3
+
+The differential nonlinearity (DNL) is the difference between the measured and ideal 1LSB amplitude change of any two adjacent codes. Using the values noted earlier and the formula given below, we can find all the DNL values. These vaues are uploaded in the repository with the name DNL_INL_calculations.
+
+DNL(LSB)= (Actual height- Ideal height)/1LSB
+
+## To obtain INL vs digital code characteristics @T=27C and VREF&VDD=3.3
+
+The relative accuracy or integral nonlinearity (INL) is the maximum deviation of the output from the line between zero and full scale excluding the effects of zero code and full-scale errors. The calculated INL values are uploaded in the repository in the file with the name DNL_INL_calculations.
+
+INL(LSB)= (Actual vout-Reference vout)/1LSB
+
 
 ## Open source EDA Tools used to develop the IP
 
