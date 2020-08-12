@@ -53,16 +53,15 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 The design is done using opensource EDA tools such as eSim for the prelayout simulatioms and MAGIC for the layout and postlayout simulations. eSim is a free and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using open source software such as KiCad, Ngspice and GHDL. Magic is an opensource VLSI layout tool.
 
-*  Steps to Install eSim
+### Steps to Install eSim on Ubuntu 16.04
 
-Go to Downloads section of esim.fossee.in and download eSim for Ubuntu.
-in Ubuntu.
-https://github.com/FOSSEE/eSim/releases/tag/v1.1.3
-After downloading eSim, extract it using: 
+* Go to the link https://github.com/FOSSEE/eSim/releases/tag/v1.1.3 and download eSim-1.1.3 for Ubuntu.
+
+* After downloading eSim, extract it using: 
   
    $ unzip eSim-1.1.3.zip
 
-   Now change directories in to the top-level source directory (where this INSTALL file can be found).
+* Now change directories in to the top-level source directory (where this INSTALL file can be found).
 
    To install eSim and other dependecies run the following command.
 
@@ -70,18 +69,18 @@ After downloading eSim, extract it using:
 
    Above script will install eSim along with dependencies.
 
-   Please report any eSim installation related issue/error at forums.fossee.in
-
-   How to Run eSim
-   =================
    
+ ####  How to Run eSim
+     
    A. Through Terminal
+   
    $ esim
 
    B. Double click eSim desktop icon
    
-   ### eSim Installation
+ ### eSim Spoken Tutorials
  
-  Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim    installation on Linux and MS Windows.
+  Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
 
-*  Steps to Install Magic tool
+###  Steps to Install Magic tool
+
