@@ -68,19 +68,15 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
    $ ./install-eSim.sh --install
 
    Above script will install eSim along with dependencies.
+   
+* To Run eSim
 
-   
- ####  How to Run eSim
-     
-   A. Through Terminal
-   
+  Double click eSim desktop icon. To open through terminal, use the command
+           
    $ esim
-
-   B. Double click eSim desktop icon
-   
+  
  ### eSim Spoken Tutorials
  
   Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
 
-###  Steps to Install Magic tool
 
