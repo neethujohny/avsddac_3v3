@@ -89,7 +89,7 @@ $  cd 10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-of
 
 * To run the Transient Analysis , enter the following command
 
-$ ngspice vh_vl_cascaded.cir.out
+$ ngspice Vh_Vl_cascaded.cir.out
 
 #### Output of 10bit PDAC - Transient Analysis
 
