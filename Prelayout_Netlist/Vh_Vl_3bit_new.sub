@@ -1,4 +1,4 @@
-* Subcircuit Vh_Vl_3bit_new
+* Subcircuit in stage1 : Vh_Vl_3bit_new
 
 .subckt Vh_Vl_3bit_new outl vrefh net-_r8-pad2_ /vdd bit_in bit_in2 bit_in3 out 
 * /home/neethu/downloads/esim-1.1.3/src/subcircuitlibrary/vh_vl_3bit_new/vh_vl_3bit_new.cir
