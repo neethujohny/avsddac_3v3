@@ -18,7 +18,9 @@ Note: The accuracy of the conversion can be still improved by adjusting the numb
 
 ![2bitdac_circuit](https://user-images.githubusercontent.com/65214115/89986616-6c673980-dc9a-11ea-8813-d7d20a94bbf4.PNG)
 
+#### Subcircuit Swich_pair
 
+![switch_pair_schematic](https://user-images.githubusercontent.com/65214115/89986862-c667ff00-dc9a-11ea-8337-03cda4e5b57f.PNG)
 
 ## Open source EDA Tools used to develop the IP
 
