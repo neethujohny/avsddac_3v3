@@ -91,6 +91,8 @@ $  cd 10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-of
 
 $ ngspice Vh_Vl_cascaded.cir.out
 
+$ plot out_10bitdac
+
 #### Output of 10bit PDAC - Transient Analysis
 
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
