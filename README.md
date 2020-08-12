@@ -32,9 +32,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 ![schematic_10bitdac](https://user-images.githubusercontent.com/65214115/89987533-d7fdd680-dc9b-11ea-9867-d710c264c953.PNG)
 
-#### Output of 10bit PDAC
 
-![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
 
 ## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -79,4 +77,39 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
  
   Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
 
+## Prelayout Simulations
 
+* To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+
+$  sudo apt install -y git
+
+$  git clone https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference
+
+$  cd 10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference/Prelayout_Netlist
+
+* To run the Transient Analysis , enter the following command
+
+$ ngspice vh_vl_cascaded.cir.out
+
+#### Output of 10bit PDAC - Transient Analysis
+
+![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
+
+
+## Author
+
+Neethu Johny, B.M.S College of Engineering, Bangalore
+
+## Acknowledgements
+
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+Philipp Gühring, Software Architect, LibreSilicon Assocation
+
+## Contact Information
+
+Neethu Johny, B.M.S College of Engineering, Bangalore - neethujohny123@gmail.com
+
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+
+Philipp Gühring, Software Architect, LibreSilicon Assocation - pg@futureware.at
