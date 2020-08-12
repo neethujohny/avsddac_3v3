@@ -33,7 +33,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 #### Output of 10bit PDAC
 
-
+![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
 
 
 ## Open source EDA Tools used to develop the IP
