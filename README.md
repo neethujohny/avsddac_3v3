@@ -56,5 +56,32 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 *  Steps to Install eSim
 
 Go to Downloads section of esim.fossee.in and download eSim for Ubuntu.
+in Ubuntu.
+https://github.com/FOSSEE/eSim/releases/tag/v1.1.3
+After downloading eSim, extract it using: 
+  
+   $ unzip eSim-1.1.3.zip
+
+   Now change directories in to the top-level source directory (where this INSTALL file can be found).
+
+   To install eSim and other dependecies run the following command.
+
+   $ ./install-eSim.sh --install
+
+   Above script will install eSim along with dependencies.
+
+   Please report any eSim installation related issue/error at forums.fossee.in
+
+   How to Run eSim
+   =================
+   
+   A. Through Terminal
+   $ esim
+
+   B. Double click eSim desktop icon
+   
+   ### eSim Installation
+ 
+  Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim    installation on Linux and MS Windows.
 
 *  Steps to Install Magic tool
