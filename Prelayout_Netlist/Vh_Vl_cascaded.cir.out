@@ -1,6 +1,6 @@
 * /home/neethu/esim-workspace/vh_vl_cascaded/vh_vl_cascaded.cir
 * 10bitdac Netlist
-* Note: pulses bit_in5 to bit_in1 corresponds to b9 to b5
+* Note- pulses bit_in5 to bit_in1 corresponds to b9 to b5
 
 .include switch.sub
 .include Vh_Vl_3bit_new.sub
