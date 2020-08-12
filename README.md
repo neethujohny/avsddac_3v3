@@ -9,6 +9,7 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 ### Design of 10bit PDAC
 
 The 10bit DAC is designed in three stages to save area and reduce the runtime. The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. One set outputs VH and the other set outputs VL. A total of 124 switches are required. The two-voltage selector chooses two adjacent voltages from the reference voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. The second stage is again a 3-b tree-type two-voltage selector which outputs VH and VL based on subsequent LSB bits from b4 to b2. The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
+
 Note: The accuracy of the conversion can be still improved by adjusting the number os stages and granularity of the various stages.
 
 #### Stage 1 Circuit Diagram - VH VL 5-bitstage
@@ -35,51 +36,25 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
 
-## To obtain DNL vs digital code characteristics @T=27C and VREF&VDD=3.3
+## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
 The differential nonlinearity (DNL) is the difference between the measured and ideal 1LSB amplitude change of any two adjacent codes. Using the values noted earlier and the formula given below, we can find all the DNL values. These vaues are uploaded in the repository with the name DNL_INL_calculations.
 
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
-## To obtain INL vs digital code characteristics @T=27C and VREF&VDD=3.3
+## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
 The relative accuracy or integral nonlinearity (INL) is the maximum deviation of the output from the line between zero and full scale excluding the effects of zero code and full-scale errors. The calculated INL values are uploaded in the repository in the file with the name DNL_INL_calculations.
 
-INL(LSB)= (Actual vout-Reference vout)/1LSB
+INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 
 ## Open source EDA Tools used to develop the IP
 
 The design is done using opensource EDA tools such as eSim for the prelayout simulatioms and MAGIC for the layout and postlayout simulations. eSim is a free and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using open source software such as KiCad, Ngspice and GHDL. Magic is an opensource VLSI layout tool.
 
-*  Steps to Install eSim in Ubuntu16.04 version.
+*  Steps to Install eSim
 
-
-   Download eSim 1.1.3 from the link 
-   
-   
-   
-   After downloading eSim, extract it using: 
-  
-   $ unzip eSim-1.1.3.zip
-
-   Now change directories in to the top-level source directory (where this INSTALL file can be found).
-
-   To install eSim and other dependecies run the following command.
-
-   $ ./install-eSim.sh --install
-
-   Above script will install eSim along with dependencies.
-
-   
-   How to Run eSim
-   =================
-   
-   A. Through Terminal
-  
-  $ esim
-
-   B. Double click eSim desktop icon
-
+Go to Downloads section of esim.fossee.in and download eSim for Ubuntu.
 
 *  Steps to Install Magic tool
