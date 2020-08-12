@@ -52,6 +52,34 @@ INL(LSB)= (Actual vout-Reference vout)/1LSB
 
 The design is done using opensource EDA tools such as eSim for the prelayout simulatioms and MAGIC for the layout and postlayout simulations. eSim is a free and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using open source software such as KiCad, Ngspice and GHDL. Magic is an opensource VLSI layout tool.
 
-*  Steps to Install eSim
+*  Steps to Install eSim in Ubuntu16.04 version.
+
+
+   Download eSim 1.1.3 from the link 
+   
+   
+   
+   After downloading eSim, extract it using: 
+  
+   $ unzip eSim-1.1.3.zip
+
+   Now change directories in to the top-level source directory (where this INSTALL file can be found).
+
+   To install eSim and other dependecies run the following command.
+
+   $ ./install-eSim.sh --install
+
+   Above script will install eSim along with dependencies.
+
+   
+   How to Run eSim
+   =================
+   
+   A. Through Terminal
+  
+  $ esim
+
+   B. Double click eSim desktop icon
+
 
 *  Steps to Install Magic tool
