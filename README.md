@@ -12,7 +12,11 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime. T
 Note: The accuracy of the conversion can be still improved by adjusting the number os stages and granularity of the various stages.
 #### Stage 1 Circuit Diagram
 
+The circuit is an extended version of stage 2 circuit with 5-bit selector switches. It is created using the subcircuits of stage 2 circuit.
+
 #### Stage 2 Circuit Diagram
+
+![Vh_Vl_3bit_schematic](https://user-images.githubusercontent.com/65214115/89987102-1646c600-dc9b-11ea-8bbb-b13a4d8695b5.PNG)
 
 #### Stage 3 Circuit Diagram
 
@@ -21,6 +25,11 @@ Note: The accuracy of the conversion can be still improved by adjusting the numb
 #### Subcircuit Swich_pair
 
 ![switch_pair_schematic](https://user-images.githubusercontent.com/65214115/89986862-c667ff00-dc9a-11ea-8337-03cda4e5b57f.PNG)
+
+#### Complete Schematic of 10bitDAC
+
+
+
 
 ## Open source EDA Tools used to develop the IP
 
