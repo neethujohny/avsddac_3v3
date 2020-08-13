@@ -11,7 +11,7 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
   - [Stage 1 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-1-circuit-diagram---vh-vl-5-bitstage)
   - [Stage 2 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-2-circuit-diagram---vh-vl-3-bitstage)
   - [Stage 3 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-3-circuit-diagram---2-bit-dac)
-  - [Subcircuit](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#subcircuit--switch_pair)
+  - [Subcircuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#subcircuit--switch_pair)
   - [Complete Schematic of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#complete-schematic-of-10bit-pdac)
   
  * [To obtain DNL vs Input code characteristics](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#to-obtain-dnl-vs-input-code-characteristics-t27c-and-vrefvdd33)
