@@ -68,12 +68,23 @@ The differential nonlinearity (DNL) is the difference between the measured and i
 
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
+### DNL(LSB) vs Input code
+
+![DNL_till20ms](https://user-images.githubusercontent.com/65214115/90096113-194fbe00-dd50-11ea-88ed-9548f5d9c9f4.jpg)
+
+Note: the values are calculated for the input codes from 1023 - 706
+
 ## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
 The relative accuracy or integral nonlinearity (INL) is the maximum deviation of the output from the line between zero and full scale excluding the effects of zero code and full-scale errors. The calculated INL values are uploaded in the repository in the file with the name DNL_INL_calculations.
 
 INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
+### INL(LSB) vs Input code
+
+![INL_20ms](https://user-images.githubusercontent.com/65214115/90096228-57e57880-dd50-11ea-8f8b-7e58a7266bd8.jpg)
+
+Note: the values are calculated for the input codes from 1023 - 705
 
 ## Open source EDA Tools used to develop the IP
 
