@@ -6,6 +6,8 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 
 [Need for a potentiometric DAC(PDAC) IP] (https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
 
+[Design of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#design-of-10bit-pdac)
+
 
 ## Need for a potentiometric DAC(PDAC) IP
 
