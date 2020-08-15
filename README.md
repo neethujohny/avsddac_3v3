@@ -61,7 +61,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 ![schematic_10bitdac](https://user-images.githubusercontent.com/65214115/89987533-d7fdd680-dc9b-11ea-9867-d710c264c953.PNG)
 
-#### Ngspice Output plot with 10bit inputs
+#### 10bit DAC Output and Inputs plot
 
 ![dac_output margin based](https://user-images.githubusercontent.com/65214115/90310313-14386d80-df0e-11ea-9c24-7aa74c3a0dba.PNG)
 
@@ -85,6 +85,11 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 ### INL(LSB) vs Input code
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
+
+
+## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
+
+![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
 
 
 ## Open source EDA Tools used to develop the IP
