@@ -91,7 +91,7 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
 
-Note- The input code ranges from 0 to 1024. The Full Scale output voltage, VFS =3.292069V
+Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =3.292069V
 
 
 ## Open source EDA Tools used to develop the IP
