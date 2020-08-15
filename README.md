@@ -60,7 +60,9 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 ![schematic_10bitdac](https://user-images.githubusercontent.com/65214115/89987533-d7fdd680-dc9b-11ea-9867-d710c264c953.PNG)
 
+## Ngspice Output plot with 10bit inputs
 
+![dac_output margin based](https://user-images.githubusercontent.com/65214115/90310313-14386d80-df0e-11ea-9c24-7aa74c3a0dba.PNG)
 
 ## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -70,9 +72,8 @@ DNL(LSB)= (Actual height- Ideal height)/1LSB
 
 ### DNL(LSB) vs Input code
 
-![DNL_till20ms](https://user-images.githubusercontent.com/65214115/90096113-194fbe00-dd50-11ea-88ed-9548f5d9c9f4.jpg)
+![DNL](https://user-images.githubusercontent.com/65214115/90310268-a55b1480-df0d-11ea-8aeb-d972454d7643.jpg)
 
-Note: the values are calculated for the input codes from 1023 - 706
 
 ## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -82,9 +83,8 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ### INL(LSB) vs Input code
 
-![INL_20ms](https://user-images.githubusercontent.com/65214115/90096228-57e57880-dd50-11ea-8f8b-7e58a7266bd8.jpg)
+![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
-Note: the values are calculated for the input codes from 1023 - 705
 
 ## Open source EDA Tools used to develop the IP
 
