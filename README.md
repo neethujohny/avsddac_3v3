@@ -47,19 +47,20 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 #### Stage 2 Circuit Diagram - VH VL 3-bitstage
 
-![Vh_Vl_3bit_schematic](https://user-images.githubusercontent.com/65214115/89987102-1646c600-dc9b-11ea-8bbb-b13a4d8695b5.PNG)
+[Stage 2 Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078502/Stage.2.Circuit.pdf)5.PNG)
 
 #### Stage 3 Circuit Diagram - 2 bit DAC
 
-![2bitdac_circuit](https://user-images.githubusercontent.com/65214115/89986616-6c673980-dc9a-11ea-8813-d7d20a94bbf4.PNG)
+[stage3 Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078505/stage3.Circuit.pdf)
 
 #### Subcircuit- Switch_pair
 
-![switch_pair_schematic](https://user-images.githubusercontent.com/65214115/89986862-c667ff00-dc9a-11ea-8337-03cda4e5b57f.PNG)
+[Switchpair_circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078506/Switchpair_circuit.pdf)
 
 #### Complete Schematic of 10bit PDAC
 
-![schematic_10bitdac](https://user-images.githubusercontent.com/65214115/89987533-d7fdd680-dc9b-11ea-9867-d710c264c953.PNG)
+[10bitDAC_Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078507/10bitDAC_Circuit.pdf)
+
 
 #### 10bit DAC Output and Inputs plot
 
