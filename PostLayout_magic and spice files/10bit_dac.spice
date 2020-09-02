@@ -3316,6 +3316,7 @@ C2001 Vh_Vl_3bit_1/switch_3/a_n29_n8# gnd 0.24fF
 C2002 Vh_Vl_3bit_1/switch_3/w_43_n41# gnd 0.49fF
 C2003 Vh_Vl_3bit_1/switch_3/w_44_3# gnd 0.53fF
 
+* C2004 to C2008 are maunally added to remove the noise
 
 C2004 outH_stage1 gnd 10pF
 C2005 outL_stage1 gnd 10pF
