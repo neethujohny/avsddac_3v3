@@ -288,7 +288,7 @@ $ ngspice 10bit_dac.spice
 
   - Build a more compact layout to meet the area specifications.
   - Improve the DNL and INL by increasing the resolution of different stages.
-  - Build a capacitor layout to filter out the spikes. As the capacitors are manually added in this PDAC extracted netlist.
+  - Build a capacitor in the layout to filter out the spikes. Here the capacitors are manually added in the extracted netlist.
   - Design the PDAC with VDD=1.8V. 
   
 ## Author
