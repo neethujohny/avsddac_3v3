@@ -90,10 +90,10 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ### DNL and INL Table
 
-| Parameter  | pre-layout  |
-| ------------- | ------------- |
-| DNL(LSB)  |-1.0 to +1.7  |
-| INL	(LSB)  | -2.0 to +2.654  |
+| Parameter    | Pre-layout     |
+| ------------- | -------------   |
+| DNL(LSB)     |-1.0 to +1.7     |
+| INL	(LSB)    | -2.0 to +2.654  |
 
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -139,9 +139,14 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Copy paste the below commands one after another
 
-   cd Downloads/
-   chmod +x magic.sh
-   ./magic.sh
+'''
+   $ cd Downloads/
+   
+   $ chmod +x magic.sh
+   
+    $ ./magic.sh
+    
+    '''
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
 
@@ -149,15 +154,15 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Open the Terminal and copy, paste the commands mentioned below.
 
-sudo cp osu180nm.tech /usr/local/lib/magic/sys/
+  $ sudo cp osu180nm.tech /usr/local/lib/magic/sys/
 
-cd /usr/local/lib/magic/sys/
+  $ cd /usr/local/lib/magic/sys/
 
-ls 
+  $ ls 
 
-cd
+  $ cd
 
-clear
+  $ clear
 
 You have successfully added osu180nm.tech file!
 
