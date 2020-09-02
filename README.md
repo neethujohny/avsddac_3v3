@@ -134,7 +134,7 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 ### Steps to Install Magic 8.1 on Ubuntu 16.04
 
-* Download the magic.sh file
+* Download the https://drive.google.com/file/d/1F0y1xuYWIgeYEpzKnGlaCQH3urdSFc4E/view file
 
 * Copy paste the below commands one after another
 
@@ -149,9 +149,13 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 * Open the Terminal and copy, paste the commands mentioned below.
 
 sudo cp osu180nm.tech /usr/local/lib/magic/sys/
+
 cd /usr/local/lib/magic/sys/
+
 ls 
+
 cd
+
 clear
 
 You have successfully added osu180nm.tech file!
