@@ -1,0 +1,25 @@
+* SPICE3 file created from res4.ext - technology: scmos
+
+.option scale=0.1u
+
+XR0 gnd vdd nwellResistor w=12 l=15
+C0 a_n12_4# gnd 0.01fF
+C1 vdd a_n12_4# 0.01fF
+C2 gnd w_n1073741817_n1073741817# 0.06fF
+C3 vdd w_n1073741817_n1073741817# 0.05fF
+
+Vdd vdd gnd 3.3
+
+.subckt nwellResistor d s W=1 L=1 Rsquare = 929
+
+R       d s 'L*Rsquare/W'
+
+.ends
+
+
+
+.tran 10e-12 8e-09 UIC
+.control
+run
+.endc
+.end
