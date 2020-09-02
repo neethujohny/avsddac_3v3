@@ -88,11 +88,12 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
+### DNL and INL Table
 
-Parameter 	        pre-layout 	
-DNL(LSB)	         -1.0 to +1.7
-INL	(LSB)          -2.0 to +2.654
-
+| Parameter  | pre-layout  |
+| ------------- | ------------- |
+| DNL(LSB)  |-1.0 to +1.7  |
+| INL	(LSB)  | -2.0 to +2.654  |
 
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
