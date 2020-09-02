@@ -148,7 +148,7 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
            
    $ esim
   
- ### eSim Spoken Tutorials
+ ##### eSim Spoken Tutorials
  
   Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
   
@@ -172,7 +172,7 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
 
-* Download the osu180nm.tech file from the uploaded files. Copy and paste the entire content in Text Editor and save it as osu180nm.tech.
+* Download the SCN6M_SUBM.10.tech from the uploaded files. Copy and paste the entire content in Text Editor and save it as osu180nm.tech.
 
 * Open the Terminal and copy, paste the commands mentioned below.
 
@@ -226,6 +226,8 @@ $ ngspice 10bit_dac.spice
 
 
 #### Output of 10bit PDAC - Post Layout
+
+![10bitdac_out](https://user-images.githubusercontent.com/65214115/92032729-37757080-ed88-11ea-9a77-d384cd36dbbf.PNG)
 
 
 
