@@ -139,13 +139,14 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Copy paste the below commands one after another
 
-
+'''
     $ cd Downloads/
-   ''' 
+   
     $ chmod +x magic.sh
-   '''
+  
     $ ./magic.sh
-   '''
+  
+'''
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
 
