@@ -77,7 +77,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 ![completecircuit](https://user-images.githubusercontent.com/65214115/92020000-18211800-ed75-11ea-89d8-c20330282068.PNG)
 
 
-[10bitDAC_Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078507/10bitDAC_Circuit.pdf)
+The complete circuit diagram can be downloaded using this link [10bitDAC_Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078507/10bitDAC_Circuit.pdf)
 
 Note- While integrating the different stages, the resistance values have been changed appropriately.
 
