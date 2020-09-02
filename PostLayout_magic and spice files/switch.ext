@@ -1,0 +1,46 @@
+timestamp 1598977698
+version 8.1
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 10
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+node "vrefl" 24 231.18 49 -35 pdif 20 18 45 28 0 0 0 0 0 0 0 0 0 0 190 106 264 140 0 0 0 0 0 0 0 0
+node "out" 88 198.876 56 -51 ndif 48 40 126 64 0 0 0 0 0 0 0 0 0 0 364 194 0 0 0 0 0 0 0 0 0 0
+node "vrefh" 29 426.935 47 -51 ndc 28 22 45 28 0 0 0 0 0 0 0 0 0 0 411 244 148 82 0 0 0 0 0 0 0 0
+node "a_5_n8#" 154 1544.42 5 -8 ndif 24 20 63 32 0 0 0 0 0 0 84 80 0 0 398 268 0 0 0 0 0 0 0 0 0 0
+node "a_n29_n8#" 307 687.999 -29 -8 ndif 24 20 63 32 0 0 0 0 0 0 169 162 0 0 459 290 116 66 0 0 0 0 0 0 0 0
+node "bit_in" 131 225.696 -34 1 pc 0 0 0 0 0 0 0 0 0 0 80 78 0 0 72 44 0 0 0 0 0 0 0 0 0 0
+node "w_43_n41#" 1050 454.48 43 -41 nw 0 0 0 0 598 98 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_44_3#" 965 533.52 44 3 nw 0 0 0 0 702 106 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd!" 5643 1575.08 -42 7 nw 48 48 90 56 1716 236 0 0 0 0 0 0 0 0 612 334 0 0 0 0 0 0 0 0 0 0
+substrate "gnd!" 0 0 -37 -17 poc 40 36 56 52 0 0 0 0 0 0 0 0 0 0 828 380 0 0 0 0 0 0 0 0 0 0
+cap "vrefh" "vdd!" 26.832
+cap "a_5_n8#" "vdd!" 53.919
+cap "a_n29_n8#" "w_44_3#" 192.939
+cap "vrefl" "out" 197.942
+cap "a_n29_n8#" "vdd!" 945.94
+cap "vrefl" "vrefh" 81.816
+cap "bit_in" "vdd!" 67.13
+cap "vrefl" "a_5_n8#" 22.556
+cap "out" "vrefh" 60.4824
+cap "vrefh" "a_5_n8#" 676.99
+cap "vrefh" "a_n29_n8#" 22.556
+cap "vrefl" "w_43_n41#" 37.83
+cap "a_5_n8#" "a_n29_n8#" 54.984
+cap "out" "w_43_n41#" 58.692
+cap "out" "w_44_3#" 41.307
+cap "a_n29_n8#" "bit_in" 54.984
+cap "vrefh" "w_44_3#" 27.816
+cap "a_5_n8#" "w_43_n41#" 67.13
+device mosfet nfet 54 -51 55 -50 2 4 "gnd!" "a_5_n8#" 4 0 "vrefh" 4 0 "out" 4 0
+device mosfet pfet 54 -35 55 -34 2 9 "w_43_n41#" "a_5_n8#" 4 0 "vrefl" 9 0 "out" 9 0
+device mosfet nfet 55 -8 56 -7 2 4 "gnd!" "a_n29_n8#" 4 0 "vrefl" 4 0 "out" 4 0
+device mosfet nfet 3 -8 4 -7 2 4 "gnd!" "a_n29_n8#" 4 0 "gnd!" 4 0 "a_5_n8#" 4 0
+device mosfet nfet -31 -8 -30 -7 2 4 "gnd!" "bit_in" 4 0 "gnd!" 4 0 "a_n29_n8#" 4 0
+device mosfet pfet 55 10 56 11 2 9 "w_44_3#" "a_n29_n8#" 4 0 "vrefh" 9 0 "out" 9 0
+device mosfet pfet 3 13 4 14 2 9 "vdd!" "a_n29_n8#" 4 0 "vdd!" 9 0 "a_5_n8#" 9 0
+device mosfet pfet -31 13 -30 14 2 9 "vdd!" "bit_in" 4 0 "vdd!" 9 0 "a_n29_n8#" 9 0
+subcap "a_5_n8#" -1235.51
+subcap "a_n29_n8#" -447.346
+subcap "bit_in" -77.2364
+subcap "gnd!" -157.293

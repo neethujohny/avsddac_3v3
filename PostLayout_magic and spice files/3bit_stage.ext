@@ -1,0 +1,256 @@
+timestamp 1599052560
+version 8.1
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 10
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use res_150k res_150k_0 1 0 -169 0 1 173
+use switch switch_0 1 0 233 0 1 158
+use switch switch_1 1 0 -443 0 1 -191
+use res_150k res_150k_1 1 0 -202 0 1 -202
+use switch switch_6 1 0 513 0 1 -198
+use switch switch_12 1 0 -678 0 1 -494
+use res_150k res_150k_2 1 0 -205 0 1 -595
+use switch switch_4 1 0 233 0 1 -616
+use switch switch_5 1 0 -443 0 1 -957
+use res_150k res_150k_3 1 0 -201 0 1 -890
+use switch switch_8 1 0 624 0 1 -962
+use switch switch_13 1 0 -909 0 1 -1142
+use res_150k res_150k_4 1 0 -193 0 1 -1362
+use switch switch_9 1 0 233 0 1 -1380
+use switch switch_10 1 0 -443 0 1 -1721
+use res_150k res_150k_5 1 0 -192 0 1 -1706
+use switch switch_7 1 0 529 0 1 -1860
+use switch switch_11 1 0 -648 0 1 -2034
+use res_150k res_150k_6 1 0 -188 0 1 -2125
+use switch switch_2 1 0 233 0 1 -2140
+use switch switch_3 1 0 -443 0 1 -2481
+use res_150k res_150k_7 1 0 -190 0 1 -2462
+node "vrefl" 11 1644.92 -136 -2674 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1303 502 1556 786 0 0 0 0 0 0 0 0
+node "outh4" 9 1229.2 323 -2141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 956 486 820 418 0 0 0 0 0 0 0 0
+node "m1_n236_n2439#" 27 2931.78 -236 -2439 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1927 952 1600 824 104 68 1888 952 0 0 0 0
+node "m1_619_n1861#" 17 3306.47 619 -1861 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3356 1686 88 52 0 0 0 0 0 0 0 0
+node "outH_stage2" 0 63.42 714 -963 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0 0 0 0 0 0 0
+node "m1_n619_n2127#" 17 3365.19 -619 -2127 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3439 1720 68 42 0 0 0 0 0 0 0 0
+node "m1_n800_n2118#" 26 2672.49 -800 -2118 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1316 666 3932 1974 0 0 0 0 0 0 0 0
+node "m1_n229_n2102#" 29 3553.34 -229 -2102 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2419 1066 3917 1974 0 0 0 0 0 0 0 0
+node "outl3" 11 1380.26 -450 -1822 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 932 474 1332 674 0 0 0 0 0 0 0 0
+node "outh3" 14 1021.53 323 -1381 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 48 2660 1338 0 0 0 0 0 0 0 0
+node "m1_n240_n1683#" 26 2875.25 -240 -1683 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1906 924 1600 824 104 68 1888 952 0 0 0 0
+node "outL_stage2" 4 1065.95 -982 -1230 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1179 516 0 0 0 0 0 0 0 0 0 0
+node "b4" 61 10616.5 -964 -1141 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10206 5080 2113 1080 0 0 0 0 0 0 0 0
+node "m1_n233_n1339#" 31 3581.85 -233 -1339 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2236 1150 3933 1982 0 0 0 0 0 0 0 0
+node "m1_n511_n974#" 0 101.661 -511 -974 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 52 0 0 0 0 0 0 0 0 0 0
+node "outl2" 16 2003.82 -353 -958 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 776 404 180 106 1822 874 1171 502 0 0
+node "outh2" 11 988.836 323 -617 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 296 156 1972 994 0 0 0 0 0 0 0 0
+node "m1_n247_n867#" 26 2687.53 -247 -867 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1664 846 1600 824 104 68 1888 952 0 0 0 0
+node "m1_603_n199#" 16 1122.9 603 -199 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 3116 1566 0 0 0 0 0 0 0 0
+node "m1_n767_n621#" 18 2153.32 -767 -621 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1438 664 2340 1178 0 0 0 0 0 0 0 0
+node "b3" 95 14283 -750 -493 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12854 6450 1154 602 258 154 5239 2588 0 0 0 0
+node "m1_n245_n572#" 29 3367.63 -245 -572 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2103 996 3972 1988 0 0 0 0 0 0 0 0
+node "m1_n511_n208#" 0 101.661 -511 -208 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 52 0 0 0 0 0 0 0 0 0 0
+node "m1_n353_n192#" 12 650.54 -353 -192 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 788 410 1544 780 0 0 0 0 0 0
+node "gnd!" 208 9899.24 -962 -1159 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1230 618 1773 942 38501 19250 0 0 0 0 0 0
+node "outh1" 11 931.488 323 157 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256 136 1920 968 0 0 0 0 0 0 0 0
+node "m1_n242_n179#" 26 3220.61 -242 -179 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2394 1044 1600 824 104 68 1920 968 0 0 0 0
+node "vdd!" 205 16962.4 -971 -1109 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4214 2194 36978 18344 0 0 0 0 0 0 0 0
+node "b2" 124 23581.3 -529 -2480 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24036 12058 512 288 0 0 0 0 0 0 0 0
+node "vrefh" 11 1189.57 -212 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 619 288 1749 882 0 0 0 0 0 0 0 0
+substrate "w_n1073741817_n1073741817#" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "outL_stage2" "m1_n800_n2118#" 31.108
+cap "gnd!" "b2" 193.56
+cap "b2" "m1_n229_n2102#" 26.832
+cap "m1_n247_n867#" "gnd!" 97.728
+cap "outh2" "b3" 26.832
+cap "vdd!" "m1_n240_n1683#" 58.8
+cap "gnd!" "m1_n800_n2118#" 9.312
+cap "m1_n233_n1339#" "gnd!" 26.816
+cap "m1_n242_n179#" "vdd!" 58.8
+cap "m1_n767_n621#" "gnd!" 36.128
+cap "b3" "m1_n353_n192#" 26.832
+cap "b2" "m1_n240_n1683#" 63.408
+cap "b3" "outh3" 26.832
+cap "outl2" "vdd!" 15.984
+cap "m1_n242_n179#" "b2" 63.408
+cap "m1_n245_n572#" "m1_n353_n192#" 26.816
+cap "b3" "gnd!" 258.773
+cap "b3" "m1_n229_n2102#" 53.664
+cap "vdd!" "b4" 135.437
+cap "vdd!" "b2" 534.442
+cap "m1_n245_n572#" "gnd!" 26.816
+cap "b3" "outh1" 26.832
+cap "m1_n247_n867#" "vdd!" 58.8
+cap "m1_n619_n2127#" "gnd!" 9.312
+cap "outl2" "m1_n233_n1339#" 50.4
+cap "vdd!" "m1_n800_n2118#" 31.108
+cap "b2" "b4" 54.324
+cap "m1_n233_n1339#" "vdd!" 31.108
+cap "m1_603_n199#" "b4" 26.832
+cap "outl2" "m1_n767_n621#" 26.832
+cap "m1_n236_n2439#" "gnd!" 9.312
+cap "m1_n767_n621#" "vdd!" 53.664
+cap "m1_n511_n208#" "gnd!" 14.32
+cap "m1_n233_n1339#" "b4" 100.793
+cap "m1_n247_n867#" "b2" 63.408
+cap "m1_n233_n1339#" "b2" 26.832
+cap "b3" "outl3" 26.832
+cap "m1_n767_n621#" "b4" 26.832
+cap "b2" "vrefh" 26.832
+cap "b3" "vdd!" 244.632
+cap "b3" "b4" 26.832
+cap "b3" "b2" 19.488
+cap "m1_n245_n572#" "vdd!" 31.108
+cap "m1_n619_n2127#" "vdd!" 26.832
+cap "gnd!" "m1_n229_n2102#" 26.816
+cap "m1_n236_n2439#" "vdd!" 26.832
+cap "m1_n245_n572#" "b2" 26.832
+cap "gnd!" "m1_n240_n1683#" 97.728
+cap "m1_n236_n2439#" "b2" 63.408
+cap "m1_n619_n2127#" "m1_n800_n2118#" 222.713
+cap "gnd!" "m1_n242_n179#" 97.728
+cap "outl2" "gnd!" 44.208
+cap "outl3" "m1_n229_n2102#" 26.832
+cap "gnd!" "vdd!" 1828.18
+cap "b3" "m1_n245_n572#" 25.728
+cap "vdd!" "m1_n229_n2102#" 31.108
+cap "gnd!" "m1_n511_n974#" 14.32
+cap "m1_n619_n2127#" "vrefl" 26.832
+cap "gnd!" "b4" 27.936
+subcap "m1_n229_n2102#" -3254.6
+subcap "outh4" -1111.83
+subcap "outh4" -1150.76
+subcap "m1_619_n1861#" -3173.52
+subcap "m1_619_n1861#" -3263.08
+subcap "outh3" -854.918
+subcap "outh3" -943.094
+subcap "m1_n233_n1339#" -3318.95
+subcap "outh3" -1065.73
+subcap "outh3" -1039.05
+subcap "b4" -10320.3
+subcap "gnd!" -9545.75
+cap "switch_13/vdd!" "switch_13/bit_in" 2.13163e-14
+subcap "m1_n511_n974#" -63.129
+subcap "outl2" -1919.81
+subcap "outH_stage2" -23.922
+subcap "m1_n245_n572#" -3388.48
+subcap "outh2" -871.461
+subcap "outh2" -910.398
+subcap "m1_n245_n572#" -3080.82
+subcap "m1_n353_n192#" -431.897
+subcap "m1_n242_n179#" -3160.67
+subcap "m1_603_n199#" -890.791
+subcap "m1_n242_n179#" -3148.43
+subcap "vrefh" -1034.07
+subcap "outh1" -814.113
+subcap "outh1" -849.156
+merge "switch_0/vdd!" "switch_6/vdd!" -86.298 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108 -122 0 0 0 0 0 0 0 0 0 0
+merge "switch_6/vdd!" "switch_1/vdd!"
+merge "switch_1/vdd!" "switch_12/vdd!"
+merge "switch_12/vdd!" "switch_4/vdd!"
+merge "switch_4/vdd!" "switch_8/vdd!"
+merge "switch_8/vdd!" "switch_5/vdd!"
+merge "switch_5/vdd!" "switch_13/vdd!"
+merge "switch_13/vdd!" "switch_9/vdd!"
+merge "switch_9/vdd!" "switch_10/vdd!"
+merge "switch_10/vdd!" "switch_7/vdd!"
+merge "switch_7/vdd!" "switch_11/vdd!"
+merge "switch_11/vdd!" "switch_2/vdd!"
+merge "switch_2/vdd!" "switch_3/vdd!"
+merge "switch_3/vdd!" "vdd!"
+merge "switch_0/gnd!" "res_150k_0/w_n1073741817_n1073741817#" -16.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 -30 0 0 0 0 0 0 0 0 0 0
+merge "res_150k_0/w_n1073741817_n1073741817#" "switch_6/gnd!"
+merge "switch_6/gnd!" "res_150k_1/w_n1073741817_n1073741817#"
+merge "res_150k_1/w_n1073741817_n1073741817#" "switch_1/gnd!"
+merge "switch_1/gnd!" "switch_12/gnd!"
+merge "switch_12/gnd!" "switch_4/gnd!"
+merge "switch_4/gnd!" "res_150k_2/w_n1073741817_n1073741817#"
+merge "res_150k_2/w_n1073741817_n1073741817#" "switch_8/gnd!"
+merge "switch_8/gnd!" "res_150k_3/w_n1073741817_n1073741817#"
+merge "res_150k_3/w_n1073741817_n1073741817#" "switch_5/gnd!"
+merge "switch_5/gnd!" "m1_n511_n974#"
+merge "m1_n511_n974#" "switch_13/gnd!"
+merge "switch_13/gnd!" "switch_9/gnd!"
+merge "switch_9/gnd!" "res_150k_4/w_n1073741817_n1073741817#"
+merge "res_150k_4/w_n1073741817_n1073741817#" "res_150k_5/w_n1073741817_n1073741817#"
+merge "res_150k_5/w_n1073741817_n1073741817#" "switch_10/gnd!"
+merge "switch_10/gnd!" "switch_7/gnd!"
+merge "switch_7/gnd!" "switch_11/gnd!"
+merge "switch_11/gnd!" "switch_2/gnd!"
+merge "switch_2/gnd!" "res_150k_6/w_n1073741817_n1073741817#"
+merge "res_150k_6/w_n1073741817_n1073741817#" "switch_3/gnd!"
+merge "switch_3/gnd!" "gnd!"
+merge "gnd!" "res_150k_7/w_n1073741817_n1073741817#"
+merge "res_150k_7/w_n1073741817_n1073741817#" "w_n1073741817_n1073741817#"
+merge "w_n1073741817_n1073741817#" "m1_n511_n208#"
+merge "switch_9/out" "switch_7/vrefh" -10.163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_7/vrefh" "outh3"
+merge "res_150k_1/a_158_n112#" "switch_1/vrefl" -155.275 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52 -119 44 -18 0 0 0 0 0 0 0 0
+merge "switch_1/vrefl" "switch_4/vrefh"
+merge "switch_4/vrefh" "res_150k_2/a_n24_18#"
+merge "res_150k_2/a_n24_18#" "m1_n245_n572#"
+merge "switch_12/vrefl" "switch_5/out" -9.928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 16 -8 0 0 0 0 0 0 0 0
+merge "switch_5/out" "outl2"
+merge "switch_0/vrefl" "res_150k_0/a_158_n112#" 12.699 0 0 0 0 0 0 0 0 0 0 0 0 0 0 97 -18 0 -16 0 0 0 0 0 0 0 0
+merge "res_150k_0/a_158_n112#" "switch_1/vrefh"
+merge "switch_1/vrefh" "res_150k_1/a_n24_18#"
+merge "res_150k_1/a_n24_18#" "m1_n242_n179#"
+merge "switch_13/out" "outL_stage2" -8.904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "switch_7/vrefl" "switch_2/out" -3.908 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_2/out" "outh4"
+merge "res_150k_5/a_158_n112#" "switch_10/vrefl" 35.699 0 0 0 0 0 0 0 0 0 0 0 0 0 0 428 -121 -4 -18 0 0 0 0 0 0 0 0
+merge "switch_10/vrefl" "switch_2/vrefh"
+merge "switch_2/vrefh" "res_150k_6/a_n24_18#"
+merge "res_150k_6/a_n24_18#" "m1_n229_n2102#"
+merge "switch_4/vrefl" "res_150k_2/a_158_n112#" -25.524 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 -16 0 0 0 0 0 0 0 0
+merge "res_150k_2/a_158_n112#" "res_150k_3/a_n24_18#"
+merge "res_150k_3/a_n24_18#" "switch_5/vrefh"
+merge "switch_5/vrefh" "m1_n247_n867#"
+merge "switch_6/bit_in" "switch_12/bit_in" -39.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -34 0 0 0 0 0 0 0 0 0 0
+merge "switch_12/bit_in" "switch_7/bit_in"
+merge "switch_7/bit_in" "switch_11/bit_in"
+merge "switch_11/bit_in" "b3"
+merge "res_150k_3/a_158_n112#" "switch_5/vrefl" -163.069 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54 -119 -4 -18 0 0 0 0 0 0 0 0
+merge "switch_5/vrefl" "switch_9/vrefh"
+merge "switch_9/vrefh" "res_150k_4/a_n24_18#"
+merge "res_150k_4/a_n24_18#" "m1_n233_n1339#"
+merge "switch_0/bit_in" "switch_1/bit_in" -24.528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 112 -64 0 0 0 0 0 0 0 0 0 0
+merge "switch_1/bit_in" "switch_4/bit_in"
+merge "switch_4/bit_in" "switch_5/bit_in"
+merge "switch_5/bit_in" "switch_9/bit_in"
+merge "switch_9/bit_in" "switch_10/bit_in"
+merge "switch_10/bit_in" "switch_2/bit_in"
+merge "switch_2/bit_in" "switch_3/bit_in"
+merge "switch_3/bit_in" "b2"
+merge "switch_10/out" "switch_11/vrefh" -12.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 8 -12 0 0 0 0 0 0 0 0
+merge "switch_11/vrefh" "outl3"
+merge "switch_12/out" "switch_13/vrefh" -2.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_13/vrefh" "m1_n767_n621#"
+merge "switch_6/out" "switch_8/vrefh" -10.44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 24 -8 0 0 0 0 0 0 0 0
+merge "switch_8/vrefh" "m1_603_n199#"
+merge "switch_13/vrefl" "switch_11/out" -12.248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_11/out" "m1_n800_n2118#"
+merge "switch_8/vrefl" "switch_7/out" -10.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_7/out" "m1_619_n1861#"
+merge "switch_9/vrefl" "res_150k_4/a_158_n112#" -28.868 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 -24 0 0 0 0 0 0 0 0
+merge "res_150k_4/a_158_n112#" "res_150k_5/a_n24_18#"
+merge "res_150k_5/a_n24_18#" "switch_10/vrefh"
+merge "switch_10/vrefh" "m1_n240_n1683#"
+merge "switch_8/bit_in" "switch_13/bit_in" -17.808 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0 0 0 0 0 0 0
+merge "switch_13/bit_in" "b4"
+merge "switch_0/out" "switch_6/vrefh" -3.908 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_6/vrefh" "outh1"
+merge "switch_11/vrefl" "switch_3/out" -12.248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 0 0 0 0 0 0 0 0
+merge "switch_3/out" "m1_n619_n2127#"
+merge "switch_2/vrefl" "res_150k_6/a_158_n112#" -33.312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 -16 0 0 0 0 0 0 0 0
+merge "res_150k_6/a_158_n112#" "res_150k_7/a_n24_18#"
+merge "res_150k_7/a_n24_18#" "switch_3/vrefh"
+merge "switch_3/vrefh" "m1_n236_n2439#"
+merge "switch_1/out" "switch_12/vrefh" -119.351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 -8 -200 -355 0 0 0 0 0 0
+merge "switch_12/vrefh" "m1_n353_n192#"
+merge "switch_0/vrefh" "res_150k_0/a_n24_18#" -20.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 -8 0 0 0 0 0 0 0 0
+merge "res_150k_0/a_n24_18#" "vrefh"
+merge "switch_6/vrefl" "switch_4/out" -6.996 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -8 -4 -14 0 0 0 0 0 0 0 0
+merge "switch_4/out" "outh2"
+merge "switch_3/vrefl" "res_150k_7/a_158_n112#" -13.664 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -4 -10 0 0 0 0 0 0 0 0
+merge "res_150k_7/a_158_n112#" "vrefl"
+merge "switch_8/out" "outH_stage2" -2.232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 -8 0 0 0 0 0 0 0 0 0 0

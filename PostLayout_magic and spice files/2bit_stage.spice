@@ -1,0 +1,81 @@
+* SPICE3 file created from 2bit_stage.ext - technology: scmos
+
+.option scale=0.1u
+.include pmos_osu018.lib
+.include nmos_osu018.lib
+M1000 switch_1/a_n29_n8# b0 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=270 ps=168
+M1001 switch_1/a_5_n8# switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1002 switch_1/out switch_1/a_n29_n8# switch_1/vrefh switch_1/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=45 ps=28
+M1003 switch_1/a_n29_n8# b0 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=120 ps=108
+M1004 switch_1/a_5_n8# switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1005 switch_1/out switch_1/a_n29_n8# vrefl gnd nfet w=4 l=2
++  ad=68 pd=58 as=80 ps=52
+M1006 switch_1/out switch_1/a_5_n8# vrefl switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1007 switch_1/out switch_1/a_5_n8# switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=136 ps=88
+xR0 switch_1/vrefh vrefl nwellResistor w=12 l=1938
+M1008 switch_2/a_n29_n8# b1 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1009 switch_2/a_5_n8# switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1010 out_stage3 switch_2/a_n29_n8# switch_0/out switch_2/w_44_3# pfet w=9 l=2
++  ad=126 pd=64 as=171 ps=92
+M1011 switch_2/a_n29_n8# b1 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1012 switch_2/a_5_n8# switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1013 out_stage3 switch_2/a_n29_n8# switch_1/out gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1014 out_stage3 switch_2/a_5_n8# switch_1/out switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 out_stage3 switch_2/a_5_n8# switch_0/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR1 switch_0/vrefl switch_1/vrefh nwellResistor w=12 l=1938
+M1016 switch_0/a_n29_n8# b0 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1017 switch_0/a_5_n8# switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1018 switch_0/out switch_0/a_n29_n8# switch_0/vrefh switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1019 switch_0/a_n29_n8# b0 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1020 switch_0/a_5_n8# switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1021 switch_0/out switch_0/a_n29_n8# switch_0/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=128 ps=84
+M1022 switch_0/out switch_0/a_5_n8# switch_0/vrefl switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1023 switch_0/out switch_0/a_5_n8# switch_0/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=136 ps=88
+xR2 switch_0/vrefh switch_0/vrefl nwellResistor w=12 l=1938
+xR3 vrefh switch_0/vrefh nwellResistor w=12 l=1938
+C0 switch_0/vrefh gnd 2.44fF
+C1 vdd gnd 5.08fF
+C2 switch_1/vrefh gnd 2.29fF
+
+V1 vrefh gnd 3.3
+V2 vrefl gnd 0
+V3 vdd gnd 3.3
+
+.subckt nwellResistor d s W=1 L=1 Rsquare = 929
+
+R       d s 'L*Rsquare/W'
+
+.ends
+
+V4 b0 gnd pulse(0 1.8 10p 50p 50p 0.5m 1m)
+V5 b1 gnd pulse(0 1.8 10p 50p 50p 1m 2m)
+
+.tran 10e-06 2e-03 UIC
+.control
+run
+
+plot out_stage3
+.endc
+.end

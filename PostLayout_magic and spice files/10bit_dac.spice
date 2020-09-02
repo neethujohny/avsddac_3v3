@@ -1,0 +1,3361 @@
+* SPICE3 file created from 10bit_dac.ext - technology: scmos
+
+.option scale=0.1u
+.include pmos_osu018.lib
+.include nmos_osu018.lib
+xR0 gnd Vh_Vl_3bit_1/switch_3/vrefh nwellResistor w=12 l=15
+M1000 Vh_Vl_3bit_1/switch_3/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=7110 ps=4424
+M1001 Vh_Vl_3bit_1/switch_3/a_5_n8# Vh_Vl_3bit_1/switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1002 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_3/a_n29_n8# Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/switch_3/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1003 Vh_Vl_3bit_1/switch_3/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=3228 ps=2894
+M1004 Vh_Vl_3bit_1/switch_3/a_5_n8# Vh_Vl_3bit_1/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1005 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1006 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_3/a_5_n8# gnd Vh_Vl_3bit_1/switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=4469 ps=4136
+M1007 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_3/a_5_n8# Vh_Vl_3bit_1/switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1008 Vh_Vl_3bit_1/switch_2/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1009 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1010 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_2/a_n29_n8# Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_2/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1011 Vh_Vl_3bit_1/switch_2/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1012 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1013 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_2/a_n29_n8# Vh_Vl_3bit_1/switch_3/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1014 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR1 Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/switch_2/vrefh nwellResistor w=12 l=15
+M1016 Vh_Vl_3bit_1/switch_11/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1017 Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/switch_11/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1018 Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_11/a_n29_n8# Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_11/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1019 Vh_Vl_3bit_1/switch_11/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1020 Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/switch_11/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1021 Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_11/a_n29_n8# Vh_Vl_3bit_1/switch_3/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1022 Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_11/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/outl3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1024 Vh_Vl_3bit_1/switch_7/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1025 Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/switch_7/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1026 Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_7/a_n29_n8# Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_7/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1027 Vh_Vl_3bit_1/switch_7/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1028 Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/switch_7/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1029 Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_7/a_n29_n8# Vh_Vl_3bit_1/outh4 gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1030 Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_7/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1031 Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/outh3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR2 Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_9/vrefl nwellResistor w=12 l=15
+M1032 Vh_Vl_3bit_1/switch_10/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1033 Vh_Vl_3bit_1/switch_10/a_5_n8# Vh_Vl_3bit_1/switch_10/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1034 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_10/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefl Vh_Vl_3bit_1/switch_10/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1035 Vh_Vl_3bit_1/switch_10/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1036 Vh_Vl_3bit_1/switch_10/a_5_n8# Vh_Vl_3bit_1/switch_10/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1037 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_10/a_n29_n8# Vh_Vl_3bit_1/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_10/a_5_n8# Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_10/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_10/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1040 Vh_Vl_3bit_1/switch_9/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1041 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1042 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_9/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1043 Vh_Vl_3bit_1/switch_9/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1044 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1045 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefl Vh_Vl_3bit_1/switch_9/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR3 Vh_Vl_3bit_1/switch_9/vrefl Vh_Vl_3bit_1/switch_9/vrefh nwellResistor w=12 l=15
+M1048 Vh_Vl_3bit_1/switch_13/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1049 Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_13/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1050 switch_1/vrefl Vh_Vl_3bit_1/switch_13/a_n29_n8# Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_13/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1051 Vh_Vl_3bit_1/switch_13/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1052 Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_13/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1053 switch_1/vrefl Vh_Vl_3bit_1/switch_13/a_n29_n8# Vh_Vl_3bit_1/switch_11/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1054 switch_1/vrefl Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_13/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1055 switch_1/vrefl Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_12/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1056 Vh_Vl_3bit_1/switch_8/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1057 Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_8/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1058 switch_0/vrefl Vh_Vl_3bit_1/switch_8/a_n29_n8# Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/switch_8/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1059 Vh_Vl_3bit_1/switch_8/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1060 Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_8/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1061 switch_0/vrefl Vh_Vl_3bit_1/switch_8/a_n29_n8# Vh_Vl_3bit_1/switch_7/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1062 switch_0/vrefl Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_8/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1063 switch_0/vrefl Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_6/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR4 Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_5/vrefh nwellResistor w=12 l=15
+M1064 Vh_Vl_3bit_1/switch_5/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1065 Vh_Vl_3bit_1/switch_5/a_5_n8# Vh_Vl_3bit_1/switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1066 Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_5/a_n29_n8# Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/switch_5/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1067 Vh_Vl_3bit_1/switch_5/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1068 Vh_Vl_3bit_1/switch_5/a_5_n8# Vh_Vl_3bit_1/switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1069 Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_5/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1070 Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_5/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1071 Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_5/a_5_n8# Vh_Vl_3bit_1/switch_5/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1072 Vh_Vl_3bit_1/switch_4/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1073 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1074 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_4/a_n29_n8# Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_4/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1075 Vh_Vl_3bit_1/switch_4/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1076 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1077 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_4/a_n29_n8# Vh_Vl_3bit_1/switch_5/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1078 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR5 Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/switch_4/vrefh nwellResistor w=12 l=15
+M1080 Vh_Vl_3bit_1/switch_12/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1081 Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/switch_12/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1082 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_12/a_n29_n8# Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_12/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1083 Vh_Vl_3bit_1/switch_12/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1084 Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/switch_12/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1085 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_12/a_n29_n8# Vh_Vl_3bit_1/outl2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_12/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/switch_1/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1088 Vh_Vl_3bit_1/switch_6/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1089 Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/switch_6/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1090 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/switch_6/a_n29_n8# Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_6/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1091 Vh_Vl_3bit_1/switch_6/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1092 Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/switch_6/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1093 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/switch_6/a_n29_n8# Vh_Vl_3bit_1/outh2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_6/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/outh1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR6 Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/vrefh nwellResistor w=12 l=15
+M1096 Vh_Vl_3bit_1/switch_1/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1097 Vh_Vl_3bit_1/switch_1/a_5_n8# Vh_Vl_3bit_1/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1098 Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_1/a_n29_n8# Vh_Vl_3bit_1/switch_1/vrefh Vh_Vl_3bit_1/switch_1/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1099 Vh_Vl_3bit_1/switch_1/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1100 Vh_Vl_3bit_1/switch_1/a_5_n8# Vh_Vl_3bit_1/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1101 Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_1/a_n29_n8# Vh_Vl_3bit_1/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_1/a_5_n8# Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1103 Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_1/a_5_n8# Vh_Vl_3bit_1/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1104 Vh_Vl_3bit_1/switch_0/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1105 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1106 Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_0/a_n29_n8# Vh_Vl_3bit_1/vref Vh_Vl_3bit_1/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1107 Vh_Vl_3bit_1/switch_0/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1108 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1109 Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_0/a_n29_n8# Vh_Vl_3bit_1/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/switch_1/vrefh Vh_Vl_3bit_1/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/vref gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR7 Vh_Vl_3bit_1/switch_1/vrefh Vh_Vl_3bit_1/vref nwellResistor w=12 l=15
+xR8 Vh_Vl_3bit_1/vref Vh_Vl_3bit_0/switch_3/vrefh nwellResistor w=12 l=15
+M1112 Vh_Vl_3bit_0/switch_3/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1113 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1114 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_3/a_n29_n8# Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/switch_3/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1115 Vh_Vl_3bit_0/switch_3/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1116 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1117 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_3/a_n29_n8# Vh_Vl_3bit_1/vref gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1118 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_1/vref Vh_Vl_3bit_0/switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1120 Vh_Vl_3bit_0/switch_2/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1121 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1122 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/a_n29_n8# Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_2/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1123 Vh_Vl_3bit_0/switch_2/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1124 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1125 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/a_n29_n8# Vh_Vl_3bit_0/switch_3/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1126 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1127 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR9 Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/switch_2/vrefh nwellResistor w=12 l=15
+M1128 Vh_Vl_3bit_0/switch_11/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1129 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_11/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1130 Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_11/a_n29_n8# Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_11/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1131 Vh_Vl_3bit_0/switch_11/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1132 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_11/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1133 Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_11/a_n29_n8# Vh_Vl_3bit_0/switch_3/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1134 Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_11/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1135 Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/outl3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1136 Vh_Vl_3bit_0/switch_7/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1137 Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/switch_7/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1138 Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_7/a_n29_n8# Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_7/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1139 Vh_Vl_3bit_0/switch_7/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1140 Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/switch_7/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1141 Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_7/a_n29_n8# Vh_Vl_3bit_0/outh4 gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1142 Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_7/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/outh3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR10 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_9/vrefl nwellResistor w=12 l=15
+M1144 Vh_Vl_3bit_0/switch_10/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1145 Vh_Vl_3bit_0/switch_10/a_5_n8# Vh_Vl_3bit_0/switch_10/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1146 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_10/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefl Vh_Vl_3bit_0/switch_10/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1147 Vh_Vl_3bit_0/switch_10/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1148 Vh_Vl_3bit_0/switch_10/a_5_n8# Vh_Vl_3bit_0/switch_10/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1149 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_10/a_n29_n8# Vh_Vl_3bit_0/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_10/a_5_n8# Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_10/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1151 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_10/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1152 Vh_Vl_3bit_0/switch_9/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1153 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1154 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_9/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1155 Vh_Vl_3bit_0/switch_9/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1156 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1157 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefl Vh_Vl_3bit_0/switch_9/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1159 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR11 Vh_Vl_3bit_0/switch_9/vrefl Vh_Vl_3bit_0/switch_9/vrefh nwellResistor w=12 l=15
+M1160 Vh_Vl_3bit_0/switch_13/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1161 Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_13/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1162 switch_1/vrefh Vh_Vl_3bit_0/switch_13/a_n29_n8# Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_13/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1163 Vh_Vl_3bit_0/switch_13/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1164 Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_13/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1165 switch_1/vrefh Vh_Vl_3bit_0/switch_13/a_n29_n8# Vh_Vl_3bit_0/switch_11/out gnd nfet w=4 l=2
++  ad=76 pd=62 as=0 ps=0
+M1166 switch_1/vrefh Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_13/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1167 switch_1/vrefh Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_12/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1168 Vh_Vl_3bit_0/switch_8/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1169 Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_8/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1170 switch_0/vrefh Vh_Vl_3bit_0/switch_8/a_n29_n8# Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/switch_8/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1171 Vh_Vl_3bit_0/switch_8/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1172 Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_8/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1173 switch_0/vrefh Vh_Vl_3bit_0/switch_8/a_n29_n8# Vh_Vl_3bit_0/switch_7/out gnd nfet w=4 l=2
++  ad=76 pd=62 as=0 ps=0
+M1174 switch_0/vrefh Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_8/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1175 switch_0/vrefh Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_6/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR12 Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_5/vrefh nwellResistor w=12 l=15
+M1176 Vh_Vl_3bit_0/switch_5/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1177 Vh_Vl_3bit_0/switch_5/a_5_n8# Vh_Vl_3bit_0/switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1178 Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_5/a_n29_n8# Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/switch_5/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1179 Vh_Vl_3bit_0/switch_5/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1180 Vh_Vl_3bit_0/switch_5/a_5_n8# Vh_Vl_3bit_0/switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1181 Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_5/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1182 Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_5/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1183 Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_5/a_5_n8# Vh_Vl_3bit_0/switch_5/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1184 Vh_Vl_3bit_0/switch_4/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1185 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1186 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_4/a_n29_n8# Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_4/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1187 Vh_Vl_3bit_0/switch_4/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1188 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1189 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_4/a_n29_n8# Vh_Vl_3bit_0/switch_5/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1190 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1191 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR13 Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/switch_4/vrefh nwellResistor w=12 l=15
+M1192 Vh_Vl_3bit_0/switch_12/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1193 Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/switch_12/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1194 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_12/a_n29_n8# Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_12/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1195 Vh_Vl_3bit_0/switch_12/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1196 Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/switch_12/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1197 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_12/a_n29_n8# Vh_Vl_3bit_0/outl2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_12/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1199 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/switch_1/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1200 Vh_Vl_3bit_0/switch_6/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1201 Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/switch_6/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1202 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/switch_6/a_n29_n8# Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_6/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1203 Vh_Vl_3bit_0/switch_6/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1204 Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/switch_6/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1205 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/switch_6/a_n29_n8# Vh_Vl_3bit_0/outh2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_6/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1207 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/outh1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR14 Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/vrefh nwellResistor w=12 l=15
+M1208 Vh_Vl_3bit_0/switch_1/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1209 Vh_Vl_3bit_0/switch_1/a_5_n8# Vh_Vl_3bit_0/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1210 Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_1/a_n29_n8# Vh_Vl_3bit_0/switch_1/vrefh Vh_Vl_3bit_0/switch_1/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1211 Vh_Vl_3bit_0/switch_1/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1212 Vh_Vl_3bit_0/switch_1/a_5_n8# Vh_Vl_3bit_0/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1213 Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_1/a_n29_n8# Vh_Vl_3bit_0/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_1/a_5_n8# Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1215 Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_1/a_5_n8# Vh_Vl_3bit_0/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1216 Vh_Vl_3bit_0/switch_0/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1217 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1218 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_0/a_n29_n8# Vh_Vl_3bit_0/vref Vh_Vl_3bit_0/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1219 Vh_Vl_3bit_0/switch_0/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1220 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1221 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_0/a_n29_n8# Vh_Vl_3bit_0/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/switch_1/vrefh Vh_Vl_3bit_0/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1223 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/vref gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR15 Vh_Vl_3bit_0/switch_1/vrefh Vh_Vl_3bit_0/vref nwellResistor w=12 l=15
+M1224 switch_0/a_n29_n8# b8 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1225 switch_0/a_5_n8# switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1226 outh_82 switch_0/a_n29_n8# switch_0/vrefh switch_0/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=0 ps=0
+M1227 switch_0/a_n29_n8# b8 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1228 switch_0/a_5_n8# switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1229 outh_82 switch_0/a_n29_n8# switch_0/vrefl gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1230 outh_82 switch_0/a_5_n8# switch_0/vrefl switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1231 outh_82 switch_0/a_5_n8# switch_0/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1232 switch_1/a_n29_n8# b8 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1233 switch_1/a_5_n8# switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1234 outl_82 switch_1/a_n29_n8# switch_1/vrefh switch_1/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=0 ps=0
+M1235 switch_1/a_n29_n8# b8 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1236 switch_1/a_5_n8# switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1237 outl_82 switch_1/a_n29_n8# switch_1/vrefl gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1238 outl_82 switch_1/a_5_n8# switch_1/vrefl switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1239 outl_82 switch_1/a_5_n8# switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 2bit_stage_0/switch_1/a_n29_n8# b0 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1241 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1242 2bit_stage_0/switch_1/out 2bit_stage_0/switch_1/a_n29_n8# 2bit_stage_0/switch_1/vrefh 2bit_stage_0/switch_1/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=45 ps=28
+M1243 2bit_stage_0/switch_1/a_n29_n8# b0 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1244 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1245 2bit_stage_0/switch_1/out 2bit_stage_0/switch_1/a_n29_n8# outL_stage2 gnd nfet w=4 l=2
++  ad=68 pd=58 as=128 ps=92
+M1246 2bit_stage_0/switch_1/out 2bit_stage_0/switch_1/a_5_n8# outL_stage2 2bit_stage_0/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1247 2bit_stage_0/switch_1/out 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=136 ps=88
+xR16 2bit_stage_0/switch_1/vrefh outL_stage2 nwellResistor w=12 l=1938
+M1248 2bit_stage_0/switch_2/a_n29_n8# b1 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1249 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1250 out_10bitdac 2bit_stage_0/switch_2/a_n29_n8# 2bit_stage_0/switch_0/out 2bit_stage_0/switch_2/w_44_3# pfet w=9 l=2
++  ad=126 pd=64 as=171 ps=92
+M1251 2bit_stage_0/switch_2/a_n29_n8# b1 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1252 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1253 out_10bitdac 2bit_stage_0/switch_2/a_n29_n8# 2bit_stage_0/switch_1/out gnd nfet w=4 l=2
++  ad=48 pd=40 as=0 ps=0
+M1254 out_10bitdac 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_1/out 2bit_stage_0/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1255 out_10bitdac 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_0/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR17 2bit_stage_0/switch_0/vrefl 2bit_stage_0/switch_1/vrefh nwellResistor w=12 l=1938
+M1256 2bit_stage_0/switch_0/a_n29_n8# b0 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1257 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1258 2bit_stage_0/switch_0/out 2bit_stage_0/switch_0/a_n29_n8# 2bit_stage_0/switch_0/vrefh 2bit_stage_0/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1259 2bit_stage_0/switch_0/a_n29_n8# b0 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1260 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1261 2bit_stage_0/switch_0/out 2bit_stage_0/switch_0/a_n29_n8# 2bit_stage_0/switch_0/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=128 ps=84
+M1262 2bit_stage_0/switch_0/out 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/vrefl 2bit_stage_0/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1263 2bit_stage_0/switch_0/out 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=136 ps=88
+xR18 2bit_stage_0/switch_0/vrefh 2bit_stage_0/switch_0/vrefl nwellResistor w=12 l=1938
+xR19 outH_stage2 2bit_stage_0/switch_0/vrefh nwellResistor w=12 l=1938
+xR20 3bit_stage_0/switch_3/vrefh outL_stage1 nwellResistor w=12 l=1938
+M1264 3bit_stage_0/switch_3/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1265 3bit_stage_0/switch_3/a_5_n8# 3bit_stage_0/switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1266 3bit_stage_0/switch_3/out 3bit_stage_0/switch_3/a_n29_n8# 3bit_stage_0/switch_3/vrefh 3bit_stage_0/switch_3/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1267 3bit_stage_0/switch_3/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1268 3bit_stage_0/switch_3/a_5_n8# 3bit_stage_0/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1269 3bit_stage_0/switch_3/out 3bit_stage_0/switch_3/a_n29_n8# outL_stage1 gnd nfet w=4 l=2
++  ad=68 pd=58 as=128 ps=92
+M1270 3bit_stage_0/switch_3/out 3bit_stage_0/switch_3/a_5_n8# outL_stage1 3bit_stage_0/switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1271 3bit_stage_0/switch_3/out 3bit_stage_0/switch_3/a_5_n8# 3bit_stage_0/switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+M1272 3bit_stage_0/switch_2/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1273 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1274 3bit_stage_0/outh4 3bit_stage_0/switch_2/a_n29_n8# 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_2/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1275 3bit_stage_0/switch_2/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1276 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1277 3bit_stage_0/outh4 3bit_stage_0/switch_2/a_n29_n8# 3bit_stage_0/switch_3/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1278 3bit_stage_0/outh4 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_3/vrefh 3bit_stage_0/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1279 3bit_stage_0/outh4 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+xR21 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_3/vrefh nwellResistor w=12 l=1938
+M1280 3bit_stage_0/switch_11/a_n29_n8# b3 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1281 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/switch_11/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1282 3bit_stage_0/switch_11/out 3bit_stage_0/switch_11/a_n29_n8# 3bit_stage_0/outl3 3bit_stage_0/switch_11/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1283 3bit_stage_0/switch_11/a_n29_n8# b3 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1284 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/switch_11/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1285 3bit_stage_0/switch_11/out 3bit_stage_0/switch_11/a_n29_n8# 3bit_stage_0/switch_3/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1286 3bit_stage_0/switch_11/out 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/switch_3/out 3bit_stage_0/switch_11/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1287 3bit_stage_0/switch_11/out 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/outl3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1288 3bit_stage_0/switch_7/a_n29_n8# b3 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1289 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/switch_7/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1290 3bit_stage_0/switch_7/out 3bit_stage_0/switch_7/a_n29_n8# 3bit_stage_0/outh3 3bit_stage_0/switch_7/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1291 3bit_stage_0/switch_7/a_n29_n8# b3 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1292 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/switch_7/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1293 3bit_stage_0/switch_7/out 3bit_stage_0/switch_7/a_n29_n8# 3bit_stage_0/outh4 gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1294 3bit_stage_0/switch_7/out 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/outh4 3bit_stage_0/switch_7/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1295 3bit_stage_0/switch_7/out 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/outh3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR22 3bit_stage_0/switch_9/vrefl 3bit_stage_0/switch_2/vrefh nwellResistor w=12 l=1938
+M1296 3bit_stage_0/switch_10/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1297 3bit_stage_0/switch_10/a_5_n8# 3bit_stage_0/switch_10/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1298 3bit_stage_0/outl3 3bit_stage_0/switch_10/a_n29_n8# 3bit_stage_0/switch_9/vrefl 3bit_stage_0/switch_10/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1299 3bit_stage_0/switch_10/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1300 3bit_stage_0/switch_10/a_5_n8# 3bit_stage_0/switch_10/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1301 3bit_stage_0/outl3 3bit_stage_0/switch_10/a_n29_n8# 3bit_stage_0/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1302 3bit_stage_0/outl3 3bit_stage_0/switch_10/a_5_n8# 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_10/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1303 3bit_stage_0/outl3 3bit_stage_0/switch_10/a_5_n8# 3bit_stage_0/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+M1304 3bit_stage_0/switch_9/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1305 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1306 3bit_stage_0/outh3 3bit_stage_0/switch_9/a_n29_n8# 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_9/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1307 3bit_stage_0/switch_9/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1308 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1309 3bit_stage_0/outh3 3bit_stage_0/switch_9/a_n29_n8# 3bit_stage_0/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1310 3bit_stage_0/outh3 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/vrefl 3bit_stage_0/switch_9/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1311 3bit_stage_0/outh3 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+xR23 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_9/vrefl nwellResistor w=12 l=1938
+M1312 3bit_stage_0/switch_13/a_n29_n8# b4 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1313 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_13/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1314 outL_stage2 3bit_stage_0/switch_13/a_n29_n8# 3bit_stage_0/switch_12/out 3bit_stage_0/switch_13/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1315 3bit_stage_0/switch_13/a_n29_n8# b4 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1316 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_13/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1317 outL_stage2 3bit_stage_0/switch_13/a_n29_n8# 3bit_stage_0/switch_11/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1318 outL_stage2 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_11/out 3bit_stage_0/switch_13/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1319 outL_stage2 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_12/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1320 3bit_stage_0/switch_8/a_n29_n8# b4 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1321 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_8/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1322 outH_stage2 3bit_stage_0/switch_8/a_n29_n8# 3bit_stage_0/switch_6/out 3bit_stage_0/switch_8/w_44_3# pfet w=9 l=2
++  ad=126 pd=64 as=171 ps=92
+M1323 3bit_stage_0/switch_8/a_n29_n8# b4 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1324 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_8/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1325 outH_stage2 3bit_stage_0/switch_8/a_n29_n8# 3bit_stage_0/switch_7/out gnd nfet w=4 l=2
++  ad=96 pd=72 as=0 ps=0
+M1326 outH_stage2 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_7/out 3bit_stage_0/switch_8/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1327 outH_stage2 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_6/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR24 3bit_stage_0/switch_5/vrefh 3bit_stage_0/switch_9/vrefh nwellResistor w=12 l=1938
+M1328 3bit_stage_0/switch_5/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1329 3bit_stage_0/switch_5/a_5_n8# 3bit_stage_0/switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1330 3bit_stage_0/outl2 3bit_stage_0/switch_5/a_n29_n8# 3bit_stage_0/switch_5/vrefh 3bit_stage_0/switch_5/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1331 3bit_stage_0/switch_5/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1332 3bit_stage_0/switch_5/a_5_n8# 3bit_stage_0/switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1333 3bit_stage_0/outl2 3bit_stage_0/switch_5/a_n29_n8# 3bit_stage_0/switch_9/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1334 3bit_stage_0/outl2 3bit_stage_0/switch_5/a_5_n8# 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1335 3bit_stage_0/outl2 3bit_stage_0/switch_5/a_5_n8# 3bit_stage_0/switch_5/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+M1336 3bit_stage_0/switch_4/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1337 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1338 3bit_stage_0/outh2 3bit_stage_0/switch_4/a_n29_n8# 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_4/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1339 3bit_stage_0/switch_4/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1340 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1341 3bit_stage_0/outh2 3bit_stage_0/switch_4/a_n29_n8# 3bit_stage_0/switch_5/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1342 3bit_stage_0/outh2 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_5/vrefh 3bit_stage_0/switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1343 3bit_stage_0/outh2 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+xR25 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_5/vrefh nwellResistor w=12 l=1938
+M1344 3bit_stage_0/switch_12/a_n29_n8# b3 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1345 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/switch_12/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1346 3bit_stage_0/switch_12/out 3bit_stage_0/switch_12/a_n29_n8# 3bit_stage_0/switch_1/out 3bit_stage_0/switch_12/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1347 3bit_stage_0/switch_12/a_n29_n8# b3 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1348 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/switch_12/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1349 3bit_stage_0/switch_12/out 3bit_stage_0/switch_12/a_n29_n8# 3bit_stage_0/outl2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 3bit_stage_0/switch_12/out 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/outl2 3bit_stage_0/switch_12/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1351 3bit_stage_0/switch_12/out 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/switch_1/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1352 3bit_stage_0/switch_6/a_n29_n8# b3 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1353 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/switch_6/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1354 3bit_stage_0/switch_6/out 3bit_stage_0/switch_6/a_n29_n8# 3bit_stage_0/outh1 3bit_stage_0/switch_6/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1355 3bit_stage_0/switch_6/a_n29_n8# b3 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1356 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/switch_6/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1357 3bit_stage_0/switch_6/out 3bit_stage_0/switch_6/a_n29_n8# 3bit_stage_0/outh2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1358 3bit_stage_0/switch_6/out 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/outh2 3bit_stage_0/switch_6/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1359 3bit_stage_0/switch_6/out 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/outh1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR26 3bit_stage_0/switch_1/vrefh 3bit_stage_0/switch_4/vrefh nwellResistor w=12 l=1938
+M1360 3bit_stage_0/switch_1/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1361 3bit_stage_0/switch_1/a_5_n8# 3bit_stage_0/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1362 3bit_stage_0/switch_1/out 3bit_stage_0/switch_1/a_n29_n8# 3bit_stage_0/switch_1/vrefh 3bit_stage_0/switch_1/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1363 3bit_stage_0/switch_1/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1364 3bit_stage_0/switch_1/a_5_n8# 3bit_stage_0/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1365 3bit_stage_0/switch_1/out 3bit_stage_0/switch_1/a_n29_n8# 3bit_stage_0/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1366 3bit_stage_0/switch_1/out 3bit_stage_0/switch_1/a_5_n8# 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1367 3bit_stage_0/switch_1/out 3bit_stage_0/switch_1/a_5_n8# 3bit_stage_0/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=156 ps=106
+M1368 3bit_stage_0/switch_0/a_n29_n8# b2 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1369 3bit_stage_0/switch_0/a_5_n8# 3bit_stage_0/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1370 3bit_stage_0/outh1 3bit_stage_0/switch_0/a_n29_n8# outH_stage1 3bit_stage_0/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1371 3bit_stage_0/switch_0/a_n29_n8# b2 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1372 3bit_stage_0/switch_0/a_5_n8# 3bit_stage_0/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1373 3bit_stage_0/outh1 3bit_stage_0/switch_0/a_n29_n8# 3bit_stage_0/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 3bit_stage_0/outh1 3bit_stage_0/switch_0/a_5_n8# 3bit_stage_0/switch_1/vrefh 3bit_stage_0/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1375 3bit_stage_0/outh1 3bit_stage_0/switch_0/a_5_n8# outH_stage1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=124 ps=94
+xR27 outH_stage1 3bit_stage_0/switch_1/vrefh nwellResistor w=12 l=1938
+M1376 switch_5/a_n29_n8# b9 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1377 switch_5/a_5_n8# switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1378 outL_stage1 switch_5/a_n29_n8# outl_81 switch_5/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1379 switch_5/a_n29_n8# b9 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1380 switch_5/a_5_n8# switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1381 outL_stage1 switch_5/a_n29_n8# outl_82 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1382 outL_stage1 switch_5/a_5_n8# outl_82 switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1383 outL_stage1 switch_5/a_5_n8# outl_81 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR28 Vh_Vl_3bit_0/vref Vh_Vl_3bit_3/switch_3/vrefh nwellResistor w=12 l=15
+M1384 Vh_Vl_3bit_3/switch_3/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1385 Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_3/switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1386 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_3/a_n29_n8# Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_3/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1387 Vh_Vl_3bit_3/switch_3/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1388 Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_3/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1389 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_3/a_n29_n8# Vh_Vl_3bit_0/vref gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1390 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_0/vref Vh_Vl_3bit_3/switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1391 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_3/switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1392 Vh_Vl_3bit_3/switch_2/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1393 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1394 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/a_n29_n8# Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_2/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1395 Vh_Vl_3bit_3/switch_2/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1396 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1397 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/a_n29_n8# Vh_Vl_3bit_3/switch_3/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1398 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1399 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR29 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_2/vrefh nwellResistor w=12 l=15
+M1400 Vh_Vl_3bit_3/switch_11/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1401 Vh_Vl_3bit_3/switch_11/a_5_n8# Vh_Vl_3bit_3/switch_11/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1402 Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_11/a_n29_n8# Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_11/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1403 Vh_Vl_3bit_3/switch_11/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1404 Vh_Vl_3bit_3/switch_11/a_5_n8# Vh_Vl_3bit_3/switch_11/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1405 Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_11/a_n29_n8# Vh_Vl_3bit_3/switch_3/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1406 Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_11/a_5_n8# Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_11/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1407 Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_11/a_5_n8# Vh_Vl_3bit_3/outl3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1408 Vh_Vl_3bit_3/switch_7/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1409 Vh_Vl_3bit_3/switch_7/a_5_n8# Vh_Vl_3bit_3/switch_7/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1410 Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_7/a_n29_n8# Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_7/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1411 Vh_Vl_3bit_3/switch_7/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1412 Vh_Vl_3bit_3/switch_7/a_5_n8# Vh_Vl_3bit_3/switch_7/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1413 Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_7/a_n29_n8# Vh_Vl_3bit_3/outh4 gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1414 Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_7/a_5_n8# Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_7/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1415 Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_7/a_5_n8# Vh_Vl_3bit_3/outh3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR30 Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_9/vrefl nwellResistor w=12 l=15
+M1416 Vh_Vl_3bit_3/switch_10/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1417 Vh_Vl_3bit_3/switch_10/a_5_n8# Vh_Vl_3bit_3/switch_10/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1418 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_10/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefl Vh_Vl_3bit_3/switch_10/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1419 Vh_Vl_3bit_3/switch_10/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1420 Vh_Vl_3bit_3/switch_10/a_5_n8# Vh_Vl_3bit_3/switch_10/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1421 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_10/a_n29_n8# Vh_Vl_3bit_3/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1422 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_10/a_5_n8# Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_10/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1423 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_10/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1424 Vh_Vl_3bit_3/switch_9/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1425 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1426 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_9/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1427 Vh_Vl_3bit_3/switch_9/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1428 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1429 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1430 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefl Vh_Vl_3bit_3/switch_9/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1431 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR31 Vh_Vl_3bit_3/switch_9/vrefl Vh_Vl_3bit_3/switch_9/vrefh nwellResistor w=12 l=15
+M1432 Vh_Vl_3bit_3/switch_13/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1433 Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_13/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1434 switch_2/vrefl Vh_Vl_3bit_3/switch_13/a_n29_n8# Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_13/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1435 Vh_Vl_3bit_3/switch_13/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1436 Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_13/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1437 switch_2/vrefl Vh_Vl_3bit_3/switch_13/a_n29_n8# Vh_Vl_3bit_3/switch_11/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1438 switch_2/vrefl Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_13/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1439 switch_2/vrefl Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_12/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1440 Vh_Vl_3bit_3/switch_8/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1441 Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_8/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1442 switch_3/vrefl Vh_Vl_3bit_3/switch_8/a_n29_n8# Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/switch_8/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1443 Vh_Vl_3bit_3/switch_8/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1444 Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_8/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1445 switch_3/vrefl Vh_Vl_3bit_3/switch_8/a_n29_n8# Vh_Vl_3bit_3/switch_7/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1446 switch_3/vrefl Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_8/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1447 switch_3/vrefl Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_6/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR32 Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_5/vrefh nwellResistor w=12 l=15
+M1448 Vh_Vl_3bit_3/switch_5/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1449 Vh_Vl_3bit_3/switch_5/a_5_n8# Vh_Vl_3bit_3/switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1450 Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_5/a_n29_n8# Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/switch_5/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1451 Vh_Vl_3bit_3/switch_5/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1452 Vh_Vl_3bit_3/switch_5/a_5_n8# Vh_Vl_3bit_3/switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1453 Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_5/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1454 Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_5/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1455 Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_5/a_5_n8# Vh_Vl_3bit_3/switch_5/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1456 Vh_Vl_3bit_3/switch_4/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1457 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1458 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_4/a_n29_n8# Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_4/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1459 Vh_Vl_3bit_3/switch_4/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1460 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1461 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_4/a_n29_n8# Vh_Vl_3bit_3/switch_5/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1462 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1463 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR33 Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/switch_4/vrefh nwellResistor w=12 l=15
+M1464 Vh_Vl_3bit_3/switch_12/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1465 Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/switch_12/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1466 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_12/a_n29_n8# Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_12/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1467 Vh_Vl_3bit_3/switch_12/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1468 Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/switch_12/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1469 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_12/a_n29_n8# Vh_Vl_3bit_3/outl2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1470 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_12/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1471 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/switch_1/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1472 Vh_Vl_3bit_3/switch_6/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1473 Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/switch_6/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1474 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/switch_6/a_n29_n8# Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_6/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1475 Vh_Vl_3bit_3/switch_6/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1476 Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/switch_6/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1477 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/switch_6/a_n29_n8# Vh_Vl_3bit_3/outh2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1478 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_6/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1479 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/outh1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR34 Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/vrefh nwellResistor w=12 l=15
+M1480 Vh_Vl_3bit_3/switch_1/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1481 Vh_Vl_3bit_3/switch_1/a_5_n8# Vh_Vl_3bit_3/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1482 Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_1/a_n29_n8# Vh_Vl_3bit_3/switch_1/vrefh Vh_Vl_3bit_3/switch_1/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1483 Vh_Vl_3bit_3/switch_1/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1484 Vh_Vl_3bit_3/switch_1/a_5_n8# Vh_Vl_3bit_3/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1485 Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_1/a_n29_n8# Vh_Vl_3bit_3/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1486 Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_1/a_5_n8# Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1487 Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_1/a_5_n8# Vh_Vl_3bit_3/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1488 Vh_Vl_3bit_3/switch_0/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1489 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1490 Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_0/a_n29_n8# Vh_Vl_3bit_3/vref Vh_Vl_3bit_3/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1491 Vh_Vl_3bit_3/switch_0/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1492 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1493 Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_0/a_n29_n8# Vh_Vl_3bit_3/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1494 Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/switch_1/vrefh Vh_Vl_3bit_3/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1495 Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/vref gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR35 Vh_Vl_3bit_3/switch_1/vrefh Vh_Vl_3bit_3/vref nwellResistor w=12 l=15
+M1496 switch_4/a_n29_n8# b9 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1497 switch_4/a_5_n8# switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1498 outH_stage1 switch_4/a_n29_n8# outh_81 switch_4/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1499 switch_4/a_n29_n8# b9 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1500 switch_4/a_5_n8# switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1501 outH_stage1 switch_4/a_n29_n8# outh_82 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 outH_stage1 switch_4/a_5_n8# outh_82 switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1503 outH_stage1 switch_4/a_5_n8# outh_81 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR36 Vh_Vl_3bit_3/vref Vh_Vl_3bit_2/switch_3/vrefh nwellResistor w=12 l=15
+M1504 Vh_Vl_3bit_2/switch_3/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1505 Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_2/switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1506 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_3/a_n29_n8# Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_3/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1507 Vh_Vl_3bit_2/switch_3/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1508 Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_2/switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1509 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_3/a_n29_n8# Vh_Vl_3bit_3/vref gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1510 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_3/vref Vh_Vl_3bit_2/switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1511 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_2/switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1512 Vh_Vl_3bit_2/switch_2/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1513 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1514 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_2/a_n29_n8# Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_2/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1515 Vh_Vl_3bit_2/switch_2/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1516 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1517 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_2/a_n29_n8# Vh_Vl_3bit_2/switch_3/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1518 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1519 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR37 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_2/vrefh nwellResistor w=12 l=15
+M1520 Vh_Vl_3bit_2/switch_11/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1521 Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/switch_11/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1522 Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_11/a_n29_n8# Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_11/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1523 Vh_Vl_3bit_2/switch_11/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1524 Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/switch_11/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1525 Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_11/a_n29_n8# Vh_Vl_3bit_2/switch_3/out gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1526 Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_11/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1527 Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/outl3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1528 Vh_Vl_3bit_2/switch_7/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1529 Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/switch_7/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1530 Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_7/a_n29_n8# Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_7/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1531 Vh_Vl_3bit_2/switch_7/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1532 Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/switch_7/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1533 Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_7/a_n29_n8# Vh_Vl_3bit_2/outh4 gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1534 Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_7/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1535 Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/outh3 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR38 Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_9/vrefl nwellResistor w=12 l=15
+M1536 Vh_Vl_3bit_2/switch_10/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1537 Vh_Vl_3bit_2/switch_10/a_5_n8# Vh_Vl_3bit_2/switch_10/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1538 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_10/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefl Vh_Vl_3bit_2/switch_10/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1539 Vh_Vl_3bit_2/switch_10/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1540 Vh_Vl_3bit_2/switch_10/a_5_n8# Vh_Vl_3bit_2/switch_10/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1541 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_10/a_n29_n8# Vh_Vl_3bit_2/switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1542 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_10/a_5_n8# Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_10/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1543 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_10/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1544 Vh_Vl_3bit_2/switch_9/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1545 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1546 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_9/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1547 Vh_Vl_3bit_2/switch_9/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1548 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1549 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1550 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefl Vh_Vl_3bit_2/switch_9/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1551 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR39 Vh_Vl_3bit_2/switch_9/vrefl Vh_Vl_3bit_2/switch_9/vrefh nwellResistor w=12 l=15
+M1552 Vh_Vl_3bit_2/switch_13/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1553 Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_13/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1554 switch_2/vrefh Vh_Vl_3bit_2/switch_13/a_n29_n8# Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_13/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1555 Vh_Vl_3bit_2/switch_13/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1556 Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_13/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1557 switch_2/vrefh Vh_Vl_3bit_2/switch_13/a_n29_n8# Vh_Vl_3bit_2/switch_11/out gnd nfet w=4 l=2
++  ad=76 pd=62 as=0 ps=0
+M1558 switch_2/vrefh Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_13/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1559 switch_2/vrefh Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_12/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1560 Vh_Vl_3bit_2/switch_8/a_n29_n8# b7 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1561 Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_8/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1562 switch_3/vrefh Vh_Vl_3bit_2/switch_8/a_n29_n8# Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/switch_8/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=171 ps=92
+M1563 Vh_Vl_3bit_2/switch_8/a_n29_n8# b7 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1564 Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_8/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1565 switch_3/vrefh Vh_Vl_3bit_2/switch_8/a_n29_n8# Vh_Vl_3bit_2/switch_7/out gnd nfet w=4 l=2
++  ad=76 pd=62 as=0 ps=0
+M1566 switch_3/vrefh Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_8/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1567 switch_3/vrefh Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_6/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR40 Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_5/vrefh nwellResistor w=12 l=15
+M1568 Vh_Vl_3bit_2/switch_5/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1569 Vh_Vl_3bit_2/switch_5/a_5_n8# Vh_Vl_3bit_2/switch_5/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1570 Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_5/a_n29_n8# Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/switch_5/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1571 Vh_Vl_3bit_2/switch_5/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1572 Vh_Vl_3bit_2/switch_5/a_5_n8# Vh_Vl_3bit_2/switch_5/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1573 Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_5/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1574 Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_5/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_5/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1575 Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_5/a_5_n8# Vh_Vl_3bit_2/switch_5/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1576 Vh_Vl_3bit_2/switch_4/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1577 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_4/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1578 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_4/a_n29_n8# Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_4/w_44_3# pfet w=9 l=2
++  ad=171 pd=92 as=90 ps=56
+M1579 Vh_Vl_3bit_2/switch_4/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1580 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_4/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1581 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_4/a_n29_n8# Vh_Vl_3bit_2/switch_5/vrefh gnd nfet w=4 l=2
++  ad=68 pd=58 as=0 ps=0
+M1582 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/switch_4/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1583 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+xR41 Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/switch_4/vrefh nwellResistor w=12 l=15
+M1584 Vh_Vl_3bit_2/switch_12/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1585 Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/switch_12/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1586 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_12/a_n29_n8# Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_12/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1587 Vh_Vl_3bit_2/switch_12/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1588 Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/switch_12/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1589 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_12/a_n29_n8# Vh_Vl_3bit_2/outl2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1590 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_12/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1591 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/switch_1/out gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+M1592 Vh_Vl_3bit_2/switch_6/a_n29_n8# b6 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1593 Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/switch_6/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1594 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/switch_6/a_n29_n8# Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_6/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=171 ps=92
+M1595 Vh_Vl_3bit_2/switch_6/a_n29_n8# b6 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1596 Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/switch_6/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1597 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/switch_6/a_n29_n8# Vh_Vl_3bit_2/outh2 gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1598 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_6/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1599 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/outh1 gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=62
+xR42 Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/vrefh nwellResistor w=12 l=15
+M1600 Vh_Vl_3bit_2/switch_1/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1601 Vh_Vl_3bit_2/switch_1/a_5_n8# Vh_Vl_3bit_2/switch_1/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1602 Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_1/a_n29_n8# Vh_Vl_3bit_2/switch_1/vrefh Vh_Vl_3bit_2/switch_1/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=90 ps=56
+M1603 Vh_Vl_3bit_2/switch_1/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1604 Vh_Vl_3bit_2/switch_1/a_5_n8# Vh_Vl_3bit_2/switch_1/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1605 Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_1/a_n29_n8# Vh_Vl_3bit_2/switch_4/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1606 Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_1/a_5_n8# Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1607 Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_1/a_5_n8# Vh_Vl_3bit_2/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=144 ps=104
+M1608 Vh_Vl_3bit_2/switch_0/a_n29_n8# b5 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1609 Vh_Vl_3bit_2/switch_0/a_5_n8# Vh_Vl_3bit_2/switch_0/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1610 Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_0/a_n29_n8# vref Vh_Vl_3bit_2/switch_0/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1611 Vh_Vl_3bit_2/switch_0/a_n29_n8# b5 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1612 Vh_Vl_3bit_2/switch_0/a_5_n8# Vh_Vl_3bit_2/switch_0/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1613 Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_0/a_n29_n8# Vh_Vl_3bit_2/switch_1/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1614 Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_0/a_5_n8# Vh_Vl_3bit_2/switch_1/vrefh Vh_Vl_3bit_2/switch_0/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1615 Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_0/a_5_n8# vref gnd nfet w=4 l=2
++  ad=0 pd=0 as=76 ps=54
+xR43 Vh_Vl_3bit_2/switch_1/vrefh vref nwellResistor w=12 l=15
+M1616 switch_3/a_n29_n8# b8 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1617 switch_3/a_5_n8# switch_3/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1618 outh_81 switch_3/a_n29_n8# switch_3/vrefh switch_3/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1619 switch_3/a_n29_n8# b8 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1620 switch_3/a_5_n8# switch_3/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1621 outh_81 switch_3/a_n29_n8# switch_3/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1622 outh_81 switch_3/a_5_n8# switch_3/vrefl switch_3/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1623 outh_81 switch_3/a_5_n8# switch_3/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1624 switch_2/a_n29_n8# b8 vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1625 switch_2/a_5_n8# switch_2/a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1626 outl_81 switch_2/a_n29_n8# switch_2/vrefh switch_2/w_44_3# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1627 switch_2/a_n29_n8# b8 gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1628 switch_2/a_5_n8# switch_2/a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1629 outl_81 switch_2/a_n29_n8# switch_2/vrefl gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1630 outl_81 switch_2/a_5_n8# switch_2/vrefl switch_2/w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1631 outl_81 switch_2/a_5_n8# switch_2/vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 Vh_Vl_3bit_3/switch_8/w_44_3# Vh_Vl_3bit_3/switch_8/a_n29_n8# 0.19fF
+C1 Vh_Vl_3bit_2/switch_8/w_44_3# switch_3/vrefh 0.04fF
+C2 Vh_Vl_3bit_3/switch_2/a_n29_n8# b5 0.05fF
+C3 3bit_stage_0/switch_9/a_5_n8# vdd 0.05fF
+C4 3bit_stage_0/switch_10/a_5_n8# 3bit_stage_0/switch_9/vrefl 0.68fF
+C5 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_9/vrefl 0.06fF
+C6 Vh_Vl_3bit_1/switch_12/w_44_3# Vh_Vl_3bit_1/switch_1/out 0.03fF
+C7 vdd b5 4.50fF
+C8 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_1/vrefh 0.08fF
+C9 3bit_stage_0/switch_5/vrefh vdd 0.09fF
+C10 Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_7/out 0.02fF
+C11 Vh_Vl_3bit_0/switch_10/a_5_n8# vdd 0.05fF
+C12 Vh_Vl_3bit_1/res4_3/a_n12_4# Vh_Vl_3bit_1/switch_9/vrefh 0.01fF
+C13 Vh_Vl_3bit_1/outl3 vdd 0.03fF
+C14 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/outh2 0.20fF
+C15 Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/outl3 0.22fF
+C16 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/switch_1/vrefh 0.02fF
+C17 Vh_Vl_3bit_1/switch_9/a_n29_n8# b5 0.05fF
+C18 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_10/a_5_n8# 0.02fF
+C19 Vh_Vl_3bit_1/outh2 b6 0.03fF
+C20 Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/outl2 0.02fF
+C21 Vh_Vl_3bit_2/switch_13/w_44_3# switch_2/vrefh 0.04fF
+C22 Vh_Vl_3bit_0/switch_9/vrefl b5 0.06fF
+C23 Vh_Vl_3bit_2/switch_12/w_43_n41# Vh_Vl_3bit_2/outl2 0.04fF
+C24 Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/outh3 0.68fF
+C25 Vh_Vl_3bit_2/switch_11/a_n29_n8# Vh_Vl_3bit_2/outl3 0.02fF
+C26 Vh_Vl_3bit_3/switch_7/a_n29_n8# Vh_Vl_3bit_3/outh3 0.02fF
+C27 Vh_Vl_3bit_3/switch_7/w_43_n41# Vh_Vl_3bit_3/outh4 0.04fF
+C28 Vh_Vl_3bit_0/switch_10/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefl 0.68fF
+C29 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/res4_4/a_n12_4# 0.01fF
+C30 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_3/a_5_n8# 0.68fF
+C31 Vh_Vl_3bit_3/switch_1/w_44_3# Vh_Vl_3bit_3/switch_1/out 0.04fF
+C32 Vh_Vl_3bit_3/switch_9/w_43_n41# Vh_Vl_3bit_3/switch_9/vrefl 0.04fF
+C33 3bit_stage_0/outh2 3bit_stage_0/outh1 0.08fF
+C34 3bit_stage_0/switch_2/a_n29_n8# 3bit_stage_0/switch_2/a_5_n8# 0.05fF
+C35 switch_0/vrefl switch_0/vrefh 0.08fF
+C36 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_2/a_5_n8# 0.68fF
+C37 Vh_Vl_3bit_3/switch_1/vrefh vdd 0.09fF
+C38 Vh_Vl_3bit_1/switch_5/a_5_n8# vdd 0.05fF
+C39 outH_stage2 2bit_stage_0/res_150k_0/a_n24_n112# 0.01fF
+C40 Vh_Vl_3bit_0/switch_6/a_n29_n8# Vh_Vl_3bit_0/switch_6/a_5_n8# 0.05fF
+C41 Vh_Vl_3bit_0/switch_6/w_43_n41# Vh_Vl_3bit_0/switch_6/out 0.06fF
+C42 switch_4/a_n29_n8# b9 0.05fF
+C43 switch_0/vrefh switch_0/w_44_3# 0.03fF
+C44 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_2/a_n29_n8# 0.05fF
+C45 Vh_Vl_3bit_1/switch_12/w_43_n41# Vh_Vl_3bit_1/switch_12/a_5_n8# 0.07fF
+C46 Vh_Vl_3bit_2/switch_2/a_n29_n8# vdd 0.95fF
+C47 Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_5/a_5_n8# 0.02fF
+C48 Vh_Vl_3bit_0/switch_0/a_5_n8# Vh_Vl_3bit_0/vref 0.68fF
+C49 Vh_Vl_3bit_0/outh1 vdd 0.03fF
+C50 Vh_Vl_3bit_3/switch_8/w_44_3# Vh_Vl_3bit_3/switch_6/out 0.03fF
+C51 b7 Vh_Vl_3bit_2/switch_12/out 0.03fF
+C52 Vh_Vl_3bit_3/switch_8/a_5_n8# vdd 0.05fF
+C53 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_9/vrefl 0.06fF
+C54 outL_stage2 3bit_stage_0/switch_11/out 0.25fF
+C55 switch_1/w_44_3# switch_1/vrefh 0.03fF
+C56 Vh_Vl_3bit_1/switch_7/out switch_0/vrefl 0.20fF
+C57 Vh_Vl_3bit_2/switch_5/w_43_n41# Vh_Vl_3bit_2/outl2 0.06fF
+C58 Vh_Vl_3bit_2/switch_7/out Vh_Vl_3bit_2/switch_6/out 0.08fF
+C59 Vh_Vl_3bit_0/switch_1/a_n29_n8# Vh_Vl_3bit_0/switch_1/vrefh 0.02fF
+C60 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_6/out 0.68fF
+C61 Vh_Vl_3bit_1/switch_4/a_n29_n8# vdd 0.95fF
+C62 Vh_Vl_3bit_2/switch_12/out vdd 0.08fF
+C63 Vh_Vl_3bit_1/switch_6/a_n29_n8# Vh_Vl_3bit_1/outh1 0.02fF
+C64 switch_5/a_5_n8# switch_5/w_43_n41# 0.07fF
+C65 3bit_stage_0/switch_7/a_n29_n8# 3bit_stage_0/outh3 0.02fF
+C66 2bit_stage_0/switch_2/a_n29_n8# 2bit_stage_0/switch_2/w_44_3# 0.19fF
+C67 Vh_Vl_3bit_2/switch_11/out Vh_Vl_3bit_2/switch_12/out 0.08fF
+C68 Vh_Vl_3bit_3/switch_10/w_44_3# Vh_Vl_3bit_3/switch_9/vrefl 0.03fF
+C69 3bit_stage_0/switch_13/a_n29_n8# 3bit_stage_0/switch_13/a_5_n8# 0.05fF
+C70 3bit_stage_0/switch_9/w_44_3# 3bit_stage_0/switch_9/vrefh 0.03fF
+C71 Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/vrefh 0.08fF
+C72 Vh_Vl_3bit_1/switch_8/a_n29_n8# Vh_Vl_3bit_1/switch_8/a_5_n8# 0.05fF
+C73 Vh_Vl_3bit_1/switch_8/w_43_n41# switch_0/vrefl 0.06fF
+C74 Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_6/out 0.68fF
+C75 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_12/out 0.68fF
+C76 3bit_stage_0/switch_2/a_n29_n8# vdd 0.95fF
+C77 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/vrefl 0.02fF
+C78 Vh_Vl_3bit_0/outh3 b6 0.03fF
+C79 Vh_Vl_3bit_0/switch_3/out b8 0.01fF
+C80 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_3/vrefh 0.06fF
+C81 3bit_stage_0/switch_11/a_n29_n8# 3bit_stage_0/outl3 0.02fF
+C82 switch_1/w_44_3# switch_1/a_n29_n8# 0.19fF
+C83 switch_0/vrefh Vh_Vl_3bit_0/switch_6/out 0.06fF
+C84 Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/outh2 0.02fF
+C85 Vh_Vl_3bit_3/vref b5 0.03fF
+C86 outL_stage2 vdd 0.02fF
+C87 Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/switch_1/out 0.68fF
+C88 Vh_Vl_3bit_1/switch_8/a_n29_n8# b7 0.05fF
+C89 Vh_Vl_3bit_2/switch_10/w_43_n41# Vh_Vl_3bit_2/switch_10/a_5_n8# 0.07fF
+C90 Vh_Vl_3bit_3/switch_13/w_43_n41# Vh_Vl_3bit_3/switch_13/a_5_n8# 0.07fF
+C91 3bit_stage_0/switch_0/a_5_n8# 3bit_stage_0/switch_1/vrefh 0.02fF
+C92 Vh_Vl_3bit_1/switch_6/out b7 0.03fF
+C93 2bit_stage_0/switch_0/vrefh 2bit_stage_0/res_150k_0/a_n24_n112# 0.01fF
+C94 Vh_Vl_3bit_0/switch_3/vrefh b5 0.06fF
+C95 Vh_Vl_3bit_2/switch_5/a_n29_n8# Vh_Vl_3bit_2/switch_5/a_5_n8# 0.05fF
+C96 Vh_Vl_3bit_3/switch_6/w_44_3# Vh_Vl_3bit_3/switch_6/out 0.04fF
+C97 Vh_Vl_3bit_0/switch_11/out vdd 0.03fF
+C98 Vh_Vl_3bit_1/switch_8/a_n29_n8# vdd 0.95fF
+C99 3bit_stage_0/switch_12/a_n29_n8# 3bit_stage_0/switch_12/a_5_n8# 0.05fF
+C100 Vh_Vl_3bit_1/switch_6/w_43_n41# Vh_Vl_3bit_1/outh2 0.04fF
+C101 Vh_Vl_3bit_1/switch_6/out vdd 0.03fF
+C102 Vh_Vl_3bit_0/switch_4/w_43_n41# Vh_Vl_3bit_0/switch_4/a_5_n8# 0.07fF
+C103 Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/switch_3/w_44_3# 0.03fF
+C104 b6 Vh_Vl_3bit_2/switch_6/a_n29_n8# 0.05fF
+C105 Vh_Vl_3bit_2/switch_6/w_43_n41# Vh_Vl_3bit_2/switch_6/a_5_n8# 0.07fF
+C106 Vh_Vl_3bit_2/switch_4/a_n29_n8# b5 0.05fF
+C107 Vh_Vl_3bit_1/switch_1/out vdd 0.03fF
+C108 Vh_Vl_3bit_3/vref Vh_Vl_3bit_3/switch_1/vrefh 0.08fF
+C109 b2 3bit_stage_0/switch_0/a_n29_n8# 0.05fF
+C110 3bit_stage_0/switch_0/w_44_3# outH_stage1 0.03fF
+C111 3bit_stage_0/switch_0/w_43_n41# 3bit_stage_0/switch_0/a_5_n8# 0.07fF
+C112 3bit_stage_0/switch_12/a_n29_n8# vdd 0.95fF
+C113 Vh_Vl_3bit_2/switch_3/vrefh b5 0.06fF
+C114 Vh_Vl_3bit_2/res4_0/a_n12_4# Vh_Vl_3bit_2/switch_1/vrefh 0.01fF
+C115 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/outh4 0.20fF
+C116 out_10bitdac 2bit_stage_0/switch_1/out 0.20fF
+C117 Vh_Vl_3bit_0/switch_13/w_44_3# Vh_Vl_3bit_0/switch_13/a_n29_n8# 0.19fF
+C118 Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_5/vrefh 0.08fF
+C119 Vh_Vl_3bit_3/outl2 vdd 0.02fF
+C120 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/outh3 0.08fF
+C121 3bit_stage_0/switch_3/vrefh 3bit_stage_0/outh4 0.20fF
+C122 Vh_Vl_3bit_0/switch_13/w_44_3# Vh_Vl_3bit_0/switch_12/out 0.03fF
+C123 Vh_Vl_3bit_0/switch_12/a_5_n8# vdd 0.05fF
+C124 Vh_Vl_3bit_3/switch_11/w_43_n41# Vh_Vl_3bit_3/switch_11/a_5_n8# 0.07fF
+C125 Vh_Vl_3bit_3/switch_3/w_44_3# Vh_Vl_3bit_3/switch_3/out 0.04fF
+C126 3bit_stage_0/switch_7/w_44_3# 3bit_stage_0/switch_7/a_n29_n8# 0.19fF
+C127 outH_stage1 outh_82 0.20fF
+C128 switch_1/vrefl switch_1/a_5_n8# 0.02fF
+C129 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/switch_1/out 0.06fF
+C130 switch_4/w_44_3# outh_81 0.03fF
+C131 Vh_Vl_3bit_3/switch_0/a_n29_n8# Vh_Vl_3bit_3/switch_0/a_5_n8# 0.05fF
+C132 Vh_Vl_3bit_3/switch_0/w_43_n41# Vh_Vl_3bit_3/outh1 0.06fF
+C133 3bit_stage_0/switch_3/vrefh b2 0.06fF
+C134 3bit_stage_0/switch_1/a_n29_n8# 3bit_stage_0/switch_1/vrefh 0.02fF
+C135 2bit_stage_0/switch_0/out vdd 0.03fF
+C136 Vh_Vl_3bit_3/switch_12/w_44_3# Vh_Vl_3bit_3/switch_12/out 0.04fF
+C137 Vh_Vl_3bit_3/switch_10/w_44_3# Vh_Vl_3bit_3/outl3 0.04fF
+C138 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/switch_4/vrefh 0.06fF
+C139 Vh_Vl_3bit_0/switch_7/a_n29_n8# Vh_Vl_3bit_0/switch_7/a_5_n8# 0.05fF
+C140 Vh_Vl_3bit_2/res4_7/a_n12_4# Vh_Vl_3bit_3/vref 0.01fF
+C141 Vh_Vl_3bit_3/switch_4/a_n29_n8# b5 0.05fF
+C142 Vh_Vl_3bit_3/switch_5/vrefh vdd 0.09fF
+C143 3bit_stage_0/switch_11/w_44_3# 3bit_stage_0/switch_11/a_n29_n8# 0.19fF
+C144 b3 vdd 0.51fF
+C145 2bit_stage_0/switch_1/w_43_n41# outL_stage2 0.04fF
+C146 Vh_Vl_3bit_2/switch_11/w_43_n41# Vh_Vl_3bit_2/switch_11/out 0.06fF
+C147 3bit_stage_0/switch_10/a_n29_n8# 3bit_stage_0/switch_10/a_5_n8# 0.05fF
+C148 Vh_Vl_3bit_0/switch_12/w_44_3# Vh_Vl_3bit_0/switch_12/a_n29_n8# 0.19fF
+C149 Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/outl2 0.06fF
+C150 Vh_Vl_3bit_1/switch_9/w_43_n41# Vh_Vl_3bit_1/switch_9/a_5_n8# 0.07fF
+C151 Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/out 0.22fF
+C152 Vh_Vl_3bit_2/switch_9/w_44_3# Vh_Vl_3bit_2/switch_9/a_n29_n8# 0.19fF
+C153 Vh_Vl_3bit_3/switch_5/w_43_n41# Vh_Vl_3bit_3/outl2 0.06fF
+C154 Vh_Vl_3bit_3/switch_2/vrefh vdd 0.06fF
+C155 Vh_Vl_3bit_3/switch_2/a_n29_n8# Vh_Vl_3bit_3/switch_2/vrefh 0.02fF
+C156 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_4/vrefh 0.68fF
+C157 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_2/w_43_n41# 0.07fF
+C158 Vh_Vl_3bit_0/switch_1/out b6 0.03fF
+C159 Vh_Vl_3bit_0/switch_6/a_n29_n8# vdd 0.95fF
+C160 Vh_Vl_3bit_0/res4_2/a_n12_4# Vh_Vl_3bit_0/switch_4/vrefh 0.01fF
+C161 Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_6/out 0.68fF
+C162 Vh_Vl_3bit_1/vref Vh_Vl_3bit_1/res4_0/a_n12_4# 0.01fF
+C163 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/switch_1/vrefh 0.02fF
+C164 b3 3bit_stage_0/switch_6/a_n29_n8# 0.05fF
+C165 3bit_stage_0/switch_6/w_43_n41# 3bit_stage_0/switch_6/a_5_n8# 0.07fF
+C166 outH_stage2 3bit_stage_0/switch_6/out 0.06fF
+C167 Vh_Vl_3bit_0/switch_2/w_43_n41# Vh_Vl_3bit_0/switch_3/vrefh 0.04fF
+C168 Vh_Vl_3bit_2/switch_13/a_n29_n8# Vh_Vl_3bit_2/switch_13/a_5_n8# 0.05fF
+C169 Vh_Vl_3bit_3/switch_5/a_n29_n8# Vh_Vl_3bit_3/switch_5/a_5_n8# 0.05fF
+C170 2bit_stage_0/switch_1/out 2bit_stage_0/switch_2/w_43_n41# 0.04fF
+C171 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefh 0.68fF
+C172 Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/outh4 0.02fF
+C173 Vh_Vl_3bit_2/res4_7/a_n12_4# Vh_Vl_3bit_2/switch_3/vrefh 0.01fF
+C174 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_11/a_5_n8# 0.02fF
+C175 switch_2/vrefh switch_2/a_n29_n8# 0.02fF
+C176 Vh_Vl_3bit_3/switch_1/a_n29_n8# Vh_Vl_3bit_3/switch_1/a_5_n8# 0.05fF
+C177 Vh_Vl_3bit_3/switch_1/w_43_n41# Vh_Vl_3bit_3/switch_1/out 0.06fF
+C178 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/outh1 0.06fF
+C179 outl_82 outl_81 0.08fF
+C180 3bit_stage_0/switch_2/w_43_n41# 3bit_stage_0/switch_3/vrefh 0.04fF
+C181 Vh_Vl_3bit_0/switch_8/w_44_3# switch_0/vrefh 0.04fF
+C182 b7 b6 0.11fF
+C183 outH_stage1 vdd 0.06fF
+C184 3bit_stage_0/switch_11/w_44_3# 3bit_stage_0/outl3 0.03fF
+C185 Vh_Vl_3bit_2/switch_0/w_44_3# Vh_Vl_3bit_2/outh1 0.04fF
+C186 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_2/w_43_n41# 0.07fF
+C187 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_2/a_n29_n8# 0.05fF
+C188 Vh_Vl_3bit_0/switch_6/w_43_n41# Vh_Vl_3bit_0/outh2 0.04fF
+C189 Vh_Vl_3bit_1/switch_4/vrefh b5 0.03fF
+C190 b0 2bit_stage_0/switch_0/a_n29_n8# 0.05fF
+C191 3bit_stage_0/switch_7/a_5_n8# vdd 0.05fF
+C192 2bit_stage_0/switch_0/vrefl 2bit_stage_0/res_150k_1/a_n24_n112# 0.01fF
+C193 b6 vdd 2.11fF
+C194 switch_2/vrefh outl_81 0.06fF
+C195 Vh_Vl_3bit_0/switch_2/vrefh vdd 0.06fF
+C196 Vh_Vl_3bit_1/res4_5/a_n12_4# Vh_Vl_3bit_1/switch_9/vrefh 0.01fF
+C197 Vh_Vl_3bit_0/switch_5/w_44_3# Vh_Vl_3bit_0/switch_5/a_n29_n8# 0.19fF
+C198 Vh_Vl_3bit_1/switch_7/w_43_n41# Vh_Vl_3bit_1/switch_7/a_5_n8# 0.07fF
+C199 Vh_Vl_3bit_2/switch_12/w_44_3# Vh_Vl_3bit_2/switch_12/a_n29_n8# 0.19fF
+C200 Vh_Vl_3bit_3/res4_3/a_n12_4# Vh_Vl_3bit_3/switch_5/vrefh 0.01fF
+C201 Vh_Vl_3bit_0/switch_4/w_44_3# Vh_Vl_3bit_0/switch_4/vrefh 0.03fF
+C202 Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_5/vrefh 0.08fF
+C203 Vh_Vl_3bit_2/switch_9/a_5_n8# vdd 0.05fF
+C204 b3 3bit_stage_0/outh1 0.03fF
+C205 3bit_stage_0/switch_1/w_44_3# 3bit_stage_0/switch_1/a_n29_n8# 0.19fF
+C206 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_1/out 0.22fF
+C207 3bit_stage_0/switch_3/w_44_3# 3bit_stage_0/switch_3/vrefh 0.03fF
+C208 switch_1/a_5_n8# vdd 0.05fF
+C209 switch_1/vrefl outl_82 0.22fF
+C210 Vh_Vl_3bit_0/switch_2/a_n29_n8# vdd 0.95fF
+C211 Vh_Vl_3bit_1/switch_0/w_44_3# Vh_Vl_3bit_1/vref 0.03fF
+C212 Vh_Vl_3bit_1/switch_0/w_43_n41# Vh_Vl_3bit_1/switch_0/a_5_n8# 0.07fF
+C213 Vh_Vl_3bit_1/switch_1/a_n29_n8# Vh_Vl_3bit_1/switch_1/vrefh 0.02fF
+C214 Vh_Vl_3bit_1/switch_3/w_44_3# Vh_Vl_3bit_1/switch_3/out 0.04fF
+C215 Vh_Vl_3bit_3/switch_0/a_n29_n8# vdd 0.95fF
+C216 b8 switch_3/vrefl 0.03fF
+C217 2bit_stage_0/switch_2/w_44_3# 2bit_stage_0/switch_0/out 0.03fF
+C218 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_9/vrefl 0.08fF
+C219 Vh_Vl_3bit_2/outl2 vdd 0.02fF
+C220 b4 vdd 0.27fF
+C221 Vh_Vl_3bit_2/switch_6/w_44_3# Vh_Vl_3bit_2/outh1 0.03fF
+C222 Vh_Vl_3bit_2/switch_9/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefh 0.02fF
+C223 Vh_Vl_3bit_0/switch_4/w_44_3# Vh_Vl_3bit_0/outh2 0.04fF
+C224 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/switch_1/out 0.06fF
+C225 Vh_Vl_3bit_3/switch_9/w_44_3# Vh_Vl_3bit_3/switch_9/a_n29_n8# 0.19fF
+C226 3bit_stage_0/switch_13/w_43_n41# 3bit_stage_0/switch_11/out 0.04fF
+C227 Vh_Vl_3bit_0/switch_1/w_43_n41# Vh_Vl_3bit_0/switch_1/a_5_n8# 0.07fF
+C228 Vh_Vl_3bit_2/switch_10/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefl 0.68fF
+C229 Vh_Vl_3bit_3/switch_1/a_n29_n8# vdd 0.95fF
+C230 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/w_43_n41# 0.07fF
+C231 Vh_Vl_3bit_0/vref Vh_Vl_3bit_3/switch_3/vrefh 0.08fF
+C232 3bit_stage_0/switch_1/a_5_n8# vdd 0.05fF
+C233 Vh_Vl_3bit_3/switch_7/a_n29_n8# Vh_Vl_3bit_3/switch_7/w_44_3# 0.19fF
+C234 switch_3/a_n29_n8# b8 0.05fF
+C235 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/outh3 0.08fF
+C236 Vh_Vl_3bit_3/outl3 Vh_Vl_3bit_3/switch_11/out 0.06fF
+C237 Vh_Vl_3bit_1/switch_2/vrefh b5 0.03fF
+C238 Vh_Vl_3bit_2/switch_12/w_44_3# Vh_Vl_3bit_2/switch_1/out 0.03fF
+C239 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_7/out 0.20fF
+C240 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/vrefh 0.68fF
+C241 3bit_stage_0/switch_9/a_n29_n8# b2 0.05fF
+C242 3bit_stage_0/switch_11/a_n29_n8# vdd 0.95fF
+C243 Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/outl3 0.22fF
+C244 Vh_Vl_3bit_3/switch_4/w_44_3# Vh_Vl_3bit_3/switch_4/vrefh 0.03fF
+C245 Vh_Vl_3bit_3/switch_9/a_5_n8# vdd 0.05fF
+C246 3bit_stage_0/outl3 3bit_stage_0/switch_11/out 0.06fF
+C247 outH_stage1 outh_81 0.06fF
+C248 outH_stage1 3bit_stage_0/outh1 0.06fF
+C249 Vh_Vl_3bit_1/switch_4/a_n29_n8# Vh_Vl_3bit_1/switch_4/vrefh 0.02fF
+C250 Vh_Vl_3bit_1/res4_6/a_n12_4# Vh_Vl_3bit_1/switch_9/vrefl 0.01fF
+C251 Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/outh4 0.02fF
+C252 Vh_Vl_3bit_3/switch_6/a_n29_n8# Vh_Vl_3bit_3/switch_6/a_5_n8# 0.05fF
+C253 Vh_Vl_3bit_3/switch_6/w_43_n41# Vh_Vl_3bit_3/switch_6/out 0.06fF
+C254 2bit_stage_0/switch_1/a_5_n8# outL_stage2 0.02fF
+C255 switch_1/vrefh Vh_Vl_3bit_0/switch_12/out 0.06fF
+C256 Vh_Vl_3bit_1/switch_5/a_n29_n8# Vh_Vl_3bit_1/switch_5/vrefh 0.02fF
+C257 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_4/vrefh 0.68fF
+C258 3bit_stage_0/switch_3/a_n29_n8# vdd 0.95fF
+C259 Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/switch_3/out 0.02fF
+C260 Vh_Vl_3bit_0/switch_9/w_43_n41# Vh_Vl_3bit_0/switch_9/a_5_n8# 0.07fF
+C261 outH_stage2 3bit_stage_0/switch_8/w_44_3# 0.04fF
+C262 Vh_Vl_3bit_0/switch_5/a_5_n8# Vh_Vl_3bit_0/switch_5/vrefh 0.68fF
+C263 3bit_stage_0/switch_3/w_43_n41# 3bit_stage_0/switch_3/a_5_n8# 0.07fF
+C264 Vh_Vl_3bit_0/switch_10/a_n29_n8# Vh_Vl_3bit_0/switch_10/w_44_3# 0.19fF
+C265 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/res4_4/a_n12_4# 0.01fF
+C266 Vh_Vl_3bit_3/outh1 Vh_Vl_3bit_3/switch_1/vrefh 0.20fF
+C267 Vh_Vl_3bit_0/switch_2/a_5_n8# vdd 0.05fF
+C268 Vh_Vl_3bit_1/switch_5/w_43_n41# Vh_Vl_3bit_1/switch_5/a_5_n8# 0.07fF
+C269 3bit_stage_0/switch_5/w_43_n41# 3bit_stage_0/outl2 0.06fF
+C270 Vh_Vl_3bit_0/switch_5/a_n29_n8# b5 0.05fF
+C271 Vh_Vl_3bit_1/switch_3/vrefh b5 0.06fF
+C272 Vh_Vl_3bit_2/switch_11/w_44_3# Vh_Vl_3bit_2/switch_11/out 0.04fF
+C273 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/res4_7/a_n12_4# 0.01fF
+C274 switch_5/a_n29_n8# outl_81 0.02fF
+C275 Vh_Vl_3bit_2/switch_1/a_5_n8# vdd 0.05fF
+C276 3bit_stage_0/outl3 vdd 0.03fF
+C277 Vh_Vl_3bit_1/switch_6/w_44_3# Vh_Vl_3bit_1/switch_6/a_n29_n8# 0.19fF
+C278 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/vrefh 0.68fF
+C279 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_5/vrefh 0.08fF
+C280 Vh_Vl_3bit_3/switch_10/a_n29_n8# vdd 0.95fF
+C281 3bit_stage_0/switch_9/w_43_n41# 3bit_stage_0/outh3 0.06fF
+C282 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_3/vrefh 0.08fF
+C283 Vh_Vl_3bit_1/outl2 Vh_Vl_3bit_1/switch_1/out 0.08fF
+C284 Vh_Vl_3bit_1/switch_11/w_43_n41# Vh_Vl_3bit_1/switch_3/out 0.04fF
+C285 switch_2/vrefh vdd 0.05fF
+C286 switch_3/w_43_n41# outh_81 0.06fF
+C287 Vh_Vl_3bit_2/switch_4/a_5_n8# Vh_Vl_3bit_2/switch_5/vrefh 0.02fF
+C288 Vh_Vl_3bit_3/switch_0/a_n29_n8# Vh_Vl_3bit_3/vref 0.02fF
+C289 Vh_Vl_3bit_3/switch_1/out Vh_Vl_3bit_3/switch_1/vrefh 0.06fF
+C290 Vh_Vl_3bit_2/outh1 Vh_Vl_3bit_2/switch_1/vrefh 0.20fF
+C291 Vh_Vl_3bit_3/switch_12/a_n29_n8# Vh_Vl_3bit_3/switch_12/a_5_n8# 0.05fF
+C292 Vh_Vl_3bit_3/switch_12/w_43_n41# Vh_Vl_3bit_3/switch_12/out 0.06fF
+C293 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/outh2 0.02fF
+C294 Vh_Vl_3bit_1/switch_1/w_44_3# Vh_Vl_3bit_1/switch_1/a_n29_n8# 0.19fF
+C295 Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/out 0.22fF
+C296 Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_11/out 0.02fF
+C297 Vh_Vl_3bit_1/switch_2/a_n29_n8# b5 0.05fF
+C298 2bit_stage_0/switch_1/out outL_stage2 0.20fF
+C299 2bit_stage_0/switch_1/a_n29_n8# 2bit_stage_0/switch_1/vrefh 0.02fF
+C300 Vh_Vl_3bit_3/switch_9/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefh 0.02fF
+C301 Vh_Vl_3bit_2/switch_1/w_44_3# Vh_Vl_3bit_2/switch_1/a_n29_n8# 0.19fF
+C302 switch_2/vrefh Vh_Vl_3bit_2/switch_11/out 0.23fF
+C303 3bit_stage_0/switch_10/w_43_n41# 3bit_stage_0/outl3 0.06fF
+C304 3bit_stage_0/switch_11/w_44_3# 3bit_stage_0/switch_11/out 0.04fF
+C305 Vh_Vl_3bit_2/switch_7/a_n29_n8# b6 0.05fF
+C306 switch_0/vrefh b8 0.03fF
+C307 switch_3/a_n29_n8# switch_3/w_44_3# 0.19fF
+C308 vdd Vh_Vl_3bit_2/switch_0/a_n29_n8# 0.95fF
+C309 Vh_Vl_3bit_2/res4_1/a_n12_4# Vh_Vl_3bit_2/switch_1/vrefh 0.01fF
+C310 Vh_Vl_3bit_2/switch_8/w_43_n41# switch_3/vrefh 0.06fF
+C311 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/outl3 0.08fF
+C312 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/w_44_3# 0.04fF
+C313 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/outl2 0.02fF
+C314 2bit_stage_0/switch_0/w_43_n41# 2bit_stage_0/switch_0/vrefl 0.04fF
+C315 Vh_Vl_3bit_0/switch_6/a_5_n8# vdd 0.05fF
+C316 Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/switch_4/vrefh 0.08fF
+C317 Vh_Vl_3bit_3/res4_1/a_n12_4# Vh_Vl_3bit_3/switch_1/vrefh 0.01fF
+C318 b4 3bit_stage_0/switch_8/a_n29_n8# 0.05fF
+C319 3bit_stage_0/switch_8/w_43_n41# 3bit_stage_0/switch_8/a_5_n8# 0.07fF
+C320 Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_10/a_5_n8# 0.02fF
+C321 Vh_Vl_3bit_0/res4_5/a_n12_4# Vh_Vl_3bit_0/switch_9/vrefl 0.01fF
+C322 Vh_Vl_3bit_1/switch_1/a_n29_n8# b5 0.05fF
+C323 Vh_Vl_3bit_1/switch_13/w_43_n41# Vh_Vl_3bit_1/switch_13/a_5_n8# 0.07fF
+C324 Vh_Vl_3bit_1/switch_3/a_n29_n8# b5 0.05fF
+C325 Vh_Vl_3bit_1/switch_9/vrefl vdd 0.09fF
+C326 3bit_stage_0/outl2 vdd 0.02fF
+C327 Vh_Vl_3bit_0/outh3 vdd 0.03fF
+C328 switch_2/a_n29_n8# vdd 0.95fF
+C329 Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/w_43_n41# 0.04fF
+C330 Vh_Vl_3bit_2/switch_13/w_43_n41# switch_2/vrefh 0.06fF
+C331 Vh_Vl_3bit_2/switch_9/vrefh b5 0.03fF
+C332 Vh_Vl_3bit_2/switch_7/w_43_n41# Vh_Vl_3bit_2/switch_7/out 0.06fF
+C333 3bit_stage_0/outh3 b3 0.03fF
+C334 Vh_Vl_3bit_3/switch_7/out Vh_Vl_3bit_3/switch_6/out 0.08fF
+C335 Vh_Vl_3bit_3/switch_11/a_n29_n8# Vh_Vl_3bit_3/outl3 0.02fF
+C336 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_0/out 0.68fF
+C337 Vh_Vl_3bit_0/switch_5/vrefh Vh_Vl_3bit_0/outh2 0.20fF
+C338 Vh_Vl_3bit_2/switch_4/w_43_n41# Vh_Vl_3bit_2/switch_4/a_5_n8# 0.07fF
+C339 Vh_Vl_3bit_2/switch_5/a_n29_n8# Vh_Vl_3bit_2/switch_5/vrefh 0.02fF
+C340 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/outh1 0.08fF
+C341 3bit_stage_0/switch_4/vrefh b2 0.03fF
+C342 Vh_Vl_3bit_1/vref Vh_Vl_3bit_1/outh1 0.06fF
+C343 Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/outl2 0.25fF
+C344 outl_81 vdd 0.05fF
+C345 b5 vref 0.03fF
+C346 Vh_Vl_3bit_2/switch_0/w_43_n41# Vh_Vl_3bit_2/outh1 0.06fF
+C347 3bit_stage_0/switch_9/a_5_n8# 3bit_stage_0/switch_9/vrefl 0.02fF
+C348 switch_0/w_43_n41# outh_82 0.06fF
+C349 switch_0/w_43_n41# switch_0/a_5_n8# 0.07fF
+C350 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/vrefl 0.20fF
+C351 Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/switch_7/w_43_n41# 0.07fF
+C352 b9 b8 0.01fF
+C353 Vh_Vl_3bit_2/switch_6/a_n29_n8# vdd 0.95fF
+C354 Vh_Vl_3bit_3/switch_3/a_5_n8# vdd 0.05fF
+C355 2bit_stage_0/switch_1/out 2bit_stage_0/switch_0/out 0.08fF
+C356 Vh_Vl_3bit_0/res4_2/a_n12_4# Vh_Vl_3bit_0/switch_5/vrefh 0.01fF
+C357 Vh_Vl_3bit_0/switch_4/a_n29_n8# vdd 0.95fF
+C358 Vh_Vl_3bit_1/switch_12/w_44_3# Vh_Vl_3bit_1/switch_12/out 0.04fF
+C359 Vh_Vl_3bit_1/switch_3/out vdd 0.03fF
+C360 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_7/out 0.20fF
+C361 3bit_stage_0/switch_11/a_n29_n8# 3bit_stage_0/switch_11/a_5_n8# 0.05fF
+C362 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/outh1 0.06fF
+C363 Vh_Vl_3bit_1/switch_3/w_43_n41# Vh_Vl_3bit_1/switch_3/out 0.06fF
+C364 Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/w_43_n41# 0.04fF
+C365 3bit_stage_0/switch_3/w_43_n41# 3bit_stage_0/switch_3/out 0.06fF
+C366 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_3/vrefh 0.02fF
+C367 Vh_Vl_3bit_3/switch_0/a_5_n8# vdd 0.05fF
+C368 outL_stage2 3bit_stage_0/switch_9/vrefh 0.03fF
+C369 3bit_stage_0/switch_3/w_44_3# 3bit_stage_0/switch_3/out 0.04fF
+C370 b0 2bit_stage_0/switch_0/vrefh 0.03fF
+C371 Vh_Vl_3bit_0/switch_1/a_5_n8# Vh_Vl_3bit_0/switch_1/vrefh 0.68fF
+C372 Vh_Vl_3bit_1/switch_10/a_n29_n8# b5 0.05fF
+C373 Vh_Vl_3bit_2/switch_9/vrefl b5 0.06fF
+C374 Vh_Vl_3bit_3/switch_9/vrefh b5 0.03fF
+C375 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/switch_1/out 0.06fF
+C376 Vh_Vl_3bit_3/switch_7/a_n29_n8# Vh_Vl_3bit_3/switch_7/a_5_n8# 0.05fF
+C377 switch_5/a_n29_n8# vdd 0.95fF
+C378 3bit_stage_0/switch_4/a_5_n8# 3bit_stage_0/switch_5/vrefh 0.02fF
+C379 Vh_Vl_3bit_1/switch_4/a_5_n8# vdd 0.05fF
+C380 outH_stage1 switch_4/w_43_n41# 0.06fF
+C381 Vh_Vl_3bit_0/switch_8/a_n29_n8# b7 0.05fF
+C382 Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/outh1 0.68fF
+C383 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/vrefh 0.06fF
+C384 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/outh3 0.68fF
+C385 switch_0/a_n29_n8# switch_0/a_5_n8# 0.05fF
+C386 Vh_Vl_3bit_1/switch_4/vrefh b6 0.03fF
+C387 Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_2/switch_3/a_n29_n8# 0.05fF
+C388 Vh_Vl_3bit_3/outl2 Vh_Vl_3bit_3/switch_1/out 0.08fF
+C389 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_1/w_43_n41# 0.04fF
+C390 3bit_stage_0/outh3 3bit_stage_0/switch_7/out 0.06fF
+C391 3bit_stage_0/switch_3/a_5_n8# 3bit_stage_0/switch_3/vrefh 0.68fF
+C392 switch_1/w_44_3# outl_82 0.04fF
+C393 switch_0/a_5_n8# vdd 0.05fF
+C394 Vh_Vl_3bit_0/switch_1/w_44_3# Vh_Vl_3bit_0/switch_1/out 0.04fF
+C395 Vh_Vl_3bit_1/switch_8/w_43_n41# Vh_Vl_3bit_1/switch_7/out 0.04fF
+C396 Vh_Vl_3bit_0/res4_3/a_n12_4# Vh_Vl_3bit_0/switch_5/vrefh 0.01fF
+C397 Vh_Vl_3bit_0/switch_8/a_n29_n8# vdd 0.95fF
+C398 Vh_Vl_3bit_1/switch_12/out switch_1/vrefl 0.06fF
+C399 Vh_Vl_3bit_3/switch_1/a_5_n8# vdd 0.05fF
+C400 3bit_stage_0/switch_2/a_5_n8# vdd 0.05fF
+C401 Vh_Vl_3bit_2/switch_2/a_n29_n8# Vh_Vl_3bit_2/switch_2/a_5_n8# 0.05fF
+C402 Vh_Vl_3bit_0/vref outL_stage1 0.01fF
+C403 3bit_stage_0/switch_4/w_43_n41# 3bit_stage_0/switch_4/a_5_n8# 0.07fF
+C404 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/outl3 0.68fF
+C405 Vh_Vl_3bit_0/switch_5/w_44_3# Vh_Vl_3bit_0/outl2 0.04fF
+C406 Vh_Vl_3bit_0/switch_7/out Vh_Vl_3bit_0/switch_6/out 0.08fF
+C407 Vh_Vl_3bit_1/switch_10/w_44_3# Vh_Vl_3bit_1/switch_10/a_n29_n8# 0.19fF
+C408 Vh_Vl_3bit_1/switch_7/a_n29_n8# Vh_Vl_3bit_1/outh3 0.02fF
+C409 3bit_stage_0/switch_11/out vdd 0.03fF
+C410 Vh_Vl_3bit_0/switch_1/out vdd 0.03fF
+C411 Vh_Vl_3bit_1/switch_0/a_n29_n8# vdd 0.95fF
+C412 Vh_Vl_3bit_1/switch_9/w_44_3# Vh_Vl_3bit_1/switch_9/vrefh 0.03fF
+C413 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_7/out 0.06fF
+C414 outH_stage1 3bit_stage_0/switch_1/vrefh 0.08fF
+C415 Vh_Vl_3bit_0/switch_10/a_n29_n8# b5 0.05fF
+C416 Vh_Vl_3bit_3/switch_6/w_43_n41# Vh_Vl_3bit_3/outh2 0.04fF
+C417 Vh_Vl_3bit_3/res4_6/a_n12_4# Vh_Vl_3bit_3/switch_9/vrefl 0.01fF
+C418 3bit_stage_0/res_150k_1/a_n24_n112# 3bit_stage_0/switch_4/vrefh 0.01fF
+C419 Vh_Vl_3bit_0/switch_0/a_n29_n8# b5 0.05fF
+C420 Vh_Vl_3bit_0/switch_10/a_n29_n8# Vh_Vl_3bit_0/switch_10/a_5_n8# 0.05fF
+C421 Vh_Vl_3bit_0/switch_11/out Vh_Vl_3bit_0/switch_12/out 0.08fF
+C422 Vh_Vl_3bit_1/switch_8/a_5_n8# vdd 0.05fF
+C423 Vh_Vl_3bit_1/switch_11/a_n29_n8# Vh_Vl_3bit_1/outl3 0.02fF
+C424 switch_2/vrefh switch_2/a_5_n8# 0.68fF
+C425 Vh_Vl_3bit_2/switch_6/w_44_3# Vh_Vl_3bit_2/switch_6/out 0.04fF
+C426 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_3/w_44_3# 0.03fF
+C427 3bit_stage_0/switch_5/a_n29_n8# 3bit_stage_0/switch_5/vrefh 0.02fF
+C428 outH_stage2 3bit_stage_0/switch_8/w_43_n41# 0.06fF
+C429 Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_10/w_43_n41# 0.04fF
+C430 Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_10/a_5_n8# 0.02fF
+C431 3bit_stage_0/switch_0/w_44_3# 3bit_stage_0/outh1 0.04fF
+C432 3bit_stage_0/switch_12/a_5_n8# vdd 0.05fF
+C433 Vh_Vl_3bit_0/switch_9/a_n29_n8# vdd 0.95fF
+C434 b7 vdd 1.15fF
+C435 Vh_Vl_3bit_3/switch_11/out switch_2/vrefl 0.23fF
+C436 Vh_Vl_3bit_2/outh3 b6 0.03fF
+C437 Vh_Vl_3bit_3/res4_2/a_n12_4# Vh_Vl_3bit_3/switch_4/vrefh 0.01fF
+C438 Vh_Vl_3bit_1/switch_2/vrefh b6 0.05fF
+C439 3bit_stage_0/switch_2/a_n29_n8# 3bit_stage_0/switch_2/vrefh 0.02fF
+C440 switch_0/a_n29_n8# vdd 0.95fF
+C441 Vh_Vl_3bit_3/outh1 b6 0.03fF
+C442 Vh_Vl_3bit_3/switch_2/a_n29_n8# vdd 0.95fF
+C443 Vh_Vl_3bit_0/switch_1/vrefh b5 0.06fF
+C444 Vh_Vl_3bit_3/switch_4/vrefh b5 0.03fF
+C445 Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_7/out 0.02fF
+C446 Vh_Vl_3bit_2/switch_3/out b8 0.01fF
+C447 switch_2/a_n29_n8# switch_2/a_5_n8# 0.05fF
+C448 outh_82 outh_81 0.08fF
+C449 3bit_stage_0/switch_9/w_43_n41# 3bit_stage_0/switch_9/vrefl 0.04fF
+C450 3bit_stage_0/switch_7/w_44_3# 3bit_stage_0/switch_7/out 0.04fF
+C451 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/switch_4/vrefh 0.06fF
+C452 Vh_Vl_3bit_1/switch_13/a_n29_n8# b7 0.05fF
+C453 Vh_Vl_3bit_2/switch_11/out vdd 0.03fF
+C454 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/vref 0.68fF
+C455 3bit_stage_0/switch_1/a_5_n8# 3bit_stage_0/switch_1/vrefh 0.68fF
+C456 Vh_Vl_3bit_1/switch_12/out b7 0.03fF
+C457 Vh_Vl_3bit_1/switch_9/a_n29_n8# vdd 0.95fF
+C458 b0 2bit_stage_0/switch_1/a_n29_n8# 0.05fF
+C459 Vh_Vl_3bit_3/switch_12/w_43_n41# Vh_Vl_3bit_3/outl2 0.04fF
+C460 Vh_Vl_3bit_3/switch_10/a_n29_n8# Vh_Vl_3bit_3/switch_10/a_5_n8# 0.05fF
+C461 Vh_Vl_3bit_3/switch_10/w_43_n41# Vh_Vl_3bit_3/outl3 0.06fF
+C462 outH_stage1 3bit_stage_0/res_150k_0/a_n24_n112# 0.01fF
+C463 Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_5/a_5_n8# 0.02fF
+C464 Vh_Vl_3bit_0/switch_9/vrefl vdd 0.09fF
+C465 Vh_Vl_3bit_1/switch_13/a_n29_n8# vdd 0.95fF
+C466 Vh_Vl_3bit_1/switch_7/w_44_3# Vh_Vl_3bit_1/switch_7/a_n29_n8# 0.19fF
+C467 Vh_Vl_3bit_3/switch_1/out b6 0.03fF
+C468 3bit_stage_0/switch_6/a_n29_n8# vdd 0.95fF
+C469 Vh_Vl_3bit_1/switch_12/out vdd 0.08fF
+C470 Vh_Vl_3bit_1/switch_9/w_44_3# Vh_Vl_3bit_1/outh3 0.04fF
+C471 Vh_Vl_3bit_1/switch_7/w_44_3# Vh_Vl_3bit_1/switch_7/out 0.04fF
+C472 Vh_Vl_3bit_2/switch_12/a_n29_n8# b6 0.05fF
+C473 Vh_Vl_3bit_2/switch_5/a_n29_n8# b5 0.05fF
+C474 Vh_Vl_3bit_3/switch_8/w_43_n41# Vh_Vl_3bit_3/switch_8/a_5_n8# 0.07fF
+C475 2bit_stage_0/switch_0/vrefh 2bit_stage_0/switch_0/vrefl 0.08fF
+C476 Vh_Vl_3bit_2/switch_8/w_43_n41# Vh_Vl_3bit_2/switch_7/out 0.04fF
+C477 Vh_Vl_3bit_3/outh3 b6 0.03fF
+C478 Vh_Vl_3bit_0/vref b5 0.03fF
+C479 Vh_Vl_3bit_1/vref Vh_Vl_3bit_1/switch_1/vrefh 0.08fF
+C480 Vh_Vl_3bit_1/switch_11/w_44_3# Vh_Vl_3bit_1/switch_11/a_n29_n8# 0.19fF
+C481 Vh_Vl_3bit_2/res4_4/a_n12_4# Vh_Vl_3bit_2/switch_2/vrefh 0.01fF
+C482 Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/vrefh 0.08fF
+C483 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_7/a_5_n8# 0.02fF
+C484 3bit_stage_0/switch_1/a_n29_n8# b2 0.05fF
+C485 Vh_Vl_3bit_0/switch_0/w_44_3# Vh_Vl_3bit_0/switch_0/a_n29_n8# 0.19fF
+C486 Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/w_43_n41# 0.04fF
+C487 Vh_Vl_3bit_2/switch_0/w_43_n41# Vh_Vl_3bit_2/switch_1/vrefh 0.04fF
+C488 Vh_Vl_3bit_2/switch_7/a_n29_n8# Vh_Vl_3bit_2/switch_7/w_44_3# 0.19fF
+C489 Vh_Vl_3bit_2/switch_3/a_n29_n8# b5 0.05fF
+C490 3bit_stage_0/switch_6/w_44_3# 3bit_stage_0/switch_6/out 0.04fF
+C491 3bit_stage_0/switch_3/vrefh 3bit_stage_0/switch_3/out 0.06fF
+C492 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/switch_1/vrefh 0.20fF
+C493 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_7/w_43_n41# 0.04fF
+C494 Vh_Vl_3bit_1/switch_13/a_n29_n8# Vh_Vl_3bit_1/switch_12/out 0.02fF
+C495 Vh_Vl_3bit_2/switch_13/w_43_n41# Vh_Vl_3bit_2/switch_11/out 0.04fF
+C496 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/res4_6/a_n12_4# 0.01fF
+C497 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/outl3 0.08fF
+C498 3bit_stage_0/switch_5/w_44_3# 3bit_stage_0/switch_5/a_n29_n8# 0.19fF
+C499 Vh_Vl_3bit_1/switch_4/w_44_3# Vh_Vl_3bit_1/switch_4/a_n29_n8# 0.19fF
+C500 Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/outl2 0.25fF
+C501 Vh_Vl_3bit_3/switch_11/a_5_n8# Vh_Vl_3bit_3/outl3 0.68fF
+C502 3bit_stage_0/switch_10/w_44_3# 3bit_stage_0/switch_9/vrefl 0.03fF
+C503 Vh_Vl_3bit_0/switch_11/a_n29_n8# Vh_Vl_3bit_0/outl3 0.02fF
+C504 switch_4/a_n29_n8# switch_4/w_44_3# 0.19fF
+C505 3bit_stage_0/switch_4/a_n29_n8# vdd 0.95fF
+C506 Vh_Vl_3bit_0/switch_8/a_n29_n8# Vh_Vl_3bit_0/switch_8/a_5_n8# 0.05fF
+C507 Vh_Vl_3bit_0/switch_8/w_43_n41# switch_0/vrefh 0.06fF
+C508 Vh_Vl_3bit_1/switch_7/w_44_3# Vh_Vl_3bit_1/outh3 0.03fF
+C509 outh_81 vdd 0.06fF
+C510 3bit_stage_0/outh1 vdd 0.03fF
+C511 Vh_Vl_3bit_1/res4_1/a_n12_4# Vh_Vl_3bit_1/switch_4/vrefh 0.01fF
+C512 Vh_Vl_3bit_2/switch_0/a_n29_n8# Vh_Vl_3bit_2/switch_0/a_5_n8# 0.05fF
+C513 3bit_stage_0/switch_2/vrefh b3 0.05fF
+C514 b4 3bit_stage_0/switch_9/vrefh 0.10fF
+C515 Vh_Vl_3bit_0/switch_3/a_n29_n8# b5 0.05fF
+C516 Vh_Vl_3bit_1/switch_2/w_44_3# Vh_Vl_3bit_1/switch_2/vrefh 0.03fF
+C517 Vh_Vl_3bit_3/switch_5/a_n29_n8# b5 0.05fF
+C518 b6 Vh_Vl_3bit_2/switch_1/out 0.03fF
+C519 Vh_Vl_3bit_2/res4_1/a_n12_4# Vh_Vl_3bit_2/switch_4/vrefh 0.01fF
+C520 Vh_Vl_3bit_1/switch_6/a_n29_n8# b6 0.05fF
+C521 Vh_Vl_3bit_1/switch_12/a_n29_n8# Vh_Vl_3bit_1/switch_12/a_5_n8# 0.05fF
+C522 Vh_Vl_3bit_0/outh1 Vh_Vl_3bit_0/vref 0.06fF
+C523 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/outh1 0.08fF
+C524 Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_5/vrefh 0.08fF
+C525 switch_5/w_44_3# outL_stage1 0.04fF
+C526 Vh_Vl_3bit_0/switch_3/a_n29_n8# Vh_Vl_3bit_0/switch_3/w_44_3# 0.19fF
+C527 Vh_Vl_3bit_0/switch_3/w_44_3# Vh_Vl_3bit_0/switch_3/out 0.04fF
+C528 Vh_Vl_3bit_1/switch_0/w_44_3# Vh_Vl_3bit_1/outh1 0.04fF
+C529 Vh_Vl_3bit_1/switch_1/a_5_n8# Vh_Vl_3bit_1/switch_1/vrefh 0.68fF
+C530 3bit_stage_0/switch_6/a_n29_n8# 3bit_stage_0/outh1 0.02fF
+C531 3bit_stage_0/switch_2/w_44_3# 3bit_stage_0/switch_2/a_n29_n8# 0.19fF
+C532 Vh_Vl_3bit_3/switch_2/a_5_n8# vdd 0.05fF
+C533 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_2/a_n29_n8# 0.05fF
+C534 Vh_Vl_3bit_3/vref vdd 0.11fF
+C535 switch_2/w_43_n41# switch_2/vrefl 0.04fF
+C536 Vh_Vl_3bit_1/switch_2/w_44_3# Vh_Vl_3bit_1/outh4 0.04fF
+C537 Vh_Vl_3bit_3/switch_3/vrefh b9 0.03fF
+C538 switch_3/w_43_n41# switch_3/a_5_n8# 0.07fF
+C539 Vh_Vl_3bit_2/outl2 Vh_Vl_3bit_2/switch_1/out 0.08fF
+C540 2bit_stage_0/switch_0/w_44_3# 2bit_stage_0/switch_0/out 0.04fF
+C541 Vh_Vl_3bit_0/switch_3/vrefh vdd 0.07fF
+C542 3bit_stage_0/switch_12/a_n29_n8# 3bit_stage_0/switch_1/out 0.02fF
+C543 3bit_stage_0/switch_8/a_n29_n8# vdd 0.95fF
+C544 Vh_Vl_3bit_0/switch_0/w_44_3# Vh_Vl_3bit_0/vref 0.03fF
+C545 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefh 0.68fF
+C546 Vh_Vl_3bit_0/switch_4/w_43_n41# Vh_Vl_3bit_0/outh2 0.06fF
+C547 Vh_Vl_3bit_1/switch_5/vrefh b5 0.06fF
+C548 Vh_Vl_3bit_3/outh2 Vh_Vl_3bit_3/switch_4/vrefh 0.06fF
+C549 3bit_stage_0/switch_3/w_43_n41# outL_stage1 0.04fF
+C550 Vh_Vl_3bit_0/switch_6/out Vh_Vl_3bit_0/outh1 0.06fF
+C551 outL_stage2 3bit_stage_0/switch_12/out 0.06fF
+C552 Vh_Vl_3bit_0/switch_8/a_5_n8# vdd 0.05fF
+C553 Vh_Vl_3bit_1/switch_6/out switch_0/vrefl 0.06fF
+C554 Vh_Vl_3bit_2/res4_2/a_n12_4# Vh_Vl_3bit_2/switch_4/vrefh 0.01fF
+C555 Vh_Vl_3bit_2/switch_4/a_n29_n8# vdd 0.95fF
+C556 Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/outl2 0.25fF
+C557 Vh_Vl_3bit_2/switch_7/a_n29_n8# vdd 0.95fF
+C558 3bit_stage_0/switch_8/w_44_3# 3bit_stage_0/switch_6/out 0.03fF
+C559 3bit_stage_0/switch_11/a_5_n8# vdd 0.05fF
+C560 vdd switch_2/a_5_n8# 0.05fF
+C561 Vh_Vl_3bit_2/switch_3/vrefh vdd 0.07fF
+C562 3bit_stage_0/switch_5/vrefh b2 0.06fF
+C563 2bit_stage_0/switch_0/w_43_n41# 2bit_stage_0/switch_0/out 0.06fF
+C564 Vh_Vl_3bit_2/switch_10/a_n29_n8# Vh_Vl_3bit_2/switch_10/a_5_n8# 0.05fF
+C565 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_4/vrefh 0.68fF
+C566 Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_9/vrefl 0.08fF
+C567 Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_11/out 0.02fF
+C568 Vh_Vl_3bit_1/switch_8/w_44_3# Vh_Vl_3bit_1/switch_8/a_n29_n8# 0.19fF
+C569 Vh_Vl_3bit_1/switch_2/w_44_3# Vh_Vl_3bit_1/switch_2/a_n29_n8# 0.19fF
+C570 Vh_Vl_3bit_1/switch_3/w_44_3# Vh_Vl_3bit_1/switch_3/vrefh 0.03fF
+C571 Vh_Vl_3bit_2/switch_2/vrefh b5 0.03fF
+C572 Vh_Vl_3bit_2/switch_13/a_n29_n8# Vh_Vl_3bit_2/switch_12/out 0.02fF
+C573 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_2/vrefh 0.06fF
+C574 Vh_Vl_3bit_3/switch_9/vrefl b5 0.06fF
+C575 b3 3bit_stage_0/switch_1/out 0.03fF
+C576 3bit_stage_0/switch_13/w_44_3# 3bit_stage_0/switch_13/a_n29_n8# 0.19fF
+C577 Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/a_5_n8# 0.02fF
+C578 3bit_stage_0/switch_13/w_44_3# 3bit_stage_0/switch_12/out 0.03fF
+C579 2bit_stage_0/switch_1/w_44_3# 2bit_stage_0/switch_1/out 0.04fF
+C580 Vh_Vl_3bit_1/switch_5/a_5_n8# Vh_Vl_3bit_1/switch_5/vrefh 0.68fF
+C581 Vh_Vl_3bit_1/switch_8/w_44_3# Vh_Vl_3bit_1/switch_6/out 0.03fF
+C582 b7 Vh_Vl_3bit_2/switch_8/a_n29_n8# 0.05fF
+C583 Vh_Vl_3bit_2/switch_8/w_43_n41# Vh_Vl_3bit_2/switch_8/a_5_n8# 0.07fF
+C584 Vh_Vl_3bit_3/switch_4/w_43_n41# Vh_Vl_3bit_3/switch_4/a_5_n8# 0.07fF
+C585 Vh_Vl_3bit_2/switch_6/a_n29_n8# Vh_Vl_3bit_2/switch_6/a_5_n8# 0.05fF
+C586 Vh_Vl_3bit_2/switch_9/a_5_n8# Vh_Vl_3bit_2/switch_9/vrefl 0.02fF
+C587 outh_82 switch_4/w_43_n41# 0.04fF
+C588 Vh_Vl_3bit_0/switch_4/a_n29_n8# Vh_Vl_3bit_0/switch_4/a_5_n8# 0.05fF
+C589 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/outl3 0.68fF
+C590 Vh_Vl_3bit_2/switch_3/w_43_n41# Vh_Vl_3bit_2/switch_3/out 0.06fF
+C591 Vh_Vl_3bit_3/switch_6/out switch_3/vrefl 0.06fF
+C592 Vh_Vl_3bit_0/switch_12/w_44_3# Vh_Vl_3bit_0/switch_1/out 0.03fF
+C593 Vh_Vl_3bit_0/res4_3/a_n12_4# Vh_Vl_3bit_0/switch_9/vrefh 0.01fF
+C594 Vh_Vl_3bit_2/res4_2/a_n12_4# Vh_Vl_3bit_2/switch_5/vrefh 0.01fF
+C595 Vh_Vl_3bit_2/switch_8/a_n29_n8# vdd 0.95fF
+C596 Vh_Vl_3bit_3/switch_4/a_n29_n8# vdd 0.95fF
+C597 3bit_stage_0/switch_0/a_n29_n8# 3bit_stage_0/switch_0/a_5_n8# 0.05fF
+C598 Vh_Vl_3bit_0/switch_13/w_43_n41# Vh_Vl_3bit_0/switch_13/a_5_n8# 0.07fF
+C599 Vh_Vl_3bit_2/switch_5/w_44_3# Vh_Vl_3bit_2/switch_5/a_n29_n8# 0.19fF
+C600 Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/switch_4/vrefh 0.08fF
+C601 switch_5/a_5_n8# outl_82 0.02fF
+C602 Vh_Vl_3bit_1/vref b5 0.03fF
+C603 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/res4_4/a_n12_4# 0.01fF
+C604 b0 2bit_stage_0/switch_1/vrefh 0.03fF
+C605 3bit_stage_0/switch_12/w_44_3# 3bit_stage_0/switch_12/a_n29_n8# 0.19fF
+C606 Vh_Vl_3bit_0/switch_12/a_5_n8# Vh_Vl_3bit_0/outl2 0.02fF
+C607 Vh_Vl_3bit_2/switch_7/w_44_3# Vh_Vl_3bit_2/outh3 0.03fF
+C608 3bit_stage_0/switch_7/w_43_n41# 3bit_stage_0/switch_7/a_5_n8# 0.07fF
+C609 Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/res4_4/a_n12_4# 0.01fF
+C610 Vh_Vl_3bit_1/res4_6/a_n12_4# Vh_Vl_3bit_1/switch_2/vrefh 0.01fF
+C611 Vh_Vl_3bit_2/switch_2/a_n29_n8# Vh_Vl_3bit_2/switch_2/vrefh 0.02fF
+C612 outh_82 switch_4/a_5_n8# 0.02fF
+C613 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_5/vrefh 0.02fF
+C614 Vh_Vl_3bit_3/switch_10/a_5_n8# vdd 0.05fF
+C615 3bit_stage_0/res_150k_2/a_n24_n112# 3bit_stage_0/switch_4/vrefh 0.01fF
+C616 3bit_stage_0/switch_7/w_43_n41# 3bit_stage_0/switch_7/out 0.06fF
+C617 b1 2bit_stage_0/switch_2/a_n29_n8# 0.05fF
+C618 2bit_stage_0/switch_1/a_5_n8# vdd 0.05fF
+C619 Vh_Vl_3bit_0/switch_3/out Vh_Vl_3bit_0/switch_11/out 0.42fF
+C620 Vh_Vl_3bit_1/switch_11/a_n29_n8# b6 0.05fF
+C621 Vh_Vl_3bit_1/res4_0/a_n12_4# Vh_Vl_3bit_1/switch_1/vrefh 0.01fF
+C622 3bit_stage_0/switch_8/a_5_n8# 3bit_stage_0/switch_7/out 0.02fF
+C623 3bit_stage_0/switch_9/vrefh 3bit_stage_0/outl2 0.25fF
+C624 Vh_Vl_3bit_1/switch_3/w_44_3# Vh_Vl_3bit_1/switch_3/a_n29_n8# 0.19fF
+C625 Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_5/w_43_n41# 0.04fF
+C626 Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_11/out 0.02fF
+C627 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefh 0.68fF
+C628 3bit_stage_0/switch_11/w_43_n41# 3bit_stage_0/switch_11/out 0.06fF
+C629 Vh_Vl_3bit_0/switch_12/w_43_n41# Vh_Vl_3bit_0/switch_12/a_5_n8# 0.07fF
+C630 Vh_Vl_3bit_1/outl2 vdd 0.02fF
+C631 Vh_Vl_3bit_1/switch_9/w_43_n41# Vh_Vl_3bit_1/outh3 0.06fF
+C632 Vh_Vl_3bit_2/switch_9/w_43_n41# Vh_Vl_3bit_2/switch_9/a_5_n8# 0.07fF
+C633 Vh_Vl_3bit_3/switch_2/w_44_3# Vh_Vl_3bit_3/switch_2/vrefh 0.03fF
+C634 vdd Vh_Vl_3bit_2/switch_0/a_5_n8# 0.05fF
+C635 Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/vrefh 0.08fF
+C636 3bit_stage_0/switch_9/w_44_3# 3bit_stage_0/switch_9/a_n29_n8# 0.19fF
+C637 3bit_stage_0/outl3 3bit_stage_0/switch_9/vrefl 0.06fF
+C638 3bit_stage_0/outh3 vdd 0.03fF
+C639 2bit_stage_0/switch_0/a_5_n8# vdd 0.05fF
+C640 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/w_44_3# 0.04fF
+C641 Vh_Vl_3bit_1/switch_4/vrefh vdd 0.06fF
+C642 switch_0/vrefh Vh_Vl_3bit_0/switch_7/out 0.20fF
+C643 Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/switch_3/out 0.06fF
+C644 3bit_stage_0/switch_2/a_n29_n8# b2 0.05fF
+C645 3bit_stage_0/switch_6/w_43_n41# 3bit_stage_0/switch_6/out 0.06fF
+C646 Vh_Vl_3bit_0/switch_4/vrefh b5 0.03fF
+C647 switch_3/vrefh vdd 0.03fF
+C648 Vh_Vl_3bit_3/switch_4/vrefh b6 0.03fF
+C649 2bit_stage_0/switch_2/a_5_n8# vdd 0.05fF
+C650 Vh_Vl_3bit_1/res4_4/a_n12_4# Vh_Vl_3bit_1/switch_2/vrefh 0.01fF
+C651 outL_stage2 b2 0.01fF
+C652 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_3/vref 0.08fF
+C653 3bit_stage_0/switch_10/w_44_3# 3bit_stage_0/switch_10/a_n29_n8# 0.19fF
+C654 3bit_stage_0/switch_2/vrefh 3bit_stage_0/outl3 0.22fF
+C655 2bit_stage_0/res_150k_2/a_n24_n112# 2bit_stage_0/switch_1/vrefh 0.01fF
+C656 Vh_Vl_3bit_1/switch_12/out Vh_Vl_3bit_1/outl2 0.22fF
+C657 Vh_Vl_3bit_3/switch_5/a_n29_n8# Vh_Vl_3bit_3/switch_5/vrefh 0.02fF
+C658 3bit_stage_0/switch_4/w_44_3# 3bit_stage_0/switch_4/vrefh 0.03fF
+C659 3bit_stage_0/res_150k_7/a_n24_n112# 3bit_stage_0/switch_3/vrefh 0.01fF
+C660 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefl 0.02fF
+C661 Vh_Vl_3bit_2/switch_5/a_5_n8# Vh_Vl_3bit_2/switch_5/vrefh 0.68fF
+C662 Vh_Vl_3bit_2/switch_8/w_44_3# Vh_Vl_3bit_2/switch_6/out 0.03fF
+C663 switch_5/a_5_n8# outl_81 0.68fF
+C664 switch_4/a_5_n8# vdd 0.05fF
+C665 3bit_stage_0/switch_1/vrefh vdd 0.09fF
+C666 outL_stage1 b8 0.01fF
+C667 Vh_Vl_3bit_2/switch_0/a_n29_n8# vref 0.02fF
+C668 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_3/a_n29_n8# 0.02fF
+C669 3bit_stage_0/switch_3/vrefh outL_stage1 0.08fF
+C670 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/w_43_n41# 0.07fF
+C671 Vh_Vl_3bit_2/switch_6/a_5_n8# vdd 0.05fF
+C672 Vh_Vl_3bit_2/switch_13/w_44_3# Vh_Vl_3bit_2/switch_13/a_n29_n8# 0.19fF
+C673 Vh_Vl_3bit_3/switch_5/w_44_3# Vh_Vl_3bit_3/switch_5/a_n29_n8# 0.19fF
+C674 2bit_stage_0/res_150k_3/a_n24_n112# 2bit_stage_0/switch_1/vrefh 0.01fF
+C675 Vh_Vl_3bit_0/switch_4/a_5_n8# vdd 0.05fF
+C676 Vh_Vl_3bit_0/switch_10/w_43_n41# Vh_Vl_3bit_0/outl3 0.06fF
+C677 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_7/out 0.20fF
+C678 Vh_Vl_3bit_1/switch_12/w_43_n41# Vh_Vl_3bit_1/switch_12/out 0.06fF
+C679 Vh_Vl_3bit_0/switch_9/w_44_3# Vh_Vl_3bit_0/switch_9/vrefh 0.03fF
+C680 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_5/w_43_n41# 0.04fF
+C681 Vh_Vl_3bit_1/switch_7/a_n29_n8# Vh_Vl_3bit_1/switch_7/a_5_n8# 0.05fF
+C682 switch_1/vrefh b8 0.02fF
+C683 Vh_Vl_3bit_1/switch_0/a_n29_n8# Vh_Vl_3bit_1/switch_0/a_5_n8# 0.05fF
+C684 Vh_Vl_3bit_1/res4_4/a_n12_4# Vh_Vl_3bit_1/switch_3/vrefh 0.01fF
+C685 Vh_Vl_3bit_2/outh3 vdd 0.03fF
+C686 3bit_stage_0/switch_13/a_n29_n8# b4 0.05fF
+C687 Vh_Vl_3bit_1/switch_2/vrefh vdd 0.06fF
+C688 Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/switch_11/w_43_n41# 0.07fF
+C689 Vh_Vl_3bit_3/outh1 vdd 0.03fF
+C690 b4 3bit_stage_0/switch_12/out 0.03fF
+C691 switch_5/a_5_n8# switch_5/a_n29_n8# 0.05fF
+C692 Vh_Vl_3bit_1/switch_2/w_43_n41# Vh_Vl_3bit_1/outh4 0.06fF
+C693 Vh_Vl_3bit_0/switch_10/w_43_n41# Vh_Vl_3bit_0/switch_10/a_5_n8# 0.07fF
+C694 Vh_Vl_3bit_1/switch_4/w_44_3# Vh_Vl_3bit_1/outh2 0.04fF
+C695 Vh_Vl_3bit_1/switch_10/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefl 0.02fF
+C696 Vh_Vl_3bit_0/switch_1/a_n29_n8# Vh_Vl_3bit_0/switch_1/a_5_n8# 0.05fF
+C697 Vh_Vl_3bit_0/switch_1/w_43_n41# Vh_Vl_3bit_0/switch_1/out 0.06fF
+C698 Vh_Vl_3bit_0/outh2 Vh_Vl_3bit_0/outh1 0.08fF
+C699 Vh_Vl_3bit_1/switch_2/w_43_n41# Vh_Vl_3bit_1/switch_3/vrefh 0.04fF
+C700 switch_3/vrefh outh_81 0.06fF
+C701 Vh_Vl_3bit_2/switch_10/a_n29_n8# b5 0.05fF
+C702 b3 b2 0.02fF
+C703 Vh_Vl_3bit_3/switch_1/out vdd 0.03fF
+C704 Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_5/vrefh 0.08fF
+C705 Vh_Vl_3bit_0/switch_11/w_44_3# Vh_Vl_3bit_0/switch_11/a_n29_n8# 0.19fF
+C706 Vh_Vl_3bit_1/switch_5/w_44_3# Vh_Vl_3bit_1/outl2 0.04fF
+C707 Vh_Vl_3bit_3/switch_3/w_44_3# Vh_Vl_3bit_3/switch_3/a_n29_n8# 0.19fF
+C708 switch_1/a_n29_n8# b8 0.05fF
+C709 Vh_Vl_3bit_0/switch_7/a_n29_n8# Vh_Vl_3bit_0/switch_7/w_44_3# 0.19fF
+C710 Vh_Vl_3bit_2/switch_6/out Vh_Vl_3bit_2/outh2 0.20fF
+C711 Vh_Vl_3bit_2/switch_12/a_n29_n8# vdd 0.95fF
+C712 Vh_Vl_3bit_3/switch_11/a_n29_n8# Vh_Vl_3bit_3/switch_11/a_5_n8# 0.05fF
+C713 outH_stage2 3bit_stage_0/switch_7/out 0.20fF
+C714 2bit_stage_0/switch_0/vrefh 2bit_stage_0/switch_0/out 0.06fF
+C715 2bit_stage_0/switch_1/w_43_n41# 2bit_stage_0/switch_1/out 0.06fF
+C716 Vh_Vl_3bit_0/switch_4/w_43_n41# Vh_Vl_3bit_0/switch_5/vrefh 0.04fF
+C717 Vh_Vl_3bit_0/switch_5/a_n29_n8# vdd 0.95fF
+C718 Vh_Vl_3bit_0/switch_5/w_43_n41# Vh_Vl_3bit_0/outl2 0.06fF
+C719 Vh_Vl_3bit_0/switch_11/a_n29_n8# b6 0.05fF
+C720 Vh_Vl_3bit_1/switch_7/a_5_n8# Vh_Vl_3bit_1/outh3 0.68fF
+C721 Vh_Vl_3bit_3/outh3 vdd 0.04fF
+C722 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/switch_1/out 0.06fF
+C723 Vh_Vl_3bit_1/switch_0/a_5_n8# vdd 0.05fF
+C724 Vh_Vl_3bit_1/switch_3/vrefh vdd 0.07fF
+C725 switch_4/a_5_n8# outh_81 0.68fF
+C726 Vh_Vl_3bit_3/switch_13/a_n29_n8# Vh_Vl_3bit_3/switch_13/a_5_n8# 0.05fF
+C727 3bit_stage_0/outh1 3bit_stage_0/switch_1/vrefh 0.20fF
+C728 Vh_Vl_3bit_2/switch_7/w_44_3# Vh_Vl_3bit_2/switch_7/out 0.04fF
+C729 Vh_Vl_3bit_3/switch_11/out Vh_Vl_3bit_3/switch_12/out 0.08fF
+C730 Vh_Vl_3bit_3/switch_3/w_44_3# Vh_Vl_3bit_3/switch_3/vrefh 0.03fF
+C731 Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_9/vrefl 0.08fF
+C732 3bit_stage_0/switch_9/vrefh vdd 0.06fF
+C733 Vh_Vl_3bit_2/switch_10/w_44_3# Vh_Vl_3bit_2/switch_9/vrefl 0.03fF
+C734 Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/outl3 0.68fF
+C735 Vh_Vl_3bit_0/switch_9/a_n29_n8# Vh_Vl_3bit_0/switch_9/a_5_n8# 0.05fF
+C736 b8 b5 0.04fF
+C737 3bit_stage_0/res_150k_4/a_n24_n112# 3bit_stage_0/switch_9/vrefh 0.01fF
+C738 3bit_stage_0/switch_3/a_5_n8# outL_stage1 0.02fF
+C739 Vh_Vl_3bit_2/switch_6/w_43_n41# Vh_Vl_3bit_2/switch_6/out 0.06fF
+C740 3bit_stage_0/switch_5/a_5_n8# 3bit_stage_0/switch_5/vrefh 0.68fF
+C741 3bit_stage_0/switch_7/a_5_n8# 3bit_stage_0/outh4 0.02fF
+C742 Vh_Vl_3bit_1/switch_9/vrefh b5 0.03fF
+C743 vdd switch_3/a_5_n8# 0.05fF
+C744 3bit_stage_0/outh4 3bit_stage_0/switch_7/out 0.20fF
+C745 Vh_Vl_3bit_0/switch_13/a_n29_n8# b7 0.05fF
+C746 Vh_Vl_3bit_1/switch_2/a_n29_n8# vdd 0.95fF
+C747 b2 outH_stage1 0.03fF
+C748 3bit_stage_0/switch_0/w_43_n41# 3bit_stage_0/outh1 0.06fF
+C749 Vh_Vl_3bit_0/switch_12/out b7 0.03fF
+C750 Vh_Vl_3bit_0/switch_9/a_5_n8# vdd 0.05fF
+C751 3bit_stage_0/outl2 3bit_stage_0/switch_1/out 0.08fF
+C752 Vh_Vl_3bit_0/res4_6/a_n12_4# Vh_Vl_3bit_0/switch_9/vrefl 0.01fF
+C753 Vh_Vl_3bit_2/switch_4/w_44_3# Vh_Vl_3bit_2/switch_4/vrefh 0.03fF
+C754 switch_5/a_5_n8# vdd 0.05fF
+C755 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_2/vrefh 0.68fF
+C756 Vh_Vl_3bit_0/switch_13/a_n29_n8# vdd 0.95fF
+C757 vdd Vh_Vl_3bit_2/switch_1/out 0.03fF
+C758 Vh_Vl_3bit_2/switch_2/w_44_3# Vh_Vl_3bit_2/switch_2/vrefh 0.03fF
+C759 b1 2bit_stage_0/switch_0/out 0.03fF
+C760 Vh_Vl_3bit_0/switch_12/out vdd 0.08fF
+C761 Vh_Vl_3bit_1/switch_6/a_n29_n8# vdd 0.95fF
+C762 Vh_Vl_3bit_0/switch_5/w_44_3# Vh_Vl_3bit_0/switch_5/vrefh 0.03fF
+C763 b7 Vh_Vl_3bit_2/switch_9/vrefh 0.10fF
+C764 Vh_Vl_3bit_2/switch_2/vrefh b6 0.05fF
+C765 Vh_Vl_3bit_2/switch_1/a_n29_n8# Vh_Vl_3bit_2/switch_1/vrefh 0.02fF
+C766 Vh_Vl_3bit_3/switch_3/out vdd 0.03fF
+C767 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_3/vrefh 0.20fF
+C768 Vh_Vl_3bit_0/switch_6/w_44_3# Vh_Vl_3bit_0/switch_6/out 0.04fF
+C769 Vh_Vl_3bit_0/switch_9/a_5_n8# Vh_Vl_3bit_0/switch_9/vrefl 0.02fF
+C770 Vh_Vl_3bit_0/switch_7/w_43_n41# Vh_Vl_3bit_0/switch_7/out 0.06fF
+C771 Vh_Vl_3bit_1/switch_1/a_n29_n8# vdd 0.95fF
+C772 Vh_Vl_3bit_1/switch_3/a_n29_n8# vdd 0.95fF
+C773 Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_5/a_5_n8# 0.02fF
+C774 Vh_Vl_3bit_1/switch_9/a_5_n8# vdd 0.05fF
+C775 Vh_Vl_3bit_3/vref Vh_Vl_3bit_3/outh1 0.06fF
+C776 3bit_stage_0/switch_6/out 3bit_stage_0/outh2 0.20fF
+C777 b9 b5 0.02fF
+C778 Vh_Vl_3bit_0/switch_1/a_n29_n8# b5 0.05fF
+C779 Vh_Vl_3bit_2/switch_4/w_44_3# Vh_Vl_3bit_2/outh2 0.04fF
+C780 Vh_Vl_3bit_2/switch_9/vrefh vdd 0.06fF
+C781 Vh_Vl_3bit_2/switch_11/a_n29_n8# b6 0.05fF
+C782 Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_2/switch_3/w_43_n41# 0.07fF
+C783 3bit_stage_0/switch_6/a_5_n8# vdd 0.05fF
+C784 3bit_stage_0/switch_11/w_43_n41# 3bit_stage_0/switch_11/a_5_n8# 0.07fF
+C785 Vh_Vl_3bit_1/switch_13/a_5_n8# vdd 0.05fF
+C786 Vh_Vl_3bit_2/switch_1/w_43_n41# Vh_Vl_3bit_2/switch_1/a_5_n8# 0.07fF
+C787 b4 b2 0.05fF
+C788 Vh_Vl_3bit_1/switch_9/a_n29_n8# Vh_Vl_3bit_1/switch_9/a_5_n8# 0.05fF
+C789 Vh_Vl_3bit_2/switch_3/w_44_3# Vh_Vl_3bit_2/switch_3/a_n29_n8# 0.19fF
+C790 b7 Vh_Vl_3bit_2/switch_7/out 0.08fF
+C791 vdd vref 0.03fF
+C792 3bit_stage_0/switch_12/out 3bit_stage_0/outl2 0.22fF
+C793 3bit_stage_0/switch_9/vrefl vdd 0.09fF
+C794 Vh_Vl_3bit_1/switch_12/a_n29_n8# Vh_Vl_3bit_1/switch_1/out 0.02fF
+C795 Vh_Vl_3bit_1/outh1 Vh_Vl_3bit_1/switch_1/vrefh 0.20fF
+C796 3bit_stage_0/switch_6/a_n29_n8# 3bit_stage_0/switch_6/a_5_n8# 0.05fF
+C797 3bit_stage_0/switch_9/vrefl 3bit_stage_0/res_150k_4/a_n24_n112# 0.01fF
+C798 Vh_Vl_3bit_1/switch_13/a_n29_n8# Vh_Vl_3bit_1/switch_13/a_5_n8# 0.05fF
+C799 b5 Vh_Vl_3bit_2/switch_1/vrefh 0.06fF
+C800 Vh_Vl_3bit_2/outl3 b6 0.03fF
+C801 Vh_Vl_3bit_2/res4_3/a_n12_4# Vh_Vl_3bit_2/switch_9/vrefh 0.01fF
+C802 Vh_Vl_3bit_2/switch_7/a_n29_n8# Vh_Vl_3bit_2/outh3 0.02fF
+C803 Vh_Vl_3bit_3/switch_12/out switch_2/vrefl 0.06fF
+C804 Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/outl3 0.22fF
+C805 Vh_Vl_3bit_2/switch_2/a_5_n8# vdd 0.05fF
+C806 Vh_Vl_3bit_1/switch_13/a_5_n8# Vh_Vl_3bit_1/switch_12/out 0.68fF
+C807 Vh_Vl_3bit_3/switch_9/vrefh b7 0.10fF
+C808 3bit_stage_0/switch_2/vrefh vdd 0.06fF
+C809 Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/outh2 0.20fF
+C810 Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/outl2 0.02fF
+C811 3bit_stage_0/switch_3/a_n29_n8# b2 0.05fF
+C812 Vh_Vl_3bit_0/switch_8/w_43_n41# Vh_Vl_3bit_0/switch_7/out 0.04fF
+C813 Vh_Vl_3bit_1/switch_10/a_n29_n8# vdd 0.95fF
+C814 Vh_Vl_3bit_2/switch_9/vrefl vdd 0.09fF
+C815 Vh_Vl_3bit_3/switch_9/vrefh vdd 0.06fF
+C816 Vh_Vl_3bit_3/switch_9/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefl 0.02fF
+C817 3bit_stage_0/switch_4/a_5_n8# vdd 0.05fF
+C818 Vh_Vl_3bit_3/switch_6/a_n29_n8# b6 0.05fF
+C819 Vh_Vl_3bit_0/switch_0/w_43_n41# Vh_Vl_3bit_0/switch_1/vrefh 0.04fF
+C820 Vh_Vl_3bit_3/switch_7/out b7 0.03fF
+C821 Vh_Vl_3bit_3/switch_13/a_n29_n8# Vh_Vl_3bit_3/switch_12/out 0.02fF
+C822 Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_0/vref 0.02fF
+C823 3bit_stage_0/switch_5/vrefh 3bit_stage_0/res_150k_2/a_n24_n112# 0.01fF
+C824 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_10/w_43_n41# 0.04fF
+C825 Vh_Vl_3bit_0/switch_11/w_43_n41# Vh_Vl_3bit_0/switch_3/out 0.04fF
+C826 Vh_Vl_3bit_1/switch_12/w_43_n41# Vh_Vl_3bit_1/outl2 0.04fF
+C827 Vh_Vl_3bit_2/switch_12/w_43_n41# Vh_Vl_3bit_2/switch_12/a_5_n8# 0.07fF
+C828 3bit_stage_0/switch_3/out outL_stage1 0.22fF
+C829 Vh_Vl_3bit_0/switch_5/w_43_n41# Vh_Vl_3bit_0/switch_5/a_5_n8# 0.07fF
+C830 Vh_Vl_3bit_2/res4_5/a_n12_4# Vh_Vl_3bit_2/switch_9/vrefh 0.01fF
+C831 Vh_Vl_3bit_3/outl3 b6 0.03fF
+C832 3bit_stage_0/switch_4/w_44_3# 3bit_stage_0/outh2 0.04fF
+C833 3bit_stage_0/res_150k_5/a_n24_n112# 3bit_stage_0/switch_9/vrefl 0.01fF
+C834 switch_0/vrefl outh_82 0.20fF
+C835 switch_0/vrefl switch_0/a_5_n8# 0.02fF
+C836 Vh_Vl_3bit_0/switch_5/vrefh b5 0.06fF
+C837 Vh_Vl_3bit_0/switch_4/vrefh b6 0.03fF
+C838 3bit_stage_0/switch_1/w_43_n41# 3bit_stage_0/switch_1/a_5_n8# 0.07fF
+C839 3bit_stage_0/switch_6/a_5_n8# 3bit_stage_0/outh1 0.68fF
+C840 2bit_stage_0/switch_0/a_n29_n8# vdd 0.95fF
+C841 Vh_Vl_3bit_1/switch_0/w_43_n41# Vh_Vl_3bit_1/outh1 0.06fF
+C842 Vh_Vl_3bit_3/switch_7/out vdd 0.01fF
+C843 Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/a_5_n8# 0.02fF
+C844 Vh_Vl_3bit_3/switch_6/w_44_3# Vh_Vl_3bit_3/outh1 0.03fF
+C845 switch_5/w_43_n41# outL_stage1 0.06fF
+C846 3bit_stage_0/switch_9/a_n29_n8# 3bit_stage_0/switch_9/a_5_n8# 0.05fF
+C847 Vh_Vl_3bit_3/switch_12/a_n29_n8# b6 0.05fF
+C848 b0 2bit_stage_0/switch_0/vrefl 0.03fF
+C849 switch_0/vrefl switch_0/w_43_n41# 0.04fF
+C850 switch_0/w_44_3# outh_82 0.04fF
+C851 Vh_Vl_3bit_0/switch_1/out Vh_Vl_3bit_0/switch_1/vrefh 0.06fF
+C852 Vh_Vl_3bit_2/outh2 Vh_Vl_3bit_2/switch_4/vrefh 0.06fF
+C853 Vh_Vl_3bit_2/switch_11/a_n29_n8# Vh_Vl_3bit_2/switch_11/w_44_3# 0.19fF
+C854 Vh_Vl_3bit_3/switch_9/vrefh Vh_Vl_3bit_3/switch_5/w_43_n41# 0.04fF
+C855 3bit_stage_0/res_150k_5/a_n24_n112# 3bit_stage_0/switch_2/vrefh 0.01fF
+C856 Vh_Vl_3bit_0/switch_10/a_n29_n8# vdd 0.95fF
+C857 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/w_43_n41# 0.06fF
+C858 Vh_Vl_3bit_1/switch_4/w_43_n41# Vh_Vl_3bit_1/outh2 0.06fF
+C859 switch_4/w_43_n41# switch_4/a_5_n8# 0.07fF
+C860 3bit_stage_0/switch_12/a_5_n8# 3bit_stage_0/switch_1/out 0.68fF
+C861 3bit_stage_0/switch_8/a_5_n8# vdd 0.05fF
+C862 Vh_Vl_3bit_0/switch_0/a_n29_n8# vdd 0.95fF
+C863 Vh_Vl_3bit_1/switch_11/a_n29_n8# vdd 0.95fF
+C864 Vh_Vl_3bit_1/res4_2/a_n12_4# Vh_Vl_3bit_1/switch_4/vrefh 0.01fF
+C865 b6 Vh_Vl_3bit_2/outh1 0.03fF
+C866 2bit_stage_0/switch_2/a_5_n8# 2bit_stage_0/switch_1/out 0.02fF
+C867 Vh_Vl_3bit_0/outh2 b6 0.03fF
+C868 Vh_Vl_3bit_0/switch_7/a_n29_n8# b6 0.05fF
+C869 Vh_Vl_3bit_3/switch_9/w_43_n41# Vh_Vl_3bit_3/switch_9/a_5_n8# 0.07fF
+C870 Vh_Vl_3bit_3/switch_10/a_n29_n8# Vh_Vl_3bit_3/switch_9/vrefl 0.02fF
+C871 3bit_stage_0/switch_5/a_n29_n8# vdd 0.95fF
+C872 Vh_Vl_3bit_2/switch_4/a_5_n8# vdd 0.05fF
+C873 Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/switch_4/vrefh 0.08fF
+C874 switch_4/a_n29_n8# vdd 0.95fF
+C875 3bit_stage_0/switch_1/out vdd 0.03fF
+C876 3bit_stage_0/res_150k_3/a_n24_n112# 3bit_stage_0/switch_5/vrefh 0.01fF
+C877 3bit_stage_0/switch_11/out 3bit_stage_0/switch_12/out 0.08fF
+C878 Vh_Vl_3bit_1/switch_5/w_43_n41# Vh_Vl_3bit_1/outl2 0.06fF
+C879 Vh_Vl_3bit_1/switch_7/out Vh_Vl_3bit_1/switch_6/out 0.08fF
+C880 Vh_Vl_3bit_2/switch_11/w_44_3# Vh_Vl_3bit_2/outl3 0.03fF
+C881 Vh_Vl_3bit_0/switch_1/w_44_3# Vh_Vl_3bit_0/switch_1/vrefh 0.03fF
+C882 Vh_Vl_3bit_0/switch_10/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefl 0.02fF
+C883 Vh_Vl_3bit_2/res4_5/a_n12_4# Vh_Vl_3bit_2/switch_9/vrefl 0.01fF
+C884 Vh_Vl_3bit_3/res4_3/a_n12_4# Vh_Vl_3bit_3/switch_9/vrefh 0.01fF
+C885 3bit_stage_0/switch_4/a_n29_n8# 3bit_stage_0/switch_4/a_5_n8# 0.05fF
+C886 Vh_Vl_3bit_1/switch_12/a_n29_n8# b6 0.05fF
+C887 Vh_Vl_3bit_1/switch_5/a_n29_n8# b5 0.05fF
+C888 Vh_Vl_3bit_1/switch_10/w_43_n41# Vh_Vl_3bit_1/switch_10/a_5_n8# 0.07fF
+C889 Vh_Vl_3bit_1/switch_6/w_44_3# Vh_Vl_3bit_1/outh1 0.03fF
+C890 switch_3/vrefl switch_3/w_43_n41# 0.04fF
+C891 Vh_Vl_3bit_0/outl2 Vh_Vl_3bit_0/switch_1/out 0.08fF
+C892 3bit_stage_0/switch_7/w_44_3# 3bit_stage_0/outh3 0.03fF
+C893 Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/outh2 0.02fF
+C894 Vh_Vl_3bit_3/switch_12/w_44_3# Vh_Vl_3bit_3/switch_1/out 0.03fF
+C895 Vh_Vl_3bit_3/switch_3/w_43_n41# Vh_Vl_3bit_3/switch_3/a_5_n8# 0.07fF
+C896 3bit_stage_0/switch_3/w_44_3# 3bit_stage_0/switch_3/a_n29_n8# 0.19fF
+C897 Vh_Vl_3bit_0/switch_1/vrefh vdd 0.09fF
+C898 Vh_Vl_3bit_1/switch_2/w_43_n41# Vh_Vl_3bit_1/switch_2/a_5_n8# 0.07fF
+C899 Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_12/out 0.68fF
+C900 Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/outh2 0.20fF
+C901 Vh_Vl_3bit_3/switch_4/vrefh vdd 0.06fF
+C902 2bit_stage_0/switch_1/vrefh outL_stage2 0.08fF
+C903 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_10/w_43_n41# 0.04fF
+C904 Vh_Vl_3bit_1/switch_6/a_5_n8# Vh_Vl_3bit_1/outh2 0.02fF
+C905 Vh_Vl_3bit_2/switch_6/w_43_n41# Vh_Vl_3bit_2/outh2 0.04fF
+C906 2bit_stage_0/switch_0/vrefl 2bit_stage_0/res_150k_2/a_n24_n112# 0.01fF
+C907 switch_0/a_n29_n8# switch_0/w_44_3# 0.19fF
+C908 Vh_Vl_3bit_0/switch_8/a_n29_n8# Vh_Vl_3bit_0/switch_6/out 0.02fF
+C909 3bit_stage_0/switch_13/a_n29_n8# vdd 0.95fF
+C910 Vh_Vl_3bit_1/switch_2/a_5_n8# vdd 0.05fF
+C911 3bit_stage_0/switch_0/a_n29_n8# outH_stage1 0.02fF
+C912 3bit_stage_0/switch_0/w_43_n41# 3bit_stage_0/switch_1/vrefh 0.04fF
+C913 3bit_stage_0/switch_12/out vdd 0.08fF
+C914 Vh_Vl_3bit_1/switch_5/a_n29_n8# Vh_Vl_3bit_1/switch_5/a_5_n8# 0.05fF
+C915 Vh_Vl_3bit_2/switch_8/a_5_n8# vdd 0.05fF
+C916 Vh_Vl_3bit_3/switch_4/a_5_n8# vdd 0.05fF
+C917 Vh_Vl_3bit_3/switch_3/a_n29_n8# b5 0.05fF
+C918 3bit_stage_0/outh2 3bit_stage_0/switch_4/vrefh 0.06fF
+C919 Vh_Vl_3bit_0/switch_13/w_44_3# switch_1/vrefh 0.04fF
+C920 Vh_Vl_3bit_2/switch_5/a_n29_n8# vdd 0.95fF
+C921 Vh_Vl_3bit_3/switch_2/a_n29_n8# Vh_Vl_3bit_3/switch_2/w_44_3# 0.19fF
+C922 Vh_Vl_3bit_0/switch_13/a_5_n8# vdd 0.05fF
+C923 Vh_Vl_3bit_0/outl2 vdd 0.02fF
+C924 Vh_Vl_3bit_0/vref vdd 0.16fF
+C925 Vh_Vl_3bit_1/switch_6/w_43_n41# Vh_Vl_3bit_1/switch_6/a_5_n8# 0.07fF
+C926 3bit_stage_0/outh3 3bit_stage_0/switch_9/vrefh 0.06fF
+C927 Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/switch_7/w_43_n41# 0.07fF
+C928 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_2/a_5_n8# 0.02fF
+C929 Vh_Vl_3bit_3/switch_3/vrefh b5 0.06fF
+C930 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_11/w_43_n41# 0.07fF
+C931 Vh_Vl_3bit_1/switch_4/a_5_n8# Vh_Vl_3bit_1/switch_5/vrefh 0.02fF
+C932 Vh_Vl_3bit_2/switch_3/a_n29_n8# vdd 0.95fF
+C933 Vh_Vl_3bit_1/switch_3/a_5_n8# vdd 0.05fF
+C934 switch_4/a_n29_n8# outh_81 0.02fF
+C935 Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/outl2 0.02fF
+C936 Vh_Vl_3bit_1/switch_1/w_43_n41# Vh_Vl_3bit_1/switch_1/a_5_n8# 0.07fF
+C937 Vh_Vl_3bit_1/switch_3/w_43_n41# Vh_Vl_3bit_1/switch_3/a_5_n8# 0.07fF
+C938 b8 b6 0.02fF
+C939 Vh_Vl_3bit_2/switch_4/w_43_n41# Vh_Vl_3bit_2/outh2 0.06fF
+C940 3bit_stage_0/switch_1/vrefh 3bit_stage_0/res_150k_0/a_n24_n112# 0.01fF
+C941 Vh_Vl_3bit_0/switch_6/out b7 0.03fF
+C942 Vh_Vl_3bit_2/switch_13/a_n29_n8# b7 0.05fF
+C943 switch_5/w_44_3# outl_81 0.03fF
+C944 3bit_stage_0/switch_10/a_n29_n8# vdd 0.95fF
+C945 Vh_Vl_3bit_0/switch_12/w_44_3# Vh_Vl_3bit_0/switch_12/out 0.04fF
+C946 switch_3/vrefh switch_3/a_5_n8# 0.68fF
+C947 Vh_Vl_3bit_2/switch_9/w_44_3# Vh_Vl_3bit_2/outh3 0.04fF
+C948 Vh_Vl_3bit_2/switch_7/a_5_n8# Vh_Vl_3bit_2/outh4 0.02fF
+C949 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_2/vrefh 0.06fF
+C950 Vh_Vl_3bit_1/res4_5/a_n12_4# Vh_Vl_3bit_1/switch_9/vrefl 0.01fF
+C951 3bit_stage_0/switch_5/vrefh 3bit_stage_0/switch_4/vrefh 0.08fF
+C952 Vh_Vl_3bit_0/switch_6/out vdd 0.03fF
+C953 Vh_Vl_3bit_3/switch_1/w_44_3# Vh_Vl_3bit_3/switch_1/vrefh 0.03fF
+C954 Vh_Vl_3bit_3/switch_5/a_n29_n8# vdd 0.95fF
+C955 3bit_stage_0/switch_1/w_44_3# 3bit_stage_0/switch_1/vrefh 0.03fF
+C956 3bit_stage_0/switch_8/a_n29_n8# 3bit_stage_0/switch_8/a_5_n8# 0.05fF
+C957 Vh_Vl_3bit_0/switch_3/out vdd 0.03fF
+C958 Vh_Vl_3bit_0/switch_3/a_n29_n8# vdd 0.95fF
+C959 Vh_Vl_3bit_2/switch_4/w_43_n41# Vh_Vl_3bit_2/switch_5/vrefh 0.04fF
+C960 Vh_Vl_3bit_2/switch_13/a_n29_n8# vdd 0.95fF
+C961 Vh_Vl_3bit_3/switch_10/w_44_3# Vh_Vl_3bit_3/switch_10/a_n29_n8# 0.19fF
+C962 3bit_stage_0/switch_6/w_43_n41# 3bit_stage_0/outh2 0.04fF
+C963 Vh_Vl_3bit_1/switch_7/a_n29_n8# b6 0.05fF
+C964 Vh_Vl_3bit_2/switch_10/w_44_3# Vh_Vl_3bit_2/outl3 0.04fF
+C965 Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/switch_2/vrefh 0.08fF
+C966 Vh_Vl_3bit_0/switch_11/a_n29_n8# vdd 0.95fF
+C967 Vh_Vl_3bit_0/switch_7/a_5_n8# Vh_Vl_3bit_0/outh3 0.68fF
+C968 Vh_Vl_3bit_1/switch_4/w_43_n41# Vh_Vl_3bit_1/switch_4/a_5_n8# 0.07fF
+C969 b9 b6 0.01fF
+C970 Vh_Vl_3bit_0/outh4 b6 0.03fF
+C971 Vh_Vl_3bit_3/switch_5/a_5_n8# Vh_Vl_3bit_3/switch_5/vrefh 0.68fF
+C972 switch_5/a_n29_n8# switch_5/w_44_3# 0.19fF
+C973 3bit_stage_0/switch_12/w_43_n41# 3bit_stage_0/outl2 0.04fF
+C974 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_2/vrefh 0.06fF
+C975 Vh_Vl_3bit_1/switch_0/w_43_n41# Vh_Vl_3bit_1/switch_1/vrefh 0.04fF
+C976 Vh_Vl_3bit_2/switch_4/a_n29_n8# Vh_Vl_3bit_2/switch_4/a_5_n8# 0.05fF
+C977 3bit_stage_0/outh3 3bit_stage_0/switch_9/vrefl 0.20fF
+C978 Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/outh2 0.02fF
+C979 Vh_Vl_3bit_2/switch_0/a_5_n8# vref 0.68fF
+C980 switch_2/w_44_3# switch_2/vrefh 0.03fF
+C981 Vh_Vl_3bit_1/switch_3/vrefh Vh_Vl_3bit_1/outh4 0.20fF
+C982 Vh_Vl_3bit_1/switch_2/a_n29_n8# Vh_Vl_3bit_1/switch_2/vrefh 0.02fF
+C983 Vh_Vl_3bit_3/switch_13/a_5_n8# Vh_Vl_3bit_3/switch_12/out 0.68fF
+C984 Vh_Vl_3bit_1/switch_5/vrefh vdd 0.09fF
+C985 Vh_Vl_3bit_2/switch_11/a_5_n8# vdd 0.05fF
+C986 Vh_Vl_3bit_0/switch_3/a_5_n8# vdd 0.05fF
+C987 Vh_Vl_3bit_2/switch_2/w_43_n41# Vh_Vl_3bit_2/outh4 0.06fF
+C988 Vh_Vl_3bit_0/switch_7/a_n29_n8# Vh_Vl_3bit_0/outh3 0.02fF
+C989 Vh_Vl_3bit_1/switch_7/w_43_n41# Vh_Vl_3bit_1/outh4 0.04fF
+C990 Vh_Vl_3bit_0/switch_4/a_n29_n8# Vh_Vl_3bit_0/switch_4/vrefh 0.02fF
+C991 Vh_Vl_3bit_2/switch_4/vrefh b5 0.03fF
+C992 Vh_Vl_3bit_3/switch_8/a_n29_n8# Vh_Vl_3bit_3/switch_6/out 0.02fF
+C993 Vh_Vl_3bit_3/res4_4/a_n12_4# Vh_Vl_3bit_3/switch_2/vrefh 0.01fF
+C994 3bit_stage_0/switch_2/w_43_n41# 3bit_stage_0/switch_2/a_5_n8# 0.07fF
+C995 3bit_stage_0/switch_3/a_n29_n8# 3bit_stage_0/switch_3/vrefh 0.02fF
+C996 Vh_Vl_3bit_0/switch_8/w_44_3# Vh_Vl_3bit_0/switch_8/a_n29_n8# 0.19fF
+C997 Vh_Vl_3bit_1/outh3 b6 0.03fF
+C998 Vh_Vl_3bit_1/switch_0/a_n29_n8# Vh_Vl_3bit_1/vref 0.02fF
+C999 b2 vdd 1.07fF
+C1000 Vh_Vl_3bit_0/switch_10/w_44_3# Vh_Vl_3bit_0/outl3 0.04fF
+C1001 switch_3/vrefh Vh_Vl_3bit_2/switch_7/out 0.20fF
+C1002 3bit_stage_0/res_150k_7/a_n24_n112# outL_stage1 0.01fF
+C1003 Vh_Vl_3bit_0/switch_6/w_43_n41# Vh_Vl_3bit_0/switch_6/a_5_n8# 0.07fF
+C1004 Vh_Vl_3bit_2/switch_0/w_44_3# Vh_Vl_3bit_2/switch_0/a_n29_n8# 0.19fF
+C1005 3bit_stage_0/switch_7/out 3bit_stage_0/switch_6/out 0.08fF
+C1006 Vh_Vl_3bit_1/switch_12/w_44_3# Vh_Vl_3bit_1/switch_12/a_n29_n8# 0.19fF
+C1007 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/outh1 0.06fF
+C1008 Vh_Vl_3bit_2/switch_11/w_43_n41# Vh_Vl_3bit_2/switch_3/out 0.04fF
+C1009 Vh_Vl_3bit_2/switch_2/vrefh vdd 0.06fF
+C1010 Vh_Vl_3bit_3/switch_9/vrefl vdd 0.09fF
+C1011 Vh_Vl_3bit_1/switch_10/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefl 0.68fF
+C1012 outl_82 b8 0.23fF
+C1013 switch_2/w_44_3# switch_2/a_n29_n8# 0.19fF
+C1014 Vh_Vl_3bit_2/switch_6/a_n29_n8# Vh_Vl_3bit_2/outh1 0.02fF
+C1015 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/vrefh 0.06fF
+C1016 Vh_Vl_3bit_3/switch_7/w_43_n41# Vh_Vl_3bit_3/switch_7/out 0.06fF
+C1017 Vh_Vl_3bit_3/switch_9/w_44_3# Vh_Vl_3bit_3/outh3 0.04fF
+C1018 2bit_stage_0/switch_0/vrefh vdd 0.06fF
+C1019 out_10bitdac 2bit_stage_0/switch_2/w_43_n41# 0.06fF
+C1020 2bit_stage_0/switch_1/a_n29_n8# 2bit_stage_0/switch_1/w_44_3# 0.19fF
+C1021 switch_1/w_43_n41# switch_1/a_5_n8# 0.07fF
+C1022 Vh_Vl_3bit_1/switch_1/w_44_3# Vh_Vl_3bit_1/switch_1/vrefh 0.03fF
+C1023 Vh_Vl_3bit_2/switch_11/a_n29_n8# vdd 0.95fF
+C1024 2bit_stage_0/switch_0/a_n29_n8# 2bit_stage_0/switch_0/a_5_n8# 0.05fF
+C1025 b8 switch_2/vrefh 0.02fF
+C1026 switch_2/w_44_3# outl_81 0.04fF
+C1027 Vh_Vl_3bit_2/switch_5/vrefh b5 0.06fF
+C1028 Vh_Vl_3bit_2/switch_12/a_5_n8# vdd 0.05fF
+C1029 Vh_Vl_3bit_2/switch_12/a_n29_n8# Vh_Vl_3bit_2/switch_1/out 0.02fF
+C1030 b4 3bit_stage_0/switch_6/out 0.03fF
+C1031 Vh_Vl_3bit_0/switch_9/vrefh b5 0.03fF
+C1032 Vh_Vl_3bit_0/switch_5/a_5_n8# vdd 0.05fF
+C1033 Vh_Vl_3bit_3/switch_4/a_n29_n8# Vh_Vl_3bit_3/switch_4/vrefh 0.02fF
+C1034 Vh_Vl_3bit_1/vref vdd 0.11fF
+C1035 Vh_Vl_3bit_2/switch_9/w_44_3# Vh_Vl_3bit_2/switch_9/vrefh 0.03fF
+C1036 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_7/out 0.06fF
+C1037 Vh_Vl_3bit_3/switch_11/w_43_n41# Vh_Vl_3bit_3/switch_3/out 0.04fF
+C1038 Vh_Vl_3bit_2/outl3 vdd 0.03fF
+C1039 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_3/a_n29_n8# 0.02fF
+C1040 3bit_stage_0/switch_13/w_43_n41# 3bit_stage_0/switch_13/a_5_n8# 0.07fF
+C1041 Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/out 0.22fF
+C1042 Vh_Vl_3bit_0/switch_11/a_5_n8# vdd 0.05fF
+C1043 Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_0/switch_3/out 0.06fF
+C1044 Vh_Vl_3bit_0/switch_3/a_n29_n8# Vh_Vl_3bit_0/switch_3/vrefh 0.02fF
+C1045 Vh_Vl_3bit_1/switch_1/vrefh b5 0.06fF
+C1046 Vh_Vl_3bit_1/switch_3/a_n29_n8# Vh_Vl_3bit_1/switch_3/vrefh 0.02fF
+C1047 3bit_stage_0/res_150k_6/a_n24_n112# 3bit_stage_0/switch_2/vrefh 0.01fF
+C1048 Vh_Vl_3bit_2/switch_8/a_n29_n8# Vh_Vl_3bit_2/switch_8/a_5_n8# 0.05fF
+C1049 Vh_Vl_3bit_3/switch_4/a_n29_n8# Vh_Vl_3bit_3/switch_4/a_5_n8# 0.05fF
+C1050 Vh_Vl_3bit_2/switch_9/a_n29_n8# b5 0.05fF
+C1051 Vh_Vl_3bit_2/outh3 Vh_Vl_3bit_2/switch_9/vrefl 0.20fF
+C1052 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_11/out 0.06fF
+C1053 Vh_Vl_3bit_3/switch_11/a_n29_n8# b6 0.05fF
+C1054 2bit_stage_0/switch_0/w_43_n41# 2bit_stage_0/switch_0/a_5_n8# 0.07fF
+C1055 Vh_Vl_3bit_0/switch_8/a_5_n8# Vh_Vl_3bit_0/switch_6/out 0.68fF
+C1056 Vh_Vl_3bit_3/switch_4/w_44_3# Vh_Vl_3bit_3/outh2 0.04fF
+C1057 3bit_stage_0/switch_4/a_n29_n8# b2 0.05fF
+C1058 Vh_Vl_3bit_2/switch_10/w_44_3# Vh_Vl_3bit_2/switch_10/a_n29_n8# 0.19fF
+C1059 Vh_Vl_3bit_3/res4_0/a_n12_4# Vh_Vl_3bit_3/switch_1/vrefh 0.01fF
+C1060 b1 vdd 0.09fF
+C1061 Vh_Vl_3bit_1/switch_4/w_44_3# Vh_Vl_3bit_1/switch_4/vrefh 0.03fF
+C1062 b8 switch_2/a_n29_n8# 0.05fF
+C1063 Vh_Vl_3bit_2/switch_5/w_43_n41# Vh_Vl_3bit_2/switch_5/a_5_n8# 0.07fF
+C1064 3bit_stage_0/switch_3/a_5_n8# 3bit_stage_0/switch_3/a_n29_n8# 0.05fF
+C1065 Vh_Vl_3bit_1/switch_9/vrefl Vh_Vl_3bit_1/switch_9/vrefh 0.08fF
+C1066 Vh_Vl_3bit_2/res4_6/a_n12_4# Vh_Vl_3bit_2/switch_9/vrefl 0.01fF
+C1067 Vh_Vl_3bit_3/switch_6/a_n29_n8# vdd 0.95fF
+C1068 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_2/w_43_n41# 0.04fF
+C1069 Vh_Vl_3bit_0/switch_13/a_n29_n8# Vh_Vl_3bit_0/switch_12/out 0.02fF
+C1070 Vh_Vl_3bit_1/switch_5/w_44_3# Vh_Vl_3bit_1/switch_5/vrefh 0.03fF
+C1071 Vh_Vl_3bit_3/switch_7/a_5_n8# vdd 0.05fF
+C1072 3bit_stage_0/switch_12/w_43_n41# 3bit_stage_0/switch_12/a_5_n8# 0.07fF
+C1073 Vh_Vl_3bit_1/switch_6/a_5_n8# vdd 0.05fF
+C1074 3bit_stage_0/switch_9/vrefl 3bit_stage_0/switch_9/vrefh 0.08fF
+C1075 Vh_Vl_3bit_2/switch_6/w_44_3# Vh_Vl_3bit_2/switch_6/a_n29_n8# 0.19fF
+C1076 Vh_Vl_3bit_3/switch_11/w_44_3# Vh_Vl_3bit_3/outl3 0.03fF
+C1077 Vh_Vl_3bit_3/switch_3/vrefh Vh_Vl_3bit_3/switch_2/vrefh 0.08fF
+C1078 switch_1/vrefh switch_1/a_n29_n8# 0.02fF
+C1079 Vh_Vl_3bit_0/switch_4/w_44_3# Vh_Vl_3bit_0/switch_4/a_n29_n8# 0.19fF
+C1080 Vh_Vl_3bit_0/switch_7/a_5_n8# vdd 0.05fF
+C1081 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/vrefh 0.68fF
+C1082 Vh_Vl_3bit_2/switch_1/a_5_n8# Vh_Vl_3bit_2/switch_1/vrefh 0.68fF
+C1083 Vh_Vl_3bit_3/outl3 vdd 0.03fF
+C1084 Vh_Vl_3bit_0/switch_4/vrefh vdd 0.06fF
+C1085 Vh_Vl_3bit_1/switch_1/a_5_n8# vdd 0.05fF
+C1086 switch_3/vrefl vdd 0.03fF
+C1087 switch_4/a_n29_n8# switch_4/a_5_n8# 0.05fF
+C1088 Vh_Vl_3bit_3/switch_0/w_43_n41# Vh_Vl_3bit_3/switch_1/vrefh 0.04fF
+C1089 3bit_stage_0/switch_0/w_44_3# 3bit_stage_0/switch_0/a_n29_n8# 0.19fF
+C1090 3bit_stage_0/switch_1/out 3bit_stage_0/switch_1/vrefh 0.06fF
+C1091 Vh_Vl_3bit_1/switch_11/a_5_n8# Vh_Vl_3bit_1/switch_3/out 0.02fF
+C1092 outL_stage1 b5 0.01fF
+C1093 Vh_Vl_3bit_3/switch_9/a_n29_n8# b5 0.05fF
+C1094 b3 3bit_stage_0/switch_4/vrefh 0.03fF
+C1095 Vh_Vl_3bit_3/switch_12/a_n29_n8# vdd 0.95fF
+C1096 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/vrefh 0.06fF
+C1097 switch_1/w_43_n41# outl_82 0.06fF
+C1098 Vh_Vl_3bit_0/res4_7/a_n12_4# Vh_Vl_3bit_0/switch_3/vrefh 0.01fF
+C1099 Vh_Vl_3bit_2/switch_1/w_44_3# Vh_Vl_3bit_2/switch_1/out 0.04fF
+C1100 Vh_Vl_3bit_2/switch_9/w_43_n41# Vh_Vl_3bit_2/outh3 0.06fF
+C1101 Vh_Vl_3bit_3/switch_8/a_n29_n8# Vh_Vl_3bit_3/switch_8/a_5_n8# 0.05fF
+C1102 Vh_Vl_3bit_3/switch_7/a_n29_n8# b6 0.05fF
+C1103 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/outh3 0.08fF
+C1104 Vh_Vl_3bit_0/switch_7/a_n29_n8# vdd 0.95fF
+C1105 Vh_Vl_3bit_0/switch_7/w_44_3# Vh_Vl_3bit_0/switch_7/out 0.04fF
+C1106 Vh_Vl_3bit_0/switch_3/w_43_n41# Vh_Vl_3bit_0/switch_3/out 0.06fF
+C1107 Vh_Vl_3bit_1/switch_12/a_5_n8# Vh_Vl_3bit_1/switch_1/out 0.68fF
+C1108 switch_3/a_n29_n8# vdd 0.95fF
+C1109 vdd Vh_Vl_3bit_2/outh1 0.03fF
+C1110 2bit_stage_0/switch_1/a_n29_n8# vdd 0.95fF
+C1111 Vh_Vl_3bit_1/outh1 b6 0.03fF
+C1112 Vh_Vl_3bit_3/switch_0/w_44_3# Vh_Vl_3bit_3/switch_0/a_n29_n8# 0.19fF
+C1113 Vh_Vl_3bit_0/switch_0/w_43_n41# Vh_Vl_3bit_0/switch_0/a_5_n8# 0.07fF
+C1114 Vh_Vl_3bit_1/switch_11/w_43_n41# Vh_Vl_3bit_1/switch_11/a_5_n8# 0.07fF
+C1115 Vh_Vl_3bit_1/switch_13/w_43_n41# Vh_Vl_3bit_1/switch_11/out 0.04fF
+C1116 Vh_Vl_3bit_3/switch_9/w_44_3# Vh_Vl_3bit_3/switch_9/vrefh 0.03fF
+C1117 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_7/out 0.06fF
+C1118 2bit_stage_0/res_150k_3/a_n24_n112# outL_stage2 0.01fF
+C1119 b9 outl_81 0.02fF
+C1120 Vh_Vl_3bit_1/switch_12/a_n29_n8# vdd 0.95fF
+C1121 3bit_stage_0/switch_5/w_43_n41# 3bit_stage_0/switch_5/a_5_n8# 0.07fF
+C1122 switch_0/vrefh outh_82 0.06fF
+C1123 switch_0/vrefh switch_0/a_5_n8# 0.68fF
+C1124 Vh_Vl_3bit_0/switch_9/w_44_3# Vh_Vl_3bit_0/outh3 0.04fF
+C1125 Vh_Vl_3bit_0/switch_3/vrefh Vh_Vl_3bit_1/vref 0.08fF
+C1126 Vh_Vl_3bit_1/outh3 Vh_Vl_3bit_1/switch_9/vrefl 0.20fF
+C1127 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_11/out 0.06fF
+C1128 switch_2/vrefh switch_2/vrefl 0.08fF
+C1129 Vh_Vl_3bit_2/switch_1/a_n29_n8# b5 0.05fF
+C1130 3bit_stage_0/switch_5/vrefh 3bit_stage_0/outh2 0.20fF
+C1131 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_2/vrefh 0.08fF
+C1132 3bit_stage_0/switch_2/a_5_n8# 3bit_stage_0/switch_3/vrefh 0.02fF
+C1133 Vh_Vl_3bit_1/switch_10/a_5_n8# vdd 0.05fF
+C1134 Vh_Vl_3bit_2/outh4 Vh_Vl_3bit_2/switch_7/w_43_n41# 0.04fF
+C1135 Vh_Vl_3bit_3/switch_2/vrefh Vh_Vl_3bit_3/switch_10/w_43_n41# 0.04fF
+C1136 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_2/vrefh 0.68fF
+C1137 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/w_43_n41# 0.07fF
+C1138 switch_3/vrefl outh_81 0.20fF
+C1139 Vh_Vl_3bit_2/switch_10/a_n29_n8# vdd 0.95fF
+C1140 Vh_Vl_3bit_2/switch_12/w_44_3# Vh_Vl_3bit_2/switch_12/out 0.04fF
+C1141 switch_5/a_n29_n8# b9 0.05fF
+C1142 3bit_stage_0/switch_4/w_43_n41# 3bit_stage_0/outh2 0.06fF
+C1143 3bit_stage_0/switch_2/vrefh 3bit_stage_0/switch_9/vrefl 0.08fF
+C1144 Vh_Vl_3bit_2/switch_9/vrefl Vh_Vl_3bit_2/switch_9/vrefh 0.08fF
+C1145 Vh_Vl_3bit_3/switch_8/a_5_n8# Vh_Vl_3bit_3/switch_6/out 0.68fF
+C1146 Vh_Vl_3bit_2/switch_5/w_44_3# Vh_Vl_3bit_2/switch_5/vrefh 0.03fF
+C1147 Vh_Vl_3bit_3/switch_1/w_44_3# Vh_Vl_3bit_3/switch_1/a_n29_n8# 0.19fF
+C1148 Vh_Vl_3bit_3/switch_4/vrefh Vh_Vl_3bit_3/switch_1/out 0.22fF
+C1149 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/w_43_n41# 0.06fF
+C1150 3bit_stage_0/switch_1/w_44_3# 3bit_stage_0/switch_1/out 0.04fF
+C1151 Vh_Vl_3bit_1/switch_1/out Vh_Vl_3bit_1/switch_1/vrefh 0.06fF
+C1152 3bit_stage_0/switch_0/a_n29_n8# vdd 0.95fF
+C1153 2bit_stage_0/switch_1/w_44_3# 2bit_stage_0/switch_1/vrefh 0.03fF
+C1154 Vh_Vl_3bit_3/res4_6/a_n12_4# Vh_Vl_3bit_3/switch_2/vrefh 0.01fF
+C1155 Vh_Vl_3bit_3/outh4 Vh_Vl_3bit_3/switch_2/vrefh 0.06fF
+C1156 b8 b7 0.05fF
+C1157 Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/outl2 0.06fF
+C1158 Vh_Vl_3bit_1/switch_9/vrefh b7 0.10fF
+C1159 Vh_Vl_3bit_1/outh2 Vh_Vl_3bit_1/outh1 0.08fF
+C1160 Vh_Vl_3bit_1/switch_11/a_5_n8# vdd 0.05fF
+C1161 Vh_Vl_3bit_0/switch_0/a_5_n8# vdd 0.05fF
+C1162 Vh_Vl_3bit_0/res4_0/a_n12_4# Vh_Vl_3bit_0/switch_1/vrefh 0.01fF
+C1163 3bit_stage_0/outh4 3bit_stage_0/outh3 0.08fF
+C1164 switch_0/a_n29_n8# b8 0.05fF
+C1165 Vh_Vl_3bit_1/switch_5/vrefh Vh_Vl_3bit_1/switch_4/vrefh 0.08fF
+C1166 switch_2/vrefl outl_81 0.22fF
+C1167 Vh_Vl_3bit_2/switch_3/w_44_3# Vh_Vl_3bit_2/switch_3/out 0.04fF
+C1168 Vh_Vl_3bit_3/res4_1/a_n12_4# Vh_Vl_3bit_3/switch_4/vrefh 0.01fF
+C1169 Vh_Vl_3bit_3/switch_10/a_5_n8# Vh_Vl_3bit_3/switch_9/vrefl 0.68fF
+C1170 3bit_stage_0/switch_4/vrefh 3bit_stage_0/switch_1/a_5_n8# 0.02fF
+C1171 3bit_stage_0/switch_5/a_5_n8# vdd 0.05fF
+C1172 3bit_stage_0/switch_13/a_5_n8# 3bit_stage_0/switch_11/out 0.02fF
+C1173 b8 vdd 0.45fF
+C1174 switch_0/a_n29_n8# switch_0/vrefh 0.02fF
+C1175 Vh_Vl_3bit_1/switch_0/w_44_3# Vh_Vl_3bit_1/switch_0/a_n29_n8# 0.19fF
+C1176 Vh_Vl_3bit_1/switch_8/a_5_n8# Vh_Vl_3bit_1/switch_7/out 0.02fF
+C1177 Vh_Vl_3bit_1/switch_2/a_5_n8# Vh_Vl_3bit_1/switch_3/vrefh 0.02fF
+C1178 3bit_stage_0/switch_3/vrefh vdd 0.05fF
+C1179 switch_1/w_43_n41# switch_1/vrefl 0.04fF
+C1180 switch_0/vrefh vdd 0.03fF
+C1181 Vh_Vl_3bit_1/switch_9/vrefh vdd 0.06fF
+C1182 3bit_stage_0/switch_7/a_n29_n8# b3 0.05fF
+C1183 Vh_Vl_3bit_1/switch_10/w_44_3# Vh_Vl_3bit_1/outl3 0.04fF
+C1184 Vh_Vl_3bit_1/switch_11/w_44_3# Vh_Vl_3bit_1/switch_11/out 0.04fF
+C1185 b6 Vh_Vl_3bit_2/switch_4/vrefh 0.03fF
+C1186 Vh_Vl_3bit_3/switch_1/vrefh b5 0.06fF
+C1187 Vh_Vl_3bit_3/switch_8/w_44_3# switch_3/vrefl 0.04fF
+C1188 Vh_Vl_3bit_3/switch_13/w_44_3# switch_2/vrefl 0.04fF
+C1189 3bit_stage_0/switch_4/w_43_n41# 3bit_stage_0/switch_5/vrefh 0.04fF
+C1190 3bit_stage_0/switch_3/out 3bit_stage_0/outl3 0.08fF
+C1191 2bit_stage_0/switch_0/vrefl 2bit_stage_0/switch_0/out 0.20fF
+C1192 Vh_Vl_3bit_0/switch_3/w_43_n41# Vh_Vl_3bit_1/vref 0.04fF
+C1193 Vh_Vl_3bit_1/switch_9/a_n29_n8# Vh_Vl_3bit_1/switch_9/vrefh 0.02fF
+C1194 Vh_Vl_3bit_3/switch_11/w_44_3# Vh_Vl_3bit_3/switch_11/out 0.04fF
+C1195 switch_5/w_43_n41# outl_82 0.04fF
+C1196 Vh_Vl_3bit_2/switch_2/a_n29_n8# b5 0.05fF
+C1197 Vh_Vl_3bit_3/outh4 b6 0.03fF
+C1198 Vh_Vl_3bit_3/switch_11/out vdd 0.03fF
+C1199 Vh_Vl_3bit_3/switch_6/out Vh_Vl_3bit_3/outh2 0.20fF
+C1200 out_10bitdac 2bit_stage_0/switch_0/out 0.06fF
+C1201 Vh_Vl_3bit_0/res4_0/a_n12_4# Vh_Vl_3bit_0/vref 0.01fF
+C1202 Vh_Vl_3bit_0/switch_1/w_44_3# Vh_Vl_3bit_0/switch_1/a_n29_n8# 0.19fF
+C1203 switch_1/vrefh Vh_Vl_3bit_0/switch_11/out 0.23fF
+C1204 Vh_Vl_3bit_1/switch_8/w_43_n41# Vh_Vl_3bit_1/switch_8/a_5_n8# 0.07fF
+C1205 Vh_Vl_3bit_1/switch_13/w_44_3# switch_1/vrefl 0.04fF
+C1206 Vh_Vl_3bit_1/switch_7/a_n29_n8# vdd 0.95fF
+C1207 Vh_Vl_3bit_1/switch_2/a_n29_n8# Vh_Vl_3bit_1/switch_2/a_5_n8# 0.05fF
+C1208 Vh_Vl_3bit_1/switch_3/a_5_n8# Vh_Vl_3bit_1/switch_3/vrefh 0.68fF
+C1209 b9 b7 0.01fF
+C1210 switch_2/w_43_n41# outl_81 0.06fF
+C1211 2bit_stage_0/switch_0/a_5_n8# 2bit_stage_0/switch_0/vrefh 0.68fF
+C1212 Vh_Vl_3bit_0/res4_1/a_n12_4# Vh_Vl_3bit_0/switch_1/vrefh 0.01fF
+C1213 b6 Vh_Vl_3bit_2/outh2 0.03fF
+C1214 Vh_Vl_3bit_3/switch_7/w_44_3# Vh_Vl_3bit_3/outh3 0.03fF
+C1215 Vh_Vl_3bit_1/res4_2/a_n12_4# Vh_Vl_3bit_1/switch_5/vrefh 0.01fF
+C1216 Vh_Vl_3bit_0/switch_1/a_n29_n8# vdd 0.95fF
+C1217 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_2/w_44_3# 0.03fF
+C1218 b9 vdd 0.20fF
+C1219 3bit_stage_0/switch_13/a_5_n8# vdd 0.05fF
+C1220 Vh_Vl_3bit_3/switch_13/w_44_3# Vh_Vl_3bit_3/switch_13/a_n29_n8# 0.19fF
+C1221 b2 3bit_stage_0/switch_1/vrefh 0.06fF
+C1222 3bit_stage_0/switch_0/a_5_n8# outH_stage1 0.68fF
+C1223 Vh_Vl_3bit_1/switch_4/a_n29_n8# b5 0.05fF
+C1224 Vh_Vl_3bit_3/switch_6/w_44_3# Vh_Vl_3bit_3/switch_6/a_n29_n8# 0.19fF
+C1225 Vh_Vl_3bit_0/switch_13/a_n29_n8# Vh_Vl_3bit_0/switch_13/a_5_n8# 0.05fF
+C1226 Vh_Vl_3bit_0/switch_13/w_43_n41# switch_1/vrefh 0.06fF
+C1227 Vh_Vl_3bit_0/switch_2/w_44_3# Vh_Vl_3bit_0/switch_2/a_n29_n8# 0.19fF
+C1228 Vh_Vl_3bit_2/switch_5/a_5_n8# vdd 0.05fF
+C1229 Vh_Vl_3bit_3/switch_6/a_5_n8# vdd 0.05fF
+C1230 Vh_Vl_3bit_3/res4_5/a_n12_4# Vh_Vl_3bit_3/switch_9/vrefh 0.01fF
+C1231 Vh_Vl_3bit_0/switch_13/a_5_n8# Vh_Vl_3bit_0/switch_12/out 0.68fF
+C1232 Vh_Vl_3bit_1/switch_11/w_44_3# Vh_Vl_3bit_1/outl3 0.03fF
+C1233 Vh_Vl_3bit_0/switch_12/out Vh_Vl_3bit_0/outl2 0.22fF
+C1234 Vh_Vl_3bit_0/switch_9/w_44_3# Vh_Vl_3bit_0/switch_9/a_n29_n8# 0.19fF
+C1235 Vh_Vl_3bit_1/switch_6/w_44_3# Vh_Vl_3bit_1/switch_6/out 0.04fF
+C1236 Vh_Vl_3bit_2/switch_9/w_43_n41# Vh_Vl_3bit_2/switch_9/vrefl 0.04fF
+C1237 3bit_stage_0/switch_5/w_44_3# 3bit_stage_0/switch_5/vrefh 0.03fF
+C1238 3bit_stage_0/switch_7/a_n29_n8# 3bit_stage_0/switch_7/a_5_n8# 0.05fF
+C1239 2bit_stage_0/switch_0/a_n29_n8# 2bit_stage_0/switch_0/w_44_3# 0.19fF
+C1240 Vh_Vl_3bit_0/vref Vh_Vl_3bit_3/switch_3/out 0.22fF
+C1241 Vh_Vl_3bit_0/outl3 Vh_Vl_3bit_0/switch_11/out 0.06fF
+C1242 vdd Vh_Vl_3bit_2/switch_1/vrefh 0.09fF
+C1243 Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_10/w_43_n41# 0.04fF
+C1244 2bit_stage_0/switch_1/vrefh vdd 0.06fF
+C1245 Vh_Vl_3bit_1/outh3 vdd 0.03fF
+C1246 Vh_Vl_3bit_3/switch_12/out Vh_Vl_3bit_3/outl2 0.22fF
+C1247 Vh_Vl_3bit_1/switch_1/w_44_3# Vh_Vl_3bit_1/switch_1/out 0.04fF
+C1248 Vh_Vl_3bit_1/switch_3/a_n29_n8# Vh_Vl_3bit_1/switch_3/a_5_n8# 0.05fF
+C1249 Vh_Vl_3bit_2/switch_5/vrefh Vh_Vl_3bit_2/outl2 0.06fF
+C1250 Vh_Vl_3bit_3/switch_12/a_5_n8# vdd 0.05fF
+C1251 Vh_Vl_3bit_3/switch_7/w_43_n41# Vh_Vl_3bit_3/switch_7/a_5_n8# 0.07fF
+C1252 3bit_stage_0/switch_6/out vdd 0.09fF
+C1253 3bit_stage_0/switch_2/w_44_3# 3bit_stage_0/switch_2/vrefh 0.03fF
+C1254 3bit_stage_0/switch_3/a_5_n8# vdd 0.05fF
+C1255 Vh_Vl_3bit_2/switch_1/w_43_n41# Vh_Vl_3bit_2/switch_1/out 0.06fF
+C1256 3bit_stage_0/switch_10/a_5_n8# vdd 0.05fF
+C1257 Vh_Vl_3bit_0/switch_12/a_n29_n8# Vh_Vl_3bit_0/switch_12/a_5_n8# 0.05fF
+C1258 Vh_Vl_3bit_0/switch_12/w_43_n41# Vh_Vl_3bit_0/switch_12/out 0.06fF
+C1259 Vh_Vl_3bit_2/switch_9/a_n29_n8# Vh_Vl_3bit_2/switch_9/a_5_n8# 0.05fF
+C1260 Vh_Vl_3bit_3/switch_8/w_43_n41# Vh_Vl_3bit_3/switch_7/out 0.04fF
+C1261 Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_3/switch_3/a_n29_n8# 0.05fF
+C1262 3bit_stage_0/switch_9/w_43_n41# 3bit_stage_0/switch_9/a_5_n8# 0.07fF
+C1263 Vh_Vl_3bit_2/switch_8/a_5_n8# Vh_Vl_3bit_2/switch_7/out 0.02fF
+C1264 Vh_Vl_3bit_2/switch_13/a_5_n8# vdd 0.05fF
+C1265 Vh_Vl_3bit_2/res4_6/a_n12_4# Vh_Vl_3bit_2/switch_2/vrefh 0.01fF
+C1266 Vh_Vl_3bit_3/switch_5/a_5_n8# vdd 0.05fF
+C1267 3bit_stage_0/switch_8/w_43_n41# 3bit_stage_0/switch_7/out 0.04fF
+C1268 Vh_Vl_3bit_0/switch_0/w_44_3# Vh_Vl_3bit_0/outh1 0.04fF
+C1269 Vh_Vl_3bit_0/switch_3/vrefh b8 0.03fF
+C1270 vref Vh_Vl_3bit_2/res4_0/a_n12_4# 0.01fF
+C1271 Vh_Vl_3bit_3/switch_12/w_44_3# Vh_Vl_3bit_3/switch_12/a_n29_n8# 0.19fF
+C1272 b3 3bit_stage_0/outh2 0.03fF
+C1273 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/a_n29_n8# 0.05fF
+C1274 Vh_Vl_3bit_1/switch_4/vrefh Vh_Vl_3bit_1/switch_1/a_5_n8# 0.02fF
+C1275 Vh_Vl_3bit_2/switch_10/w_43_n41# Vh_Vl_3bit_2/outl3 0.06fF
+C1276 Vh_Vl_3bit_3/switch_3/a_5_n8# Vh_Vl_3bit_3/switch_3/vrefh 0.68fF
+C1277 Vh_Vl_3bit_0/switch_9/vrefh Vh_Vl_3bit_0/switch_5/w_43_n41# 0.04fF
+C1278 Vh_Vl_3bit_1/switch_9/w_44_3# Vh_Vl_3bit_1/switch_9/a_n29_n8# 0.19fF
+C1279 Vh_Vl_3bit_2/switch_4/vrefh Vh_Vl_3bit_2/switch_1/a_5_n8# 0.02fF
+C1280 Vh_Vl_3bit_2/switch_13/a_5_n8# Vh_Vl_3bit_2/switch_11/out 0.02fF
+C1281 3bit_stage_0/switch_10/w_43_n41# 3bit_stage_0/switch_10/a_5_n8# 0.07fF
+C1282 Vh_Vl_3bit_0/switch_5/vrefh vdd 0.09fF
+C1283 outL_stage1 b6 0.01fF
+C1284 3bit_stage_0/switch_9/vrefh b2 0.03fF
+C1285 3bit_stage_0/switch_9/a_n29_n8# vdd 0.95fF
+C1286 3bit_stage_0/switch_10/a_n29_n8# 3bit_stage_0/switch_9/vrefl 0.02fF
+C1287 2bit_stage_0/switch_2/a_n29_n8# 2bit_stage_0/switch_0/out 0.02fF
+C1288 switch_3/vrefl switch_3/vrefh 0.08fF
+C1289 b7 Vh_Vl_3bit_2/switch_6/out 0.03fF
+C1290 Vh_Vl_3bit_3/outh3 Vh_Vl_3bit_3/switch_9/vrefl 0.20fF
+C1291 3bit_stage_0/res_150k_1/a_n24_n112# 3bit_stage_0/switch_1/vrefh 0.01fF
+C1292 Vh_Vl_3bit_3/switch_13/a_n29_n8# b7 0.05fF
+C1293 Vh_Vl_3bit_3/res4_2/a_n12_4# Vh_Vl_3bit_3/switch_5/vrefh 0.01fF
+C1294 3bit_stage_0/switch_6/w_44_3# 3bit_stage_0/switch_6/a_n29_n8# 0.19fF
+C1295 Vh_Vl_3bit_1/switch_13/w_44_3# Vh_Vl_3bit_1/switch_13/a_n29_n8# 0.19fF
+C1296 Vh_Vl_3bit_2/switch_3/vrefh b8 0.03fF
+C1297 Vh_Vl_3bit_3/switch_11/w_44_3# Vh_Vl_3bit_3/switch_11/a_n29_n8# 0.19fF
+C1298 Vh_Vl_3bit_3/switch_3/w_43_n41# Vh_Vl_3bit_3/switch_3/out 0.06fF
+C1299 Vh_Vl_3bit_1/switch_13/w_44_3# Vh_Vl_3bit_1/switch_12/out 0.03fF
+C1300 Vh_Vl_3bit_2/switch_6/out vdd 0.03fF
+C1301 Vh_Vl_3bit_2/switch_13/w_43_n41# Vh_Vl_3bit_2/switch_13/a_5_n8# 0.07fF
+C1302 Vh_Vl_3bit_3/switch_5/w_43_n41# Vh_Vl_3bit_3/switch_5/a_5_n8# 0.07fF
+C1303 Vh_Vl_3bit_3/switch_11/a_n29_n8# vdd 0.95fF
+C1304 Vh_Vl_3bit_3/switch_13/a_n29_n8# vdd 0.95fF
+C1305 switch_3/a_n29_n8# switch_3/vrefh 0.02fF
+C1306 Vh_Vl_3bit_2/switch_12/a_n29_n8# Vh_Vl_3bit_2/switch_12/a_5_n8# 0.05fF
+C1307 Vh_Vl_3bit_3/switch_5/vrefh b5 0.06fF
+C1308 Vh_Vl_3bit_0/switch_5/a_n29_n8# Vh_Vl_3bit_0/switch_5/a_5_n8# 0.05fF
+C1309 3bit_stage_0/switch_3/out 3bit_stage_0/switch_11/out 0.42fF
+C1310 switch_1/vrefh switch_1/a_5_n8# 0.68fF
+C1311 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_4/vrefh 0.68fF
+C1312 Vh_Vl_3bit_0/outh4 Vh_Vl_3bit_0/switch_3/vrefh 0.20fF
+C1313 Vh_Vl_3bit_1/switch_9/w_43_n41# Vh_Vl_3bit_1/switch_9/vrefl 0.04fF
+C1314 Vh_Vl_3bit_3/switch_6/a_n29_n8# Vh_Vl_3bit_3/outh1 0.02fF
+C1315 3bit_stage_0/switch_1/a_n29_n8# 3bit_stage_0/switch_1/a_5_n8# 0.05fF
+C1316 3bit_stage_0/switch_6/out 3bit_stage_0/outh1 0.06fF
+C1317 Vh_Vl_3bit_1/switch_0/a_5_n8# Vh_Vl_3bit_1/vref 0.68fF
+C1318 outh_81 switch_3/w_44_3# 0.04fF
+C1319 Vh_Vl_3bit_2/switch_3/out vdd 0.03fF
+C1320 Vh_Vl_3bit_1/switch_5/a_n29_n8# vdd 0.95fF
+C1321 Vh_Vl_3bit_3/switch_2/vrefh b5 0.03fF
+C1322 2bit_stage_0/switch_0/vrefh 2bit_stage_0/res_150k_1/a_n24_n112# 0.01fF
+C1323 Vh_Vl_3bit_0/switch_12/a_n29_n8# b6 0.05fF
+C1324 3bit_stage_0/switch_12/out 3bit_stage_0/switch_1/out 0.06fF
+C1325 Vh_Vl_3bit_0/switch_0/a_n29_n8# Vh_Vl_3bit_0/vref 0.02fF
+C1326 Vh_Vl_3bit_0/switch_11/w_44_3# Vh_Vl_3bit_0/outl3 0.03fF
+C1327 Vh_Vl_3bit_2/switch_3/out Vh_Vl_3bit_2/switch_11/out 0.42fF
+C1328 Vh_Vl_3bit_3/switch_7/w_44_3# Vh_Vl_3bit_3/switch_7/out 0.04fF
+C1329 Vh_Vl_3bit_2/switch_6/a_5_n8# Vh_Vl_3bit_2/outh1 0.68fF
+C1330 Vh_Vl_3bit_3/switch_9/a_n29_n8# Vh_Vl_3bit_3/switch_9/a_5_n8# 0.05fF
+C1331 Vh_Vl_3bit_3/switch_9/w_43_n41# Vh_Vl_3bit_3/outh3 0.06fF
+C1332 3bit_stage_0/switch_6/w_44_3# 3bit_stage_0/outh1 0.03fF
+C1333 Vh_Vl_3bit_0/outl3 b6 0.03fF
+C1334 Vh_Vl_3bit_0/res4_5/a_n12_4# Vh_Vl_3bit_0/switch_9/vrefh 0.01fF
+C1335 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/outl3 0.22fF
+C1336 switch_1/a_n29_n8# switch_1/a_5_n8# 0.05fF
+C1337 Vh_Vl_3bit_1/switch_10/w_43_n41# Vh_Vl_3bit_1/outl3 0.06fF
+C1338 Vh_Vl_3bit_2/switch_12/a_5_n8# Vh_Vl_3bit_2/switch_1/out 0.68fF
+C1339 Vh_Vl_3bit_2/switch_2/w_44_3# Vh_Vl_3bit_2/outh4 0.04fF
+C1340 Vh_Vl_3bit_3/switch_7/a_n29_n8# vdd 0.95fF
+C1341 Vh_Vl_3bit_3/switch_3/a_n29_n8# vdd 0.95fF
+C1342 3bit_stage_0/switch_9/vrefl b2 0.06fF
+C1343 3bit_stage_0/switch_3/out vdd 0.03fF
+C1344 3bit_stage_0/switch_8/a_n29_n8# 3bit_stage_0/switch_6/out 0.02fF
+C1345 3bit_stage_0/outh4 3bit_stage_0/switch_2/vrefh 0.06fF
+C1346 Vh_Vl_3bit_3/switch_4/a_5_n8# Vh_Vl_3bit_3/switch_4/vrefh 0.68fF
+C1347 Vh_Vl_3bit_3/switch_7/a_5_n8# Vh_Vl_3bit_3/outh3 0.68fF
+C1348 3bit_stage_0/switch_12/w_44_3# 3bit_stage_0/switch_1/out 0.03fF
+C1349 Vh_Vl_3bit_1/outh1 vdd 0.03fF
+C1350 Vh_Vl_3bit_2/outh4 b6 0.03fF
+C1351 b6 b5 0.08fF
+C1352 Vh_Vl_3bit_3/switch_12/a_n29_n8# Vh_Vl_3bit_3/switch_1/out 0.02fF
+C1353 3bit_stage_0/switch_13/w_44_3# outL_stage2 0.04fF
+C1354 Vh_Vl_3bit_0/switch_2/vrefh b5 0.03fF
+C1355 Vh_Vl_3bit_0/switch_1/vrefh Vh_Vl_3bit_0/vref 0.08fF
+C1356 Vh_Vl_3bit_0/switch_6/a_n29_n8# Vh_Vl_3bit_0/outh1 0.02fF
+C1357 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_9/vrefh 0.06fF
+C1358 Vh_Vl_3bit_1/outl3 b6 0.03fF
+C1359 Vh_Vl_3bit_1/res4_1/a_n12_4# Vh_Vl_3bit_1/switch_1/vrefh 0.01fF
+C1360 Vh_Vl_3bit_1/switch_8/w_44_3# switch_0/vrefl 0.04fF
+C1361 Vh_Vl_3bit_3/switch_3/vrefh vdd 0.07fF
+C1362 3bit_stage_0/switch_2/vrefh b2 0.03fF
+C1363 3bit_stage_0/switch_13/a_n29_n8# 3bit_stage_0/switch_12/out 0.02fF
+C1364 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_10/a_5_n8# 0.02fF
+C1365 Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/outl2 0.25fF
+C1366 Vh_Vl_3bit_1/switch_8/a_n29_n8# Vh_Vl_3bit_1/switch_6/out 0.02fF
+C1367 outl_82 outL_stage1 0.25fF
+C1368 Vh_Vl_3bit_0/switch_2/a_n29_n8# b5 0.05fF
+C1369 Vh_Vl_3bit_1/switch_2/vrefh Vh_Vl_3bit_1/switch_10/a_5_n8# 0.02fF
+C1370 Vh_Vl_3bit_2/switch_2/a_5_n8# Vh_Vl_3bit_2/switch_2/vrefh 0.68fF
+C1371 Vh_Vl_3bit_3/switch_0/a_n29_n8# b5 0.05fF
+C1372 3bit_stage_0/switch_4/w_44_3# 3bit_stage_0/switch_4/a_n29_n8# 0.19fF
+C1373 Vh_Vl_3bit_3/switch_4/w_43_n41# Vh_Vl_3bit_3/outh2 0.06fF
+C1374 b8 switch_3/vrefh 0.03fF
+C1375 Vh_Vl_3bit_2/switch_13/w_44_3# Vh_Vl_3bit_2/switch_12/out 0.03fF
+C1376 switch_1/vrefh outl_82 0.06fF
+C1377 Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/w_43_n41# 0.04fF
+C1378 Vh_Vl_3bit_0/switch_13/w_43_n41# Vh_Vl_3bit_0/switch_11/out 0.04fF
+C1379 Vh_Vl_3bit_0/outh3 Vh_Vl_3bit_0/switch_7/out 0.06fF
+C1380 switch_3/vrefl switch_3/a_5_n8# 0.02fF
+C1381 Vh_Vl_3bit_2/switch_2/vrefh Vh_Vl_3bit_2/switch_9/vrefl 0.08fF
+C1382 Vh_Vl_3bit_2/switch_7/a_5_n8# vdd 0.05fF
+C1383 Vh_Vl_3bit_2/switch_2/a_n29_n8# Vh_Vl_3bit_2/switch_2/w_44_3# 0.19fF
+C1384 Vh_Vl_3bit_3/switch_9/vrefl Vh_Vl_3bit_3/switch_9/vrefh 0.08fF
+C1385 3bit_stage_0/switch_4/vrefh vdd 0.06fF
+C1386 Vh_Vl_3bit_1/switch_6/a_n29_n8# Vh_Vl_3bit_1/switch_6/a_5_n8# 0.05fF
+C1387 3bit_stage_0/switch_12/w_44_3# 3bit_stage_0/switch_12/out 0.04fF
+C1388 outL_stage2 b3 0.01fF
+C1389 switch_2/vrefl switch_2/a_5_n8# 0.02fF
+C1390 Vh_Vl_3bit_3/switch_1/a_n29_n8# b5 0.05fF
+C1391 3bit_stage_0/switch_7/w_43_n41# 3bit_stage_0/outh4 0.04fF
+C1392 Vh_Vl_3bit_2/switch_3/w_43_n41# Vh_Vl_3bit_3/vref 0.04fF
+C1393 b0 vdd 0.22fF
+C1394 Vh_Vl_3bit_0/outh1 b6 0.03fF
+C1395 Vh_Vl_3bit_3/vref Vh_Vl_3bit_2/switch_3/out 0.22fF
+C1396 Vh_Vl_3bit_1/switch_5/w_44_3# Vh_Vl_3bit_1/switch_5/a_n29_n8# 0.19fF
+C1397 switch_3/a_n29_n8# switch_3/a_5_n8# 0.05fF
+C1398 Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/outh2 0.20fF
+C1399 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/outl3 0.08fF
+C1400 Vh_Vl_3bit_0/res4_1/a_n12_4# Vh_Vl_3bit_0/switch_4/vrefh 0.01fF
+C1401 Vh_Vl_3bit_1/switch_1/a_n29_n8# Vh_Vl_3bit_1/switch_1/a_5_n8# 0.05fF
+C1402 2bit_stage_0/switch_1/a_5_n8# 2bit_stage_0/switch_1/vrefh 0.68fF
+C1403 Vh_Vl_3bit_1/res4_3/a_n12_4# Vh_Vl_3bit_1/switch_5/vrefh 0.01fF
+C1404 Vh_Vl_3bit_0/switch_12/w_43_n41# Vh_Vl_3bit_0/outl2 0.04fF
+C1405 Vh_Vl_3bit_2/switch_1/a_n29_n8# Vh_Vl_3bit_2/switch_1/a_5_n8# 0.05fF
+C1406 2bit_stage_0/switch_0/a_n29_n8# 2bit_stage_0/switch_0/vrefh 0.02fF
+C1407 2bit_stage_0/switch_0/vrefh 2bit_stage_0/switch_0/w_44_3# 0.03fF
+C1408 Vh_Vl_3bit_2/outl3 Vh_Vl_3bit_2/switch_9/vrefl 0.06fF
+C1409 switch_2/w_43_n41# switch_2/a_5_n8# 0.07fF
+C1410 Vh_Vl_3bit_3/switch_4/w_43_n41# Vh_Vl_3bit_3/switch_5/vrefh 0.04fF
+C1411 3bit_stage_0/switch_12/a_n29_n8# b3 0.05fF
+C1412 3bit_stage_0/switch_5/a_n29_n8# b2 0.05fF
+C1413 outH_stage1 switch_4/w_44_3# 0.04fF
+C1414 Vh_Vl_3bit_3/switch_0/w_44_3# Vh_Vl_3bit_3/vref 0.03fF
+C1415 Vh_Vl_3bit_3/switch_0/w_43_n41# Vh_Vl_3bit_3/switch_0/a_5_n8# 0.07fF
+C1416 Vh_Vl_3bit_3/switch_1/a_n29_n8# Vh_Vl_3bit_3/switch_1/vrefh 0.02fF
+C1417 Vh_Vl_3bit_3/res4_5/a_n12_4# Vh_Vl_3bit_3/switch_9/vrefl 0.01fF
+C1418 3bit_stage_0/switch_3/vrefh 3bit_stage_0/res_150k_6/a_n24_n112# 0.01fF
+C1419 Vh_Vl_3bit_1/switch_9/vrefh Vh_Vl_3bit_1/switch_5/w_43_n41# 0.04fF
+C1420 Vh_Vl_3bit_2/switch_0/a_5_n8# Vh_Vl_3bit_2/switch_1/vrefh 0.02fF
+C1421 Vh_Vl_3bit_3/switch_5/vrefh Vh_Vl_3bit_3/outl2 0.06fF
+C1422 Vh_Vl_3bit_3/switch_13/w_43_n41# Vh_Vl_3bit_3/switch_11/out 0.04fF
+C1423 outL_stage1 outl_81 0.06fF
+C1424 3bit_stage_0/switch_2/w_44_3# 3bit_stage_0/outh4 0.04fF
+C1425 Vh_Vl_3bit_2/switch_4/vrefh vdd 0.06fF
+C1426 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_3/out 0.06fF
+C1427 Vh_Vl_3bit_0/vref Vh_Vl_3bit_3/res4_7/a_n12_4# 0.01fF
+C1428 Vh_Vl_3bit_1/switch_12/a_5_n8# vdd 0.05fF
+C1429 Vh_Vl_3bit_2/switch_12/out Vh_Vl_3bit_2/outl2 0.22fF
+C1430 Vh_Vl_3bit_3/switch_5/w_44_3# Vh_Vl_3bit_3/outl2 0.04fF
+C1431 3bit_stage_0/switch_4/a_n29_n8# 3bit_stage_0/switch_4/vrefh 0.02fF
+C1432 Vh_Vl_3bit_0/switch_9/w_43_n41# Vh_Vl_3bit_0/outh3 0.06fF
+C1433 outL_stage2 3bit_stage_0/switch_7/out 0.01fF
+C1434 Vh_Vl_3bit_2/switch_8/a_n29_n8# Vh_Vl_3bit_2/switch_6/out 0.02fF
+C1435 Vh_Vl_3bit_3/switch_2/a_5_n8# Vh_Vl_3bit_3/switch_3/vrefh 0.02fF
+C1436 Vh_Vl_3bit_3/switch_3/w_43_n41# Vh_Vl_3bit_0/vref 0.04fF
+C1437 3bit_stage_0/switch_8/w_44_3# 3bit_stage_0/switch_8/a_n29_n8# 0.19fF
+C1438 Vh_Vl_3bit_0/switch_11/w_44_3# Vh_Vl_3bit_0/switch_11/out 0.04fF
+C1439 vref Vh_Vl_3bit_2/outh1 0.06fF
+C1440 Vh_Vl_3bit_3/switch_10/a_n29_n8# b5 0.05fF
+C1441 switch_3/vrefh switch_3/w_44_3# 0.03fF
+C1442 Vh_Vl_3bit_3/outh2 b6 0.03fF
+C1443 2bit_stage_0/switch_1/out 2bit_stage_0/switch_1/vrefh 0.06fF
+C1444 Vh_Vl_3bit_3/switch_11/a_5_n8# vdd 0.05fF
+C1445 Vh_Vl_3bit_2/switch_10/a_5_n8# vdd 0.05fF
+C1446 Vh_Vl_3bit_3/switch_13/a_5_n8# vdd 0.05fF
+C1447 Vh_Vl_3bit_0/switch_9/vrefh b7 0.10fF
+C1448 Vh_Vl_3bit_0/switch_6/w_44_3# Vh_Vl_3bit_0/outh1 0.03fF
+C1449 Vh_Vl_3bit_0/switch_9/a_n29_n8# Vh_Vl_3bit_0/switch_9/vrefh 0.02fF
+C1450 3bit_stage_0/switch_11/a_5_n8# 3bit_stage_0/switch_3/out 0.02fF
+C1451 Vh_Vl_3bit_2/switch_12/w_43_n41# Vh_Vl_3bit_2/switch_12/out 0.06fF
+C1452 3bit_stage_0/switch_9/vrefh 3bit_stage_0/switch_5/a_5_n8# 0.02fF
+C1453 Vh_Vl_3bit_3/switch_5/w_44_3# Vh_Vl_3bit_3/switch_5/vrefh 0.03fF
+C1454 Vh_Vl_3bit_1/switch_1/out b6 0.03fF
+C1455 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/switch_7/out 0.20fF
+C1456 Vh_Vl_3bit_2/switch_4/w_44_3# Vh_Vl_3bit_2/switch_4/a_n29_n8# 0.19fF
+C1457 Vh_Vl_3bit_3/switch_1/w_43_n41# Vh_Vl_3bit_3/switch_1/a_5_n8# 0.07fF
+C1458 Vh_Vl_3bit_3/switch_6/a_5_n8# Vh_Vl_3bit_3/outh1 0.68fF
+C1459 3bit_stage_0/switch_1/w_43_n41# 3bit_stage_0/switch_1/out 0.06fF
+C1460 switch_1/vrefh switch_1/vrefl 0.08fF
+C1461 Vh_Vl_3bit_0/switch_8/w_43_n41# Vh_Vl_3bit_0/switch_8/a_5_n8# 0.07fF
+C1462 Vh_Vl_3bit_2/switch_5/vrefh vdd 0.09fF
+C1463 3bit_stage_0/switch_0/a_5_n8# vdd 0.05fF
+C1464 Vh_Vl_3bit_0/switch_9/vrefh vdd 0.06fF
+C1465 outL_stage1 outh_82 0.02fF
+C1466 b5 Vh_Vl_3bit_2/switch_0/a_n29_n8# 0.05fF
+C1467 Vh_Vl_3bit_2/switch_0/w_44_3# vref 0.03fF
+C1468 Vh_Vl_3bit_2/switch_0/w_43_n41# Vh_Vl_3bit_2/switch_0/a_5_n8# 0.07fF
+C1469 Vh_Vl_3bit_3/switch_11/w_43_n41# Vh_Vl_3bit_3/switch_11/out 0.06fF
+C1470 Vh_Vl_3bit_0/switch_10/w_44_3# Vh_Vl_3bit_0/switch_9/vrefl 0.03fF
+C1471 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/switch_11/out 0.42fF
+C1472 Vh_Vl_3bit_3/switch_7/out switch_3/vrefl 0.20fF
+C1473 Vh_Vl_3bit_3/switch_8/a_n29_n8# b7 0.05fF
+C1474 Vh_Vl_3bit_3/switch_13/w_44_3# Vh_Vl_3bit_3/switch_12/out 0.03fF
+C1475 3bit_stage_0/switch_7/a_n29_n8# vdd 0.95fF
+C1476 Vh_Vl_3bit_0/switch_7/out b7 0.07fF
+C1477 Vh_Vl_3bit_1/switch_1/vrefh vdd 0.09fF
+C1478 Vh_Vl_3bit_1/switch_9/vrefl b5 0.06fF
+C1479 3bit_stage_0/switch_5/vrefh 3bit_stage_0/outl2 0.06fF
+C1480 Vh_Vl_3bit_1/outl3 Vh_Vl_3bit_1/switch_9/vrefl 0.06fF
+C1481 Vh_Vl_3bit_1/switch_7/w_43_n41# Vh_Vl_3bit_1/switch_7/out 0.06fF
+C1482 Vh_Vl_3bit_2/res4_3/a_n12_4# Vh_Vl_3bit_2/switch_5/vrefh 0.01fF
+C1483 Vh_Vl_3bit_2/switch_9/a_n29_n8# vdd 0.95fF
+C1484 Vh_Vl_3bit_3/switch_8/a_n29_n8# vdd 0.95fF
+C1485 2bit_stage_0/switch_0/vrefl vdd 0.03fF
+C1486 Vh_Vl_3bit_0/switch_9/vrefl Vh_Vl_3bit_0/switch_9/vrefh 0.08fF
+C1487 Vh_Vl_3bit_1/switch_11/out switch_1/vrefl 0.23fF
+C1488 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_0/switch_3/a_n29_n8# 0.05fF
+C1489 3bit_stage_0/switch_10/a_n29_n8# b2 0.05fF
+C1490 Vh_Vl_3bit_2/switch_5/w_44_3# Vh_Vl_3bit_2/outl2 0.04fF
+C1491 switch_3/vrefh Vh_Vl_3bit_2/switch_6/out 0.06fF
+C1492 Vh_Vl_3bit_2/switch_7/a_n29_n8# Vh_Vl_3bit_2/switch_7/a_5_n8# 0.05fF
+C1493 Vh_Vl_3bit_0/switch_4/a_5_n8# Vh_Vl_3bit_0/switch_5/vrefh 0.02fF
+C1494 Vh_Vl_3bit_1/switch_10/a_n29_n8# Vh_Vl_3bit_1/switch_10/a_5_n8# 0.05fF
+C1495 Vh_Vl_3bit_1/outh4 Vh_Vl_3bit_1/outh3 0.08fF
+C1496 Vh_Vl_3bit_1/switch_11/w_43_n41# Vh_Vl_3bit_1/switch_11/out 0.06fF
+C1497 Vh_Vl_3bit_3/switch_8/w_43_n41# switch_3/vrefl 0.06fF
+C1498 Vh_Vl_3bit_3/switch_13/w_43_n41# switch_2/vrefl 0.06fF
+C1499 Vh_Vl_3bit_2/switch_3/a_5_n8# vdd 0.05fF
+C1500 Vh_Vl_3bit_0/switch_2/a_5_n8# Vh_Vl_3bit_0/switch_2/w_43_n41# 0.07fF
+C1501 Vh_Vl_3bit_1/switch_9/a_5_n8# Vh_Vl_3bit_1/switch_9/vrefh 0.68fF
+C1502 Vh_Vl_3bit_3/switch_2/vrefh b6 0.05fF
+C1503 Vh_Vl_3bit_0/switch_6/a_n29_n8# b6 0.05fF
+C1504 Vh_Vl_3bit_0/switch_4/a_n29_n8# b5 0.05fF
+C1505 Vh_Vl_3bit_1/switch_10/w_44_3# Vh_Vl_3bit_1/switch_9/vrefl 0.03fF
+C1506 outL_stage1 b7 0.01fF
+C1507 switch_2/vrefh Vh_Vl_3bit_2/switch_12/out 0.06fF
+C1508 Vh_Vl_3bit_3/switch_12/a_5_n8# Vh_Vl_3bit_3/switch_1/out 0.68fF
+C1509 3bit_stage_0/switch_13/w_43_n41# outL_stage2 0.06fF
+C1510 Vh_Vl_3bit_0/switch_6/a_5_n8# Vh_Vl_3bit_0/outh1 0.68fF
+C1511 Vh_Vl_3bit_1/switch_13/w_43_n41# switch_1/vrefl 0.06fF
+C1512 Vh_Vl_3bit_1/switch_7/a_5_n8# vdd 0.05fF
+C1513 Vh_Vl_3bit_1/switch_3/out Vh_Vl_3bit_1/outl3 0.08fF
+C1514 Vh_Vl_3bit_2/switch_10/a_n29_n8# Vh_Vl_3bit_2/switch_9/vrefl 0.02fF
+C1515 3bit_stage_0/switch_1/a_n29_n8# vdd 0.95fF
+C1516 Vh_Vl_3bit_1/switch_6/out Vh_Vl_3bit_1/outh2 0.20fF
+C1517 Vh_Vl_3bit_3/switch_3/out Vh_Vl_3bit_3/switch_11/out 0.42fF
+C1518 Vh_Vl_3bit_0/switch_4/vrefh Vh_Vl_3bit_0/switch_1/vrefh 0.08fF
+C1519 b4 b3 0.03fF
+C1520 outL_stage1 vdd 0.02fF
+C1521 Vh_Vl_3bit_3/switch_6/out b7 0.03fF
+C1522 Vh_Vl_3bit_3/switch_9/a_n29_n8# vdd 0.95fF
+C1523 Vh_Vl_3bit_0/switch_1/a_5_n8# vdd 0.05fF
+C1524 Vh_Vl_3bit_0/switch_12/a_n29_n8# Vh_Vl_3bit_0/switch_1/out 0.02fF
+C1525 Vh_Vl_3bit_0/switch_7/w_44_3# Vh_Vl_3bit_0/outh3 0.03fF
+C1526 Vh_Vl_3bit_3/switch_3/out b9 0.01fF
+C1527 Vh_Vl_3bit_3/switch_6/w_43_n41# Vh_Vl_3bit_3/switch_6/a_5_n8# 0.07fF
+C1528 Vh_Vl_3bit_1/res4_7/a_n12_4# Vh_Vl_3bit_1/switch_3/vrefh 0.01fF
+C1529 Vh_Vl_3bit_2/switch_4/a_n29_n8# Vh_Vl_3bit_2/switch_4/vrefh 0.02fF
+C1530 Vh_Vl_3bit_3/switch_6/out vdd 0.05fF
+C1531 3bit_stage_0/switch_3/vrefh 3bit_stage_0/switch_2/vrefh 0.08fF
+C1532 switch_1/vrefh vdd 0.05fF
+C1533 Vh_Vl_3bit_1/vref Vh_Vl_3bit_0/switch_3/out 0.22fF
+C1534 3bit_stage_0/switch_12/w_43_n41# 3bit_stage_0/switch_12/out 0.06fF
+C1535 Vh_Vl_3bit_1/switch_6/w_43_n41# Vh_Vl_3bit_1/switch_6/out 0.06fF
+C1536 Vh_Vl_3bit_2/switch_8/w_44_3# Vh_Vl_3bit_2/switch_8/a_n29_n8# 0.19fF
+C1537 Vh_Vl_3bit_3/switch_4/w_44_3# Vh_Vl_3bit_3/switch_4/a_n29_n8# 0.19fF
+C1538 3bit_stage_0/switch_11/a_n29_n8# b3 0.05fF
+C1539 Vh_Vl_3bit_0/switch_5/a_n29_n8# Vh_Vl_3bit_0/switch_5/vrefh 0.02fF
+C1540 Vh_Vl_3bit_0/switch_8/w_44_3# Vh_Vl_3bit_0/switch_6/out 0.03fF
+C1541 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_3/out 0.02fF
+C1542 Vh_Vl_3bit_2/switch_3/vrefh Vh_Vl_3bit_2/switch_2/w_43_n41# 0.04fF
+C1543 Vh_Vl_3bit_2/switch_1/out Vh_Vl_3bit_2/switch_1/vrefh 0.06fF
+C1544 Vh_Vl_3bit_3/switch_12/out b7 0.03fF
+C1545 Vh_Vl_3bit_0/switch_2/vrefh b6 0.05fF
+C1546 Vh_Vl_3bit_3/vref Vh_Vl_3bit_3/res4_0/a_n12_4# 0.01fF
+C1547 Vh_Vl_3bit_3/switch_0/a_5_n8# Vh_Vl_3bit_3/switch_1/vrefh 0.02fF
+C1548 3bit_stage_0/switch_5/w_44_3# 3bit_stage_0/outl2 0.04fF
+C1549 Vh_Vl_3bit_2/switch_9/vrefh Vh_Vl_3bit_2/switch_5/a_5_n8# 0.02fF
+C1550 Vh_Vl_3bit_0/switch_11/a_5_n8# Vh_Vl_3bit_0/switch_11/a_n29_n8# 0.05fF
+C1551 Vh_Vl_3bit_1/switch_0/a_n29_n8# b5 0.05fF
+C1552 Vh_Vl_3bit_1/switch_1/w_43_n41# Vh_Vl_3bit_1/switch_1/out 0.06fF
+C1553 Vh_Vl_3bit_0/switch_2/vrefh Vh_Vl_3bit_0/switch_2/a_n29_n8# 0.02fF
+C1554 Vh_Vl_3bit_3/switch_12/out vdd 0.08fF
+C1555 3bit_stage_0/switch_11/w_43_n41# 3bit_stage_0/switch_3/out 0.04fF
+C1556 Vh_Vl_3bit_1/switch_11/out vdd 0.03fF
+C1557 Vh_Vl_3bit_2/switch_1/a_n29_n8# vdd 0.95fF
+C1558 Vh_Vl_3bit_2/switch_11/a_n29_n8# Vh_Vl_3bit_2/switch_11/a_5_n8# 0.05fF
+C1559 Vh_Vl_3bit_0/switch_12/a_n29_n8# vdd 0.95fF
+C1560 3bit_stage_0/switch_9/a_n29_n8# 3bit_stage_0/switch_9/vrefh 0.02fF
+C1561 Vh_Vl_3bit_1/switch_4/w_43_n41# Vh_Vl_3bit_1/switch_5/vrefh 0.04fF
+C1562 Vh_Vl_3bit_2/switch_1/w_44_3# Vh_Vl_3bit_2/switch_1/vrefh 0.03fF
+C1563 3bit_stage_0/switch_9/w_44_3# 3bit_stage_0/outh3 0.04fF
+C1564 switch_1/a_n29_n8# vdd 0.95fF
+C1565 Vh_Vl_3bit_0/switch_6/w_44_3# Vh_Vl_3bit_0/switch_6/a_n29_n8# 0.19fF
+C1566 Vh_Vl_3bit_0/switch_9/w_43_n41# Vh_Vl_3bit_0/switch_9/vrefl 0.04fF
+C1567 Vh_Vl_3bit_0/switch_11/w_43_n41# Vh_Vl_3bit_0/switch_11/out 0.06fF
+C1568 Vh_Vl_3bit_3/switch_0/w_44_3# Vh_Vl_3bit_3/outh1 0.04fF
+C1569 Vh_Vl_3bit_3/switch_1/a_5_n8# Vh_Vl_3bit_3/switch_1/vrefh 0.68fF
+C1570 Vh_Vl_3bit_0/switch_0/a_n29_n8# Vh_Vl_3bit_0/switch_0/a_5_n8# 0.05fF
+C1571 Vh_Vl_3bit_0/switch_0/w_43_n41# Vh_Vl_3bit_0/outh1 0.06fF
+C1572 Vh_Vl_3bit_0/outl3 vdd 0.03fF
+C1573 Vh_Vl_3bit_0/switch_3/a_5_n8# Vh_Vl_3bit_1/vref 0.02fF
+C1574 Vh_Vl_3bit_1/switch_11/a_n29_n8# Vh_Vl_3bit_1/switch_11/a_5_n8# 0.05fF
+C1575 vref Vh_Vl_3bit_2/switch_1/vrefh 0.08fF
+C1576 Vh_Vl_3bit_3/switch_12/w_43_n41# Vh_Vl_3bit_3/switch_12/a_5_n8# 0.07fF
+C1577 Vh_Vl_3bit_3/switch_10/w_43_n41# Vh_Vl_3bit_3/switch_10/a_5_n8# 0.07fF
+C1578 out_10bitdac 2bit_stage_0/switch_2/w_44_3# 0.04fF
+C1579 Vh_Vl_3bit_2/switch_11/a_5_n8# Vh_Vl_3bit_2/outl3 0.68fF
+C1580 3bit_stage_0/outl3 b3 0.03fF
+C1581 3bit_stage_0/res_150k_3/a_n24_n112# 3bit_stage_0/switch_9/vrefh 0.01fF
+C1582 3bit_stage_0/switch_2/w_43_n41# 3bit_stage_0/outh4 0.06fF
+C1583 2bit_stage_0/switch_2/a_n29_n8# vdd 0.95fF
+C1584 Vh_Vl_3bit_0/switch_9/a_n29_n8# b5 0.05fF
+C1585 b7 b5 0.22fF
+C1586 Vh_Vl_3bit_1/switch_11/out Vh_Vl_3bit_1/switch_12/out 0.08fF
+C1587 3bit_stage_0/switch_10/w_44_3# 3bit_stage_0/outl3 0.04fF
+C1588 Vh_Vl_3bit_0/res4_7/a_n12_4# Vh_Vl_3bit_1/vref 0.01fF
+C1589 Vh_Vl_3bit_2/switch_3/a_5_n8# Vh_Vl_3bit_3/vref 0.02fF
+C1590 3bit_stage_0/switch_5/a_n29_n8# 3bit_stage_0/switch_5/a_5_n8# 0.05fF
+C1591 Vh_Vl_3bit_1/switch_4/a_n29_n8# Vh_Vl_3bit_1/switch_4/a_5_n8# 0.05fF
+C1592 outl_81 gnd 12.50fF
+C1593 switch_2/a_5_n8# gnd 0.31fF
+C1594 switch_2/a_n29_n8# gnd 0.24fF
+C1595 switch_2/w_43_n41# gnd 0.45fF
+C1596 switch_2/w_44_3# gnd 0.53fF
+C1597 outh_81 gnd 0.74fF
+C1598 switch_3/a_5_n8# gnd 0.31fF
+C1599 switch_3/a_n29_n8# gnd 0.24fF
+C1600 b8 gnd 36.28fF
+C1601 switch_3/w_43_n41# gnd 0.45fF
+C1602 switch_3/w_44_3# gnd 0.53fF
+C1603 vdd gnd 225.27fF
+C1604 Vh_Vl_3bit_2/switch_1/vrefh gnd 3.34fF
+C1605 Vh_Vl_3bit_2/switch_0/a_5_n8# gnd 0.31fF
+C1606 Vh_Vl_3bit_2/switch_0/a_n29_n8# gnd 0.24fF
+C1607 b5 gnd 101.02fF
+C1608 Vh_Vl_3bit_2/switch_0/w_43_n41# gnd 0.45fF
+C1609 Vh_Vl_3bit_2/switch_0/w_44_3# gnd 0.53fF
+C1610 Vh_Vl_3bit_2/switch_1/out gnd 0.87fF
+C1611 Vh_Vl_3bit_2/switch_1/a_5_n8# gnd 0.31fF
+C1612 Vh_Vl_3bit_2/switch_1/a_n29_n8# gnd 0.24fF
+C1613 Vh_Vl_3bit_2/switch_1/w_43_n41# gnd 0.45fF
+C1614 Vh_Vl_3bit_2/switch_1/w_44_3# gnd 0.53fF
+C1615 Vh_Vl_3bit_2/switch_4/vrefh gnd 3.58fF
+C1616 Vh_Vl_3bit_2/switch_6/out gnd 0.86fF
+C1617 Vh_Vl_3bit_2/switch_6/a_5_n8# gnd 0.31fF
+C1618 Vh_Vl_3bit_2/switch_6/a_n29_n8# gnd 0.24fF
+C1619 b6 gnd 61.16fF
+C1620 Vh_Vl_3bit_2/switch_6/w_43_n41# gnd 0.45fF
+C1621 Vh_Vl_3bit_2/switch_6/w_44_3# gnd 0.53fF
+C1622 Vh_Vl_3bit_2/outl2 gnd 0.66fF
+C1623 Vh_Vl_3bit_2/switch_12/out gnd 2.82fF
+C1624 Vh_Vl_3bit_2/switch_12/a_5_n8# gnd 0.31fF
+C1625 Vh_Vl_3bit_2/switch_12/a_n29_n8# gnd 0.24fF
+C1626 Vh_Vl_3bit_2/switch_12/w_43_n41# gnd 0.45fF
+C1627 Vh_Vl_3bit_2/switch_12/w_44_3# gnd 0.53fF
+C1628 Vh_Vl_3bit_2/switch_5/vrefh gnd 3.30fF
+C1629 Vh_Vl_3bit_2/switch_4/a_5_n8# gnd 0.31fF
+C1630 Vh_Vl_3bit_2/switch_4/a_n29_n8# gnd 0.24fF
+C1631 Vh_Vl_3bit_2/switch_4/w_43_n41# gnd 0.45fF
+C1632 Vh_Vl_3bit_2/switch_4/w_44_3# gnd 0.53fF
+C1633 Vh_Vl_3bit_2/switch_5/a_5_n8# gnd 0.31fF
+C1634 Vh_Vl_3bit_2/switch_5/a_n29_n8# gnd 0.24fF
+C1635 Vh_Vl_3bit_2/switch_5/w_43_n41# gnd 0.45fF
+C1636 Vh_Vl_3bit_2/switch_5/w_44_3# gnd 0.53fF
+C1637 Vh_Vl_3bit_2/switch_9/vrefh gnd 3.58fF
+C1638 Vh_Vl_3bit_2/switch_8/a_5_n8# gnd 0.31fF
+C1639 Vh_Vl_3bit_2/switch_8/a_n29_n8# gnd 0.24fF
+C1640 Vh_Vl_3bit_2/switch_8/w_43_n41# gnd 0.45fF
+C1641 Vh_Vl_3bit_2/switch_8/w_44_3# gnd 0.53fF
+C1642 Vh_Vl_3bit_2/switch_11/out gnd 3.11fF
+C1643 switch_2/vrefh gnd 0.02fF
+C1644 Vh_Vl_3bit_2/switch_13/a_5_n8# gnd 0.31fF
+C1645 Vh_Vl_3bit_2/switch_13/a_n29_n8# gnd 0.24fF
+C1646 Vh_Vl_3bit_2/switch_13/w_43_n41# gnd 0.45fF
+C1647 Vh_Vl_3bit_2/switch_13/w_44_3# gnd 0.53fF
+C1648 Vh_Vl_3bit_2/switch_9/vrefl gnd 3.30fF
+C1649 Vh_Vl_3bit_2/switch_9/a_5_n8# gnd 0.31fF
+C1650 Vh_Vl_3bit_2/switch_9/a_n29_n8# gnd 0.24fF
+C1651 Vh_Vl_3bit_2/switch_9/w_43_n41# gnd 0.45fF
+C1652 Vh_Vl_3bit_2/switch_9/w_44_3# gnd 0.53fF
+C1653 Vh_Vl_3bit_2/outl3 gnd 2.01fF
+C1654 Vh_Vl_3bit_2/switch_10/a_5_n8# gnd 0.31fF
+C1655 Vh_Vl_3bit_2/switch_10/a_n29_n8# gnd 0.24fF
+C1656 Vh_Vl_3bit_2/switch_10/w_43_n41# gnd 0.45fF
+C1657 Vh_Vl_3bit_2/switch_10/w_44_3# gnd 0.53fF
+C1658 Vh_Vl_3bit_2/switch_2/vrefh gnd 3.55fF
+C1659 Vh_Vl_3bit_2/switch_7/a_5_n8# gnd 0.31fF
+C1660 Vh_Vl_3bit_2/switch_7/a_n29_n8# gnd 0.24fF
+C1661 Vh_Vl_3bit_2/switch_7/w_43_n41# gnd 0.45fF
+C1662 Vh_Vl_3bit_2/switch_7/w_44_3# gnd 0.53fF
+C1663 Vh_Vl_3bit_2/switch_3/out gnd 3.80fF
+C1664 Vh_Vl_3bit_2/switch_11/a_5_n8# gnd 0.31fF
+C1665 Vh_Vl_3bit_2/switch_11/a_n29_n8# gnd 0.24fF
+C1666 Vh_Vl_3bit_2/switch_11/w_43_n41# gnd 0.45fF
+C1667 Vh_Vl_3bit_2/switch_11/w_44_3# gnd 0.53fF
+C1668 Vh_Vl_3bit_2/switch_3/vrefh gnd 3.26fF
+C1669 Vh_Vl_3bit_2/switch_2/a_5_n8# gnd 0.31fF
+C1670 Vh_Vl_3bit_2/switch_2/a_n29_n8# gnd 0.24fF
+C1671 Vh_Vl_3bit_2/switch_2/w_43_n41# gnd 0.45fF
+C1672 Vh_Vl_3bit_2/switch_2/w_44_3# gnd 0.53fF
+C1673 Vh_Vl_3bit_2/switch_3/a_5_n8# gnd 0.31fF
+C1674 Vh_Vl_3bit_2/switch_3/a_n29_n8# gnd 0.24fF
+C1675 Vh_Vl_3bit_2/switch_3/w_43_n41# gnd 0.45fF
+C1676 Vh_Vl_3bit_2/switch_3/w_44_3# gnd 0.53fF
+C1677 outh_82 gnd 0.51fF
+C1678 switch_4/a_5_n8# gnd 0.31fF
+C1679 switch_4/a_n29_n8# gnd 0.24fF
+C1680 b9 gnd 4.62fF
+C1681 switch_4/w_43_n41# gnd 0.45fF
+C1682 switch_4/w_44_3# gnd 0.53fF
+C1683 Vh_Vl_3bit_3/switch_1/vrefh gnd 3.34fF
+C1684 Vh_Vl_3bit_3/vref gnd 1.52fF
+C1685 Vh_Vl_3bit_3/switch_0/a_5_n8# gnd 0.31fF
+C1686 Vh_Vl_3bit_3/switch_0/a_n29_n8# gnd 0.24fF
+C1687 Vh_Vl_3bit_3/switch_0/w_43_n41# gnd 0.45fF
+C1688 Vh_Vl_3bit_3/switch_0/w_44_3# gnd 0.53fF
+C1689 Vh_Vl_3bit_3/switch_1/out gnd 0.87fF
+C1690 Vh_Vl_3bit_3/switch_1/a_5_n8# gnd 0.31fF
+C1691 Vh_Vl_3bit_3/switch_1/a_n29_n8# gnd 0.24fF
+C1692 Vh_Vl_3bit_3/switch_1/w_43_n41# gnd 0.45fF
+C1693 Vh_Vl_3bit_3/switch_1/w_44_3# gnd 0.53fF
+C1694 Vh_Vl_3bit_3/switch_4/vrefh gnd 3.58fF
+C1695 Vh_Vl_3bit_3/switch_6/out gnd 0.89fF
+C1696 Vh_Vl_3bit_3/switch_6/a_5_n8# gnd 0.31fF
+C1697 Vh_Vl_3bit_3/switch_6/a_n29_n8# gnd 0.24fF
+C1698 Vh_Vl_3bit_3/switch_6/w_43_n41# gnd 0.45fF
+C1699 Vh_Vl_3bit_3/switch_6/w_44_3# gnd 0.53fF
+C1700 Vh_Vl_3bit_3/outl2 gnd 0.66fF
+C1701 Vh_Vl_3bit_3/switch_12/out gnd 2.82fF
+C1702 Vh_Vl_3bit_3/switch_12/a_5_n8# gnd 0.31fF
+C1703 Vh_Vl_3bit_3/switch_12/a_n29_n8# gnd 0.24fF
+C1704 Vh_Vl_3bit_3/switch_12/w_43_n41# gnd 0.45fF
+C1705 Vh_Vl_3bit_3/switch_12/w_44_3# gnd 0.53fF
+C1706 Vh_Vl_3bit_3/switch_5/vrefh gnd 3.30fF
+C1707 Vh_Vl_3bit_3/switch_4/a_5_n8# gnd 0.31fF
+C1708 Vh_Vl_3bit_3/switch_4/a_n29_n8# gnd 0.24fF
+C1709 Vh_Vl_3bit_3/switch_4/w_43_n41# gnd 0.45fF
+C1710 Vh_Vl_3bit_3/switch_4/w_44_3# gnd 0.53fF
+C1711 Vh_Vl_3bit_3/switch_5/a_5_n8# gnd 0.31fF
+C1712 Vh_Vl_3bit_3/switch_5/a_n29_n8# gnd 0.24fF
+C1713 Vh_Vl_3bit_3/switch_5/w_43_n41# gnd 0.45fF
+C1714 Vh_Vl_3bit_3/switch_5/w_44_3# gnd 0.53fF
+C1715 Vh_Vl_3bit_3/switch_9/vrefh gnd 3.58fF
+C1716 Vh_Vl_3bit_3/switch_8/a_5_n8# gnd 0.31fF
+C1717 Vh_Vl_3bit_3/switch_8/a_n29_n8# gnd 0.24fF
+C1718 Vh_Vl_3bit_3/switch_8/w_43_n41# gnd 0.45fF
+C1719 Vh_Vl_3bit_3/switch_8/w_44_3# gnd 0.53fF
+C1720 Vh_Vl_3bit_3/switch_11/out gnd 3.11fF
+C1721 Vh_Vl_3bit_3/switch_13/a_5_n8# gnd 0.31fF
+C1722 Vh_Vl_3bit_3/switch_13/a_n29_n8# gnd 0.24fF
+C1723 Vh_Vl_3bit_3/switch_13/w_43_n41# gnd 0.45fF
+C1724 Vh_Vl_3bit_3/switch_13/w_44_3# gnd 0.53fF
+C1725 Vh_Vl_3bit_3/switch_9/vrefl gnd 3.30fF
+C1726 Vh_Vl_3bit_3/switch_9/a_5_n8# gnd 0.31fF
+C1727 Vh_Vl_3bit_3/switch_9/a_n29_n8# gnd 0.24fF
+C1728 Vh_Vl_3bit_3/switch_9/w_43_n41# gnd 0.45fF
+C1729 Vh_Vl_3bit_3/switch_9/w_44_3# gnd 0.53fF
+C1730 Vh_Vl_3bit_3/outl3 gnd 2.01fF
+C1731 Vh_Vl_3bit_3/switch_10/a_5_n8# gnd 0.31fF
+C1732 Vh_Vl_3bit_3/switch_10/a_n29_n8# gnd 0.24fF
+C1733 Vh_Vl_3bit_3/switch_10/w_43_n41# gnd 0.45fF
+C1734 Vh_Vl_3bit_3/switch_10/w_44_3# gnd 0.53fF
+C1735 Vh_Vl_3bit_3/switch_2/vrefh gnd 3.55fF
+C1736 Vh_Vl_3bit_3/switch_7/a_5_n8# gnd 0.31fF
+C1737 Vh_Vl_3bit_3/switch_7/a_n29_n8# gnd 0.24fF
+C1738 Vh_Vl_3bit_3/switch_7/w_43_n41# gnd 0.45fF
+C1739 Vh_Vl_3bit_3/switch_7/w_44_3# gnd 0.53fF
+C1740 Vh_Vl_3bit_3/switch_3/out gnd 3.80fF
+C1741 Vh_Vl_3bit_3/switch_11/a_5_n8# gnd 0.31fF
+C1742 Vh_Vl_3bit_3/switch_11/a_n29_n8# gnd 0.24fF
+C1743 Vh_Vl_3bit_3/switch_11/w_43_n41# gnd 0.45fF
+C1744 Vh_Vl_3bit_3/switch_11/w_44_3# gnd 0.53fF
+C1745 Vh_Vl_3bit_3/switch_3/vrefh gnd 3.26fF
+C1746 Vh_Vl_3bit_3/switch_2/a_5_n8# gnd 0.31fF
+C1747 Vh_Vl_3bit_3/switch_2/a_n29_n8# gnd 0.24fF
+C1748 Vh_Vl_3bit_3/switch_2/w_43_n41# gnd 0.45fF
+C1749 Vh_Vl_3bit_3/switch_2/w_44_3# gnd 0.53fF
+C1750 Vh_Vl_3bit_3/switch_3/a_5_n8# gnd 0.31fF
+C1751 Vh_Vl_3bit_3/switch_3/a_n29_n8# gnd 0.24fF
+C1752 Vh_Vl_3bit_3/switch_3/w_43_n41# gnd 0.45fF
+C1753 Vh_Vl_3bit_3/switch_3/w_44_3# gnd 0.53fF
+C1754 Vh_Vl_3bit_0/vref gnd 1.54fF
+C1755 outl_82 gnd 6.56fF
+C1756 outL_stage1 gnd 8.17fF
+C1757 switch_5/a_5_n8# gnd 0.31fF
+C1758 switch_5/a_n29_n8# gnd 0.24fF
+C1759 switch_5/w_43_n41# gnd 0.45fF
+C1760 switch_5/w_44_3# gnd 0.53fF
+C1761 3bit_stage_0/switch_0/a_5_n8# gnd 0.31fF
+C1762 3bit_stage_0/switch_0/a_n29_n8# gnd 0.24fF
+C1763 b2 gnd 25.05fF
+C1764 3bit_stage_0/switch_0/w_43_n41# gnd 0.45fF
+C1765 3bit_stage_0/switch_0/w_44_3# gnd 0.53fF
+C1766 3bit_stage_0/switch_1/out gnd 0.84fF
+C1767 3bit_stage_0/switch_1/a_5_n8# gnd 0.31fF
+C1768 3bit_stage_0/switch_1/a_n29_n8# gnd 0.24fF
+C1769 3bit_stage_0/switch_1/w_43_n41# gnd 0.45fF
+C1770 3bit_stage_0/switch_1/w_44_3# gnd 0.53fF
+C1771 3bit_stage_0/switch_6/out gnd 0.88fF
+C1772 3bit_stage_0/switch_6/a_5_n8# gnd 0.31fF
+C1773 3bit_stage_0/switch_6/a_n29_n8# gnd 0.24fF
+C1774 b3 gnd 15.17fF
+C1775 3bit_stage_0/switch_6/w_43_n41# gnd 0.45fF
+C1776 3bit_stage_0/switch_6/w_44_3# gnd 0.53fF
+C1777 3bit_stage_0/outl2 gnd 0.56fF
+C1778 3bit_stage_0/switch_12/out gnd 2.82fF
+C1779 3bit_stage_0/switch_12/a_5_n8# gnd 0.31fF
+C1780 3bit_stage_0/switch_12/a_n29_n8# gnd 0.24fF
+C1781 3bit_stage_0/switch_12/w_43_n41# gnd 0.45fF
+C1782 3bit_stage_0/switch_12/w_44_3# gnd 0.53fF
+C1783 3bit_stage_0/switch_5/vrefh gnd 3.55fF
+C1784 3bit_stage_0/switch_4/a_5_n8# gnd 0.31fF
+C1785 3bit_stage_0/switch_4/a_n29_n8# gnd 0.24fF
+C1786 3bit_stage_0/switch_4/w_43_n41# gnd 0.45fF
+C1787 3bit_stage_0/switch_4/w_44_3# gnd 0.53fF
+C1788 3bit_stage_0/switch_5/a_5_n8# gnd 0.31fF
+C1789 3bit_stage_0/switch_5/a_n29_n8# gnd 0.24fF
+C1790 3bit_stage_0/switch_5/w_43_n41# gnd 0.45fF
+C1791 3bit_stage_0/switch_5/w_44_3# gnd 0.53fF
+C1792 3bit_stage_0/switch_9/vrefh gnd 1.06fF
+C1793 3bit_stage_0/switch_8/a_5_n8# gnd 0.31fF
+C1794 3bit_stage_0/switch_8/a_n29_n8# gnd 0.24fF
+C1795 b4 gnd 0.66fF
+C1796 3bit_stage_0/switch_8/w_43_n41# gnd 0.45fF
+C1797 3bit_stage_0/switch_8/w_44_3# gnd 0.53fF
+C1798 3bit_stage_0/switch_11/out gnd 3.11fF
+C1799 outL_stage2 gnd 0.26fF
+C1800 3bit_stage_0/switch_13/a_5_n8# gnd 0.31fF
+C1801 3bit_stage_0/switch_13/a_n29_n8# gnd 0.24fF
+C1802 3bit_stage_0/switch_13/w_43_n41# gnd 0.45fF
+C1803 3bit_stage_0/switch_13/w_44_3# gnd 0.53fF
+C1804 3bit_stage_0/switch_9/vrefl gnd 3.74fF
+C1805 3bit_stage_0/switch_9/a_5_n8# gnd 0.31fF
+C1806 3bit_stage_0/switch_9/a_n29_n8# gnd 0.24fF
+C1807 3bit_stage_0/switch_9/w_43_n41# gnd 0.45fF
+C1808 3bit_stage_0/switch_9/w_44_3# gnd 0.53fF
+C1809 3bit_stage_0/outl3 gnd 2.01fF
+C1810 3bit_stage_0/switch_10/a_5_n8# gnd 0.31fF
+C1811 3bit_stage_0/switch_10/a_n29_n8# gnd 0.24fF
+C1812 3bit_stage_0/switch_10/w_43_n41# gnd 0.45fF
+C1813 3bit_stage_0/switch_10/w_44_3# gnd 0.53fF
+C1814 3bit_stage_0/switch_2/vrefh gnd 1.09fF
+C1815 3bit_stage_0/switch_7/a_5_n8# gnd 0.31fF
+C1816 3bit_stage_0/switch_7/a_n29_n8# gnd 0.24fF
+C1817 3bit_stage_0/switch_7/w_43_n41# gnd 0.45fF
+C1818 3bit_stage_0/switch_7/w_44_3# gnd 0.53fF
+C1819 3bit_stage_0/switch_3/out gnd 3.80fF
+C1820 3bit_stage_0/switch_11/a_5_n8# gnd 0.31fF
+C1821 3bit_stage_0/switch_11/a_n29_n8# gnd 0.24fF
+C1822 3bit_stage_0/switch_11/w_43_n41# gnd 0.45fF
+C1823 3bit_stage_0/switch_11/w_44_3# gnd 0.53fF
+C1824 3bit_stage_0/switch_3/vrefh gnd 3.71fF
+C1825 3bit_stage_0/switch_2/a_5_n8# gnd 0.31fF
+C1826 3bit_stage_0/switch_2/a_n29_n8# gnd 0.24fF
+C1827 3bit_stage_0/switch_2/w_43_n41# gnd 0.45fF
+C1828 3bit_stage_0/switch_2/w_44_3# gnd 0.53fF
+C1829 3bit_stage_0/switch_3/a_5_n8# gnd 0.31fF
+C1830 3bit_stage_0/switch_3/a_n29_n8# gnd 0.24fF
+C1831 3bit_stage_0/switch_3/w_43_n41# gnd 0.45fF
+C1832 3bit_stage_0/switch_3/w_44_3# gnd 0.53fF
+C1833 outH_stage2 gnd 0.43fF
+C1834 2bit_stage_0/switch_0/vrefl gnd 0.50fF
+C1835 2bit_stage_0/switch_0/out gnd 0.18fF
+C1836 2bit_stage_0/switch_0/vrefh gnd 2.44fF
+C1837 2bit_stage_0/switch_0/a_5_n8# gnd 0.31fF
+C1838 2bit_stage_0/switch_0/a_n29_n8# gnd 0.24fF
+C1839 b0 gnd 0.56fF
+C1840 2bit_stage_0/switch_0/w_43_n41# gnd 0.45fF
+C1841 2bit_stage_0/switch_0/w_44_3# gnd 0.53fF
+C1842 2bit_stage_0/switch_1/vrefh gnd 2.29fF
+C1843 2bit_stage_0/switch_1/out gnd 0.51fF
+C1844 out_10bitdac gnd 0.24fF
+C1845 2bit_stage_0/switch_2/a_5_n8# gnd 0.31fF
+C1846 2bit_stage_0/switch_2/a_n29_n8# gnd 0.24fF
+C1847 b1 gnd 0.45fF
+C1848 2bit_stage_0/switch_2/w_43_n41# gnd 0.45fF
+C1849 2bit_stage_0/switch_2/w_44_3# gnd 0.53fF
+C1850 2bit_stage_0/switch_1/a_5_n8# gnd 0.31fF
+C1851 2bit_stage_0/switch_1/a_n29_n8# gnd 0.24fF
+C1852 2bit_stage_0/switch_1/w_43_n41# gnd 0.45fF
+C1853 2bit_stage_0/switch_1/w_44_3# gnd 0.53fF
+C1854 switch_1/a_5_n8# gnd 0.31fF
+C1855 switch_1/a_n29_n8# gnd 0.24fF
+C1856 switch_1/w_43_n41# gnd 0.45fF
+C1857 switch_1/w_44_3# gnd 0.53fF
+C1858 switch_0/a_5_n8# gnd 0.31fF
+C1859 switch_0/a_n29_n8# gnd 0.24fF
+C1860 switch_0/w_43_n41# gnd 0.45fF
+C1861 switch_0/w_44_3# gnd 0.53fF
+C1862 Vh_Vl_3bit_0/switch_1/vrefh gnd 3.34fF
+C1863 Vh_Vl_3bit_0/switch_0/a_5_n8# gnd 0.31fF
+C1864 Vh_Vl_3bit_0/switch_0/a_n29_n8# gnd 0.24fF
+C1865 Vh_Vl_3bit_0/switch_0/w_43_n41# gnd 0.45fF
+C1866 Vh_Vl_3bit_0/switch_0/w_44_3# gnd 0.53fF
+C1867 Vh_Vl_3bit_0/switch_1/out gnd 0.87fF
+C1868 Vh_Vl_3bit_0/switch_1/a_5_n8# gnd 0.31fF
+C1869 Vh_Vl_3bit_0/switch_1/a_n29_n8# gnd 0.24fF
+C1870 Vh_Vl_3bit_0/switch_1/w_43_n41# gnd 0.45fF
+C1871 Vh_Vl_3bit_0/switch_1/w_44_3# gnd 0.53fF
+C1872 Vh_Vl_3bit_0/switch_4/vrefh gnd 3.58fF
+C1873 Vh_Vl_3bit_0/switch_6/out gnd 0.86fF
+C1874 Vh_Vl_3bit_0/switch_6/a_5_n8# gnd 0.31fF
+C1875 Vh_Vl_3bit_0/switch_6/a_n29_n8# gnd 0.24fF
+C1876 Vh_Vl_3bit_0/switch_6/w_43_n41# gnd 0.45fF
+C1877 Vh_Vl_3bit_0/switch_6/w_44_3# gnd 0.53fF
+C1878 Vh_Vl_3bit_0/outl2 gnd 0.66fF
+C1879 Vh_Vl_3bit_0/switch_12/out gnd 2.82fF
+C1880 Vh_Vl_3bit_0/switch_12/a_5_n8# gnd 0.31fF
+C1881 Vh_Vl_3bit_0/switch_12/a_n29_n8# gnd 0.24fF
+C1882 Vh_Vl_3bit_0/switch_12/w_43_n41# gnd 0.45fF
+C1883 Vh_Vl_3bit_0/switch_12/w_44_3# gnd 0.53fF
+C1884 Vh_Vl_3bit_0/switch_5/vrefh gnd 3.30fF
+C1885 Vh_Vl_3bit_0/switch_4/a_5_n8# gnd 0.31fF
+C1886 Vh_Vl_3bit_0/switch_4/a_n29_n8# gnd 0.24fF
+C1887 Vh_Vl_3bit_0/switch_4/w_43_n41# gnd 0.45fF
+C1888 Vh_Vl_3bit_0/switch_4/w_44_3# gnd 0.53fF
+C1889 Vh_Vl_3bit_0/switch_5/a_5_n8# gnd 0.31fF
+C1890 Vh_Vl_3bit_0/switch_5/a_n29_n8# gnd 0.24fF
+C1891 Vh_Vl_3bit_0/switch_5/w_43_n41# gnd 0.45fF
+C1892 Vh_Vl_3bit_0/switch_5/w_44_3# gnd 0.53fF
+C1893 Vh_Vl_3bit_0/switch_9/vrefh gnd 3.58fF
+C1894 Vh_Vl_3bit_0/switch_8/a_5_n8# gnd 0.31fF
+C1895 Vh_Vl_3bit_0/switch_8/a_n29_n8# gnd 0.24fF
+C1896 Vh_Vl_3bit_0/switch_8/w_43_n41# gnd 0.45fF
+C1897 Vh_Vl_3bit_0/switch_8/w_44_3# gnd 0.53fF
+C1898 Vh_Vl_3bit_0/switch_11/out gnd 3.11fF
+C1899 switch_1/vrefh gnd 0.05fF
+C1900 Vh_Vl_3bit_0/switch_13/a_5_n8# gnd 0.31fF
+C1901 Vh_Vl_3bit_0/switch_13/a_n29_n8# gnd 0.24fF
+C1902 Vh_Vl_3bit_0/switch_13/w_43_n41# gnd 0.45fF
+C1903 Vh_Vl_3bit_0/switch_13/w_44_3# gnd 0.53fF
+C1904 Vh_Vl_3bit_0/switch_9/vrefl gnd 3.30fF
+C1905 Vh_Vl_3bit_0/switch_9/a_5_n8# gnd 0.31fF
+C1906 Vh_Vl_3bit_0/switch_9/a_n29_n8# gnd 0.24fF
+C1907 Vh_Vl_3bit_0/switch_9/w_43_n41# gnd 0.45fF
+C1908 Vh_Vl_3bit_0/switch_9/w_44_3# gnd 0.53fF
+C1909 Vh_Vl_3bit_0/outl3 gnd 2.01fF
+C1910 Vh_Vl_3bit_0/switch_10/a_5_n8# gnd 0.31fF
+C1911 Vh_Vl_3bit_0/switch_10/a_n29_n8# gnd 0.24fF
+C1912 Vh_Vl_3bit_0/switch_10/w_43_n41# gnd 0.45fF
+C1913 Vh_Vl_3bit_0/switch_10/w_44_3# gnd 0.53fF
+C1914 Vh_Vl_3bit_0/switch_2/vrefh gnd 3.55fF
+C1915 Vh_Vl_3bit_0/switch_7/a_5_n8# gnd 0.31fF
+C1916 Vh_Vl_3bit_0/switch_7/a_n29_n8# gnd 0.24fF
+C1917 Vh_Vl_3bit_0/switch_7/w_43_n41# gnd 0.45fF
+C1918 Vh_Vl_3bit_0/switch_7/w_44_3# gnd 0.53fF
+C1919 Vh_Vl_3bit_0/switch_3/out gnd 3.80fF
+C1920 Vh_Vl_3bit_0/switch_11/a_5_n8# gnd 0.31fF
+C1921 Vh_Vl_3bit_0/switch_11/a_n29_n8# gnd 0.24fF
+C1922 Vh_Vl_3bit_0/switch_11/w_43_n41# gnd 0.45fF
+C1923 Vh_Vl_3bit_0/switch_11/w_44_3# gnd 0.53fF
+C1924 Vh_Vl_3bit_0/switch_3/vrefh gnd 3.26fF
+C1925 Vh_Vl_3bit_0/switch_2/a_5_n8# gnd 0.31fF
+C1926 Vh_Vl_3bit_0/switch_2/a_n29_n8# gnd 0.24fF
+C1927 Vh_Vl_3bit_0/switch_2/w_43_n41# gnd 0.45fF
+C1928 Vh_Vl_3bit_0/switch_2/w_44_3# gnd 0.53fF
+C1929 Vh_Vl_3bit_0/switch_3/a_5_n8# gnd 0.31fF
+C1930 Vh_Vl_3bit_0/switch_3/a_n29_n8# gnd 0.24fF
+C1931 Vh_Vl_3bit_0/switch_3/w_43_n41# gnd 0.45fF
+C1932 Vh_Vl_3bit_0/switch_3/w_44_3# gnd 0.53fF
+C1933 Vh_Vl_3bit_1/switch_1/vrefh gnd 3.34fF
+C1934 Vh_Vl_3bit_1/vref gnd 1.52fF
+C1935 Vh_Vl_3bit_1/switch_0/a_5_n8# gnd 0.31fF
+C1936 Vh_Vl_3bit_1/switch_0/a_n29_n8# gnd 0.24fF
+C1937 Vh_Vl_3bit_1/switch_0/w_43_n41# gnd 0.45fF
+C1938 Vh_Vl_3bit_1/switch_0/w_44_3# gnd 0.53fF
+C1939 Vh_Vl_3bit_1/switch_1/out gnd 0.87fF
+C1940 Vh_Vl_3bit_1/switch_1/a_5_n8# gnd 0.31fF
+C1941 Vh_Vl_3bit_1/switch_1/a_n29_n8# gnd 0.24fF
+C1942 Vh_Vl_3bit_1/switch_1/w_43_n41# gnd 0.45fF
+C1943 Vh_Vl_3bit_1/switch_1/w_44_3# gnd 0.53fF
+C1944 Vh_Vl_3bit_1/switch_4/vrefh gnd 3.58fF
+C1945 Vh_Vl_3bit_1/switch_6/out gnd 0.86fF
+C1946 Vh_Vl_3bit_1/switch_6/a_5_n8# gnd 0.31fF
+C1947 Vh_Vl_3bit_1/switch_6/a_n29_n8# gnd 0.24fF
+C1948 Vh_Vl_3bit_1/switch_6/w_43_n41# gnd 0.45fF
+C1949 Vh_Vl_3bit_1/switch_6/w_44_3# gnd 0.53fF
+C1950 Vh_Vl_3bit_1/outl2 gnd 0.66fF
+C1951 Vh_Vl_3bit_1/switch_12/out gnd 2.82fF
+C1952 Vh_Vl_3bit_1/switch_12/a_5_n8# gnd 0.31fF
+C1953 Vh_Vl_3bit_1/switch_12/a_n29_n8# gnd 0.24fF
+C1954 Vh_Vl_3bit_1/switch_12/w_43_n41# gnd 0.45fF
+C1955 Vh_Vl_3bit_1/switch_12/w_44_3# gnd 0.53fF
+C1956 Vh_Vl_3bit_1/switch_5/vrefh gnd 3.30fF
+C1957 Vh_Vl_3bit_1/switch_4/a_5_n8# gnd 0.31fF
+C1958 Vh_Vl_3bit_1/switch_4/a_n29_n8# gnd 0.24fF
+C1959 Vh_Vl_3bit_1/switch_4/w_43_n41# gnd 0.45fF
+C1960 Vh_Vl_3bit_1/switch_4/w_44_3# gnd 0.53fF
+C1961 Vh_Vl_3bit_1/switch_5/a_5_n8# gnd 0.31fF
+C1962 Vh_Vl_3bit_1/switch_5/a_n29_n8# gnd 0.24fF
+C1963 Vh_Vl_3bit_1/switch_5/w_43_n41# gnd 0.45fF
+C1964 Vh_Vl_3bit_1/switch_5/w_44_3# gnd 0.53fF
+C1965 Vh_Vl_3bit_1/switch_9/vrefh gnd 3.58fF
+C1966 Vh_Vl_3bit_1/switch_8/a_5_n8# gnd 0.31fF
+C1967 Vh_Vl_3bit_1/switch_8/a_n29_n8# gnd 0.24fF
+C1968 Vh_Vl_3bit_1/switch_8/w_43_n41# gnd 0.45fF
+C1969 Vh_Vl_3bit_1/switch_8/w_44_3# gnd 0.53fF
+C1970 Vh_Vl_3bit_1/switch_11/out gnd 3.11fF
+C1971 Vh_Vl_3bit_1/switch_13/a_5_n8# gnd 0.31fF
+C1972 Vh_Vl_3bit_1/switch_13/a_n29_n8# gnd 0.24fF
+C1973 Vh_Vl_3bit_1/switch_13/w_43_n41# gnd 0.45fF
+C1974 Vh_Vl_3bit_1/switch_13/w_44_3# gnd 0.53fF
+C1975 Vh_Vl_3bit_1/switch_9/vrefl gnd 3.30fF
+C1976 Vh_Vl_3bit_1/switch_9/a_5_n8# gnd 0.31fF
+C1977 Vh_Vl_3bit_1/switch_9/a_n29_n8# gnd 0.24fF
+C1978 Vh_Vl_3bit_1/switch_9/w_43_n41# gnd 0.45fF
+C1979 Vh_Vl_3bit_1/switch_9/w_44_3# gnd 0.53fF
+C1980 Vh_Vl_3bit_1/outl3 gnd 2.01fF
+C1981 Vh_Vl_3bit_1/switch_10/a_5_n8# gnd 0.31fF
+C1982 Vh_Vl_3bit_1/switch_10/a_n29_n8# gnd 0.24fF
+C1983 Vh_Vl_3bit_1/switch_10/w_43_n41# gnd 0.45fF
+C1984 Vh_Vl_3bit_1/switch_10/w_44_3# gnd 0.53fF
+C1985 Vh_Vl_3bit_1/switch_2/vrefh gnd 3.55fF
+C1986 Vh_Vl_3bit_1/switch_7/a_5_n8# gnd 0.31fF
+C1987 Vh_Vl_3bit_1/switch_7/a_n29_n8# gnd 0.24fF
+C1988 Vh_Vl_3bit_1/switch_7/w_43_n41# gnd 0.45fF
+C1989 Vh_Vl_3bit_1/switch_7/w_44_3# gnd 0.53fF
+C1990 Vh_Vl_3bit_1/switch_3/out gnd 4.03fF
+C1991 Vh_Vl_3bit_1/switch_11/a_5_n8# gnd 0.31fF
+C1992 Vh_Vl_3bit_1/switch_11/a_n29_n8# gnd 0.24fF
+C1993 Vh_Vl_3bit_1/switch_11/w_43_n41# gnd 0.45fF
+C1994 Vh_Vl_3bit_1/switch_11/w_44_3# gnd 0.53fF
+C1995 Vh_Vl_3bit_1/switch_3/vrefh gnd 3.34fF
+C1996 Vh_Vl_3bit_1/switch_2/a_5_n8# gnd 0.31fF
+C1997 Vh_Vl_3bit_1/switch_2/a_n29_n8# gnd 0.24fF
+C1998 Vh_Vl_3bit_1/switch_2/w_43_n41# gnd 0.45fF
+C1999 Vh_Vl_3bit_1/switch_2/w_44_3# gnd 0.53fF
+C2000 Vh_Vl_3bit_1/switch_3/a_5_n8# gnd 0.33fF
+C2001 Vh_Vl_3bit_1/switch_3/a_n29_n8# gnd 0.24fF
+C2002 Vh_Vl_3bit_1/switch_3/w_43_n41# gnd 0.49fF
+C2003 Vh_Vl_3bit_1/switch_3/w_44_3# gnd 0.53fF
+
+
+C2004 outH_stage1 gnd 10pF
+C2005 outL_stage1 gnd 10pF
+C2006 outH_stage2 gnd 10pF
+C2007 outL_stage2 gnd 10pF
+C2008 out_10bitdac gnd 10pF
+
+
+.subckt nwellResistor d s W=1 L=1 Rsquare = 929
+
+R       d s 'L*Rsquare/W'
+
+.ends
+
+Vdd vdd gnd 3.3
+
+
+V1 b0 gnd pulse(0 1.8 10p 50p 50p 0.0625m 0.125m)
+V2 b1 gnd pulse(0 1.8 10p 50p 50p 0.125m 0.25m)
+V3 b2 gnd pulse(0 1.8 10p 50p 50p 0.25m 0.5m)
+V4 b3 gnd pulse(0 1.8 10p 50p 50p 0.5m 1m)
+
+
+Vin1 b4 gnd pulse(0 1.8 10p 50p 50p 1m 2m)
+Vin2 b5 gnd pulse(0 1.8 10p 50p 50p 2m 4m)
+Vin3 b6 gnd pulse(0 1.8 10p 50p 50p 4m 8m)
+Vin4 b7 gnd pulse(0 1.8 10p 50p 50p 8m 16m)
+Vin5 b8 gnd pulse(0 1.8 10p 50p 50p 16m 32m)
+Vin6 b9 gnd pulse(0 1.8 10p 50p 50p 32m 64m)
+
+
+V5 vref gnd dc 3.3
+
+
+.tran 64e-05 64e-03 UIC
+.control
+run
+plot out_10bitdac
+plot outH_stage1 outL_stage1
+plot outH_stage2 outL_stage2
+print out_10bitdac > out_v.txt
+.endc
+.end

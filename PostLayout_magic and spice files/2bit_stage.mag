@@ -1,0 +1,118 @@
+magic
+tech scmos
+timestamp 1599054612
+<< metal1 >>
+rect -8 147 -4 180
+rect -8 143 0 147
+rect 208 12 218 16
+rect 215 -19 218 12
+rect 215 -20 371 -19
+rect -12 -24 371 -20
+rect -12 -41 -8 -24
+rect -12 -46 -1 -41
+rect 258 -59 286 -55
+rect 423 -93 501 -89
+rect 266 -109 286 -104
+rect 207 -177 214 -172
+rect 211 -205 214 -177
+rect -7 -209 362 -205
+rect -7 -232 -3 -209
+rect 238 -224 417 -220
+rect -7 -236 1 -232
+rect 412 -256 417 -252
+rect 553 -258 558 -254
+rect 404 -274 418 -269
+rect 207 -367 362 -363
+rect 215 -387 219 -367
+rect -11 -391 219 -387
+rect -11 -407 -6 -391
+rect 233 -397 238 -391
+rect 233 -401 280 -397
+rect -11 -411 -1 -407
+rect 264 -433 278 -428
+rect 414 -435 492 -431
+rect 266 -451 278 -446
+rect 206 -542 353 -538
+rect 208 -564 213 -542
+rect 96 -571 213 -564
+rect 96 -585 103 -571
+<< m2contact >>
+rect 371 -24 376 -19
+rect 254 -59 258 -55
+rect 280 -91 286 -87
+rect 501 -93 505 -89
+rect 258 -109 266 -104
+rect 362 -209 366 -205
+rect 233 -224 238 -220
+rect 408 -256 412 -252
+rect 397 -274 404 -269
+rect 362 -368 366 -363
+rect 233 -391 238 -385
+rect 264 -428 269 -423
+rect 492 -435 496 -431
+rect 256 -451 266 -446
+rect 353 -542 357 -537
+<< metal2 >>
+rect 254 -55 258 162
+rect 233 -59 254 -55
+rect 233 -220 238 -59
+rect 250 -109 258 -104
+rect 276 -145 280 163
+rect 371 -45 376 -24
+rect 233 -385 238 -224
+rect 264 -149 280 -145
+rect 264 -423 269 -149
+rect 362 -205 366 -168
+rect 408 -252 412 160
+rect 501 -210 505 -93
+rect 387 -274 397 -269
+rect 362 -387 366 -368
+rect 492 -431 496 -333
+rect 246 -451 256 -446
+rect 353 -537 357 -510
+<< m3contact >>
+rect 242 -109 250 -104
+rect 380 -274 387 -269
+rect 242 -451 246 -446
+<< metal3 >>
+rect 242 -104 246 164
+rect 242 -269 246 -109
+rect 242 -274 380 -269
+rect 242 -446 246 -274
+use res_150k  res_150k_0
+timestamp 1598807337
+transform 1 0 34 0 1 120
+box -34 -120 174 36
+use res_150k  res_150k_1
+timestamp 1598807337
+transform 1 0 33 0 1 -69
+box -34 -120 174 36
+use switch  switch_0
+timestamp 1598977698
+transform 1 0 333 0 1 -92
+box -47 -76 90 47
+use res_150k  res_150k_2
+timestamp 1598807337
+transform 1 0 33 0 1 -259
+box -34 -120 174 36
+use switch  switch_2
+timestamp 1598977698
+transform 1 0 463 0 1 -257
+box -47 -76 90 47
+use res_150k  res_150k_3
+timestamp 1598807337
+transform 1 0 33 0 1 -434
+box -34 -120 174 36
+use switch  switch_1
+timestamp 1598977698
+transform 1 0 324 0 1 -434
+box -47 -76 90 47
+<< labels >>
+rlabel metal1 -6 178 -6 178 4 vrefh
+rlabel metal1 99 -583 99 -583 1 vrefl
+rlabel metal3 244 163 244 163 1 gnd!
+rlabel metal2 256 160 256 160 1 vdd!
+rlabel metal2 278 161 278 161 1 b0
+rlabel metal1 556 -256 556 -256 7 out_stage3
+rlabel metal2 410 158 410 158 1 b1
+<< end >>
