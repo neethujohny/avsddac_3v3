@@ -89,6 +89,11 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
 
+Parameter 	        pre-layout 	
+DNL(LSB)	         -1.0 to +1.7
+INL	(LSB)          -2.0 to +2.654
+
+
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
 ![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
@@ -126,6 +131,32 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
  
   Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
   
+
+### Steps to Install Magic 8.1 on Ubuntu 16.04
+
+* Download the magic.sh file
+
+* Copy paste the below commands one after another
+
+   cd Downloads/
+   chmod +x magic.sh
+   ./magic.sh
+
+* Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
+
+* Download the osu180nm.tech file from the uploaded files. Copy and paste the entire content in Text Editor and save it as osu180nm.tech.
+
+* Open the Terminal and copy, paste the commands mentioned below.
+
+sudo cp osu180nm.tech /usr/local/lib/magic/sys/
+cd /usr/local/lib/magic/sys/
+ls 
+cd
+clear
+
+You have successfully added osu180nm.tech file!
+
+Just open the terminal and type magic -T osu180nm.tech filename.mag to begin layout.
 
 ## Prelayout Simulations
 
