@@ -25,6 +25,8 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
  
  * [Prelayout Simulations](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#prelayout-simulations)
  
+ * [Postlayout Simulations]()
+ 
  * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
  
  * [Acknowledgements](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#acknowledgements)
@@ -204,9 +206,27 @@ $ ngspice Vh_Vl_cascaded.cir.out
 
 $ plot out_10bitdac
 
-#### Output of 10bit PDAC - Transient Analysis
+#### Output of 10bit PDAC - Transient Analysis Prelayout
 
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
+
+## Postlayout Simulations
+
+* To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+
+$  sudo apt install -y git
+
+$  git clone https://https://github.com/neethujohny/avsddac_3v3
+
+$  cd avsddac_3v3/PostLayout_magic and spice files
+
+* To run the Transient Analysis , enter the following command
+
+$ ngspice 10bit_dac.spice
+
+
+#### Output of 10bit PDAC - Post Layout
+
 
 
 ## Author
