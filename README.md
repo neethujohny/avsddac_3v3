@@ -47,7 +47,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 
 #### Stage 2 Circuit Diagram - VH VL 3-bitstage
 
-[Stage 2 Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078502/Stage.2.Circuit.pdf)
+![stage2_circuit diagram](https://user-images.githubusercontent.com/65214115/92018009-30436800-ed72-11ea-9940-9ec261c5dbd4.PNG)
 
 #### Stage 3 Circuit Diagram - 2 bit DAC
 
