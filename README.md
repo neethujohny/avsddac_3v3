@@ -79,7 +79,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 ![switch](https://user-images.githubusercontent.com/65214115/92019282-fa9f7e80-ed73-11ea-8c12-b2e83cdbd909.PNG)
 
 
-#### Complete Schematic of 10bit PDAC
+### Complete Schematic of 10bit PDAC
 
 
 ![completecircuit](https://user-images.githubusercontent.com/65214115/92020000-18211800-ed75-11ea-89d8-c20330282068.PNG)
@@ -89,9 +89,11 @@ The complete circuit diagram can be downloaded using this link [10bitDAC_Circuit
 
 Note- While integrating the different stages, the resistance values have been changed appropriately.
 
+
 #### 10bit DAC Output and Inputs plot
 
 ![dac_output margin based](https://user-images.githubusercontent.com/65214115/90310313-14386d80-df0e-11ea-9c24-7aa74c3a0dba.PNG)
+
 
 ## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -99,7 +101,7 @@ The differential nonlinearity (DNL) is the difference between the measured and i
 
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
-### DNL(LSB) vs Input code
+
 
 ![DNL](https://user-images.githubusercontent.com/65214115/90310268-a55b1480-df0d-11ea-8aeb-d972454d7643.jpg)
 
@@ -110,7 +112,7 @@ The relative accuracy or integral nonlinearity (INL) is the maximum deviation of
 
 INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
-### INL(LSB) vs Input code
+
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
@@ -121,6 +123,7 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 | ------------- | -------------   |
 | DNL(LSB)     |-1.0 to +1.7     |
 | INL	(LSB)    | -2.0 to +2.654  |
+
 
 
 
