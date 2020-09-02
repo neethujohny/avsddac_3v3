@@ -27,13 +27,13 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
  
  * [Prelayout Simulations](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#prelayout-simulations)
  
- * [10bit PDAC Layout]()
+ * [10bit PDAC Layout](https://github.com/neethujohny/avsddac_3v3#10bit-pdac-layout)
  
-   - [Stage 1 Circuit Layout]()
-   - [Stage 2 Circuit Layout]()
-   - [Stage 3 Circuit Layout]()
-   - [Subcircuit Layout]()
-   - [Complete Layout of 10bit PDAC]()
+   - [Stage 1 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-1-circuit-layout)
+   - [Stage 2 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-2-circuit-layout)
+   - [Stage 3 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-3-circuit-layout)
+   - [Subcircuit Layout](https://github.com/neethujohny/avsddac_3v3#subcircuit--switch_pair-layout)
+   - [Complete Layout of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3#complete-circuit-layout)
  
  * [Postlayout Simulations](https://github.com/neethujohny/avsddac_3v3#postlayout-simulations)
  
@@ -275,10 +275,12 @@ $  cd avsddac_3v3/PostLayout_magic and spice files
 $ ngspice 10bit_dac.spice
 
 
-#### Output of 10bit PDAC - Post Layout
+### Output of 10bit PDAC - Post Layout
 
 ![10bitdac_out](https://user-images.githubusercontent.com/65214115/92032729-37757080-ed88-11ea-9a77-d384cd36dbbf.PNG)
 
+
+    Note: For the individual block post simulation outputs, please refer post layout simulation file uploaded above.
 
 
 ## Author
