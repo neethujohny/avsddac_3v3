@@ -37,6 +37,8 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
  
  * [Postlayout Simulations](https://github.com/neethujohny/avsddac_3v3#postlayout-simulations)
  
+ * [Future Works]()
+ 
  * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
  
  * [Acknowledgements](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#acknowledgements)
@@ -280,9 +282,15 @@ $ ngspice 10bit_dac.spice
 ![10bitdac_out](https://user-images.githubusercontent.com/65214115/92032729-37757080-ed88-11ea-9a77-d384cd36dbbf.PNG)
 
 
-    Note: For the individual block post simulation outputs, please refer post layout simulation file uploaded above.
+    Note: For the stage wise simulation outputs, please refer post layout simulation file uploaded above.
 
+## Future Work
 
+  - Build a more compact layout to meet the area specifications.
+  - Improve the DNL and INL by increasing the resolution of different stages.
+  - Build a capacitor layout to filter out the spikes. As the capacitors are manually added in this PDAC extracted netlist.
+  - Design the PDAC with VDD=1.8V. 
+  
 ## Author
 
 Neethu Johny, B.M.S College of Engineering, Bangalore
