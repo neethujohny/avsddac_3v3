@@ -235,6 +235,8 @@ $ plot out_10bitdac
 #### Stage 1 Circuit Layout
 
 
+![5bitstage](https://user-images.githubusercontent.com/65214115/92036288-9c7f9500-ed8d-11ea-8b5f-3b023897a42d.PNG)
+
 
 #### Stage 2 Circuit Layout
 
@@ -244,13 +246,13 @@ $ plot out_10bitdac
 
 #### Stage 3 Circuit Layout
 
-
-![3bitstage_layout](https://user-images.githubusercontent.com/65214115/92035192-fb440f00-ed8b-11ea-8782-30c39654c919.PNG)
+![2bitstage_layout](https://user-images.githubusercontent.com/65214115/92035187-fa12e200-ed8b-11ea-8e99-dbe0d8ec6da7.PNG)
 
 
 #### Subcircuit- Switch_pair Layout
 
 
+![switch](https://user-images.githubusercontent.com/65214115/92036291-9db0c200-ed8d-11ea-8908-7ad8a319deef.PNG)
 
 
 #### Complete Circuit Layout
