@@ -189,9 +189,9 @@ Just open the terminal and type magic -T osu180nm.tech filename.mag to begin lay
 
 $  sudo apt install -y git
 
-$  git clone https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference
+$  git clone https://https://github.com/neethujohny/avsddac_3v3
 
-$  cd 10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference/Prelayout_Netlist
+$  cd avsddac_3v3/Prelayout_Netlist
 
 * To run the Transient Analysis , enter the following command
 
