@@ -1,0 +1,33 @@
+* SPICE3 file created from switch.ext - technology: scmos
+
+.option scale=0.1u
+.include pmos_osu018.lib
+.include nmos_osu018.lib
+M1000 a_n29_n8# bit_in vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=90 ps=56
+M1001 a_5_n8# a_n29_n8# vdd vdd pfet w=9 l=2
++  ad=63 pd=32 as=0 ps=0
+M1002 out a_n29_n8# vrefh w_44_3# pfet w=9 l=2
++  ad=126 pd=64 as=45 ps=28
+M1003 a_n29_n8# bit_in gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=40 ps=36
+M1004 a_5_n8# a_n29_n8# gnd gnd nfet w=4 l=2
++  ad=24 pd=20 as=0 ps=0
+M1005 out a_n29_n8# vrefl gnd nfet w=4 l=2
++  ad=48 pd=40 as=20 ps=18
+M1006 out a_5_n8# vrefl w_43_n41# pfet w=9 l=2
++  ad=0 pd=0 as=45 ps=28
+M1007 out a_5_n8# vrefh gnd nfet w=4 l=2
++  ad=0 pd=0 as=28 ps=22
+C1 out gnd 1pF
+
+Vdd vdd gnd 3.3
+Vin bit_in gnd pulse(0 1.8 1p 10p 10p 1m 2m)
+V1 vrefh gnd dc 3.3
+V2 vrefl gnd dc 0
+.tran 10e-06 2e-03 0e-00
+.control
+run
+plot out
+.endc
+.end
