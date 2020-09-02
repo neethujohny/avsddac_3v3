@@ -2,7 +2,7 @@
 
 This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog output volatge and 1.8V digital inputs with a single external reference voltage source. The DAC is designed using multiple stages for better performance and less area requirements compared to a single stage DAC.
 
-          ![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
+  ![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
 
 The required design specifications can be found here [pdac_IP.pdf](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf)
 
@@ -51,7 +51,7 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime.
    - The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
 
  
-Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
+         Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
 
 
 #### Stage 1 Circuit Diagram - VH VL 5-bitstage
@@ -114,12 +114,15 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
+
 ### DNL and INL Table
 
 | Parameter    | Pre-layout     |
 | ------------- | -------------   |
 | DNL(LSB)     |-1.0 to +1.7     |
 | INL	(LSB)    | -2.0 to +2.654  |
+
+
 
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
@@ -173,8 +176,6 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
   
     $ ./magic.sh
   
-  
-'''
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
 
