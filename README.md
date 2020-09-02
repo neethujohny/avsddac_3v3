@@ -2,6 +2,8 @@
 
 This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog output volatge and 1.8V digital inputs with a single external reference voltage source. The DAC is designed using multiple stages for better performance and less area requirements compared to a single stage DAC.
 
+The required design specifications can be found here [pdac_IP.pdf](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf)
+
 # Table of contents
 
 * [Need for a potentiometric DAC(PDAC) IP](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
@@ -34,6 +36,9 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 ## Need for a potentiometric DAC(PDAC) IP
 
 Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
+
+![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
+
 
 ### Design of 10bit PDAC
 
