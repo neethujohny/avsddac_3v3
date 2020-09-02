@@ -27,6 +27,14 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
  
  * [Prelayout Simulations](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#prelayout-simulations)
  
+ * [10bit PDAC Layout]()
+ 
+   - [Stage 1 Circuit Layout]()
+   - [Stage 2 Circuit Layout]()
+   - [Stage 3 Circuit Layout]()
+   - [Subcircuit Layout]()
+   - [Complete Layout of 10bit PDAC]()
+ 
  * [Postlayout Simulations](https://github.com/neethujohny/avsddac_3v3#postlayout-simulations)
  
  * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
@@ -219,6 +227,36 @@ $ plot out_10bitdac
 #### Output of 10bit PDAC - Transient Analysis Prelayout
 
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
+
+
+## 10bit PDAC Layout
+
+
+#### Stage 1 Circuit Layout
+
+
+
+#### Stage 2 Circuit Layout
+
+
+![3bitstage_layout](https://user-images.githubusercontent.com/65214115/92035192-fb440f00-ed8b-11ea-8782-30c39654c919.PNG)
+
+
+#### Stage 3 Circuit Layout
+
+
+![3bitstage_layout](https://user-images.githubusercontent.com/65214115/92035192-fb440f00-ed8b-11ea-8782-30c39654c919.PNG)
+
+
+#### Subcircuit- Switch_pair Layout
+
+
+
+
+#### Complete Circuit Layout
+
+![10bitdac_layout](https://user-images.githubusercontent.com/65214115/92035196-fb440f00-ed8b-11ea-9a2f-a67dca694a7d.PNG)
+
 
 ## Postlayout Simulations
 
