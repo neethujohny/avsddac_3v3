@@ -2,6 +2,8 @@
 
 This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog output volatge and 1.8V digital inputs with a single external reference voltage source. The DAC is designed using multiple stages for better performance and less area requirements compared to a single stage DAC.
 
+          ![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
+
 The required design specifications can be found here [pdac_IP.pdf](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf)
 
 # Table of contents
@@ -39,14 +41,18 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
 
 Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
 
-![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
-
 
 ### Design of 10bit PDAC
 
-The 10bit DAC is designed in three stages to save area and reduce the runtime. The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. One set outputs VH and the other set outputs VL. A total of 124 switches are required. The two-voltage selector chooses two adjacent voltages from the reference voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. The second stage is again a 3-b tree-type two-voltage selector which outputs VH and VL based on subsequent LSB bits from b4 to b2. The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
+The 10bit DAC is designed in three stages to save area and reduce the runtime. 
+   - The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type          decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. 
+     -  One set outputs VH and the other set outputs VL. A total of 124 switches are required. The two-voltage selector chooses two adjacent voltages from the reference                 voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. 
+   - The second stage is again a 3-b tree-type two-voltage selector which outputs VH and VL based on subsequent LSB bits from b4 to b2. 
+   - The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
 
-Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages.
+ 
+Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
+
 
 #### Stage 1 Circuit Diagram - VH VL 5-bitstage
 
