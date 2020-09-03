@@ -58,7 +58,7 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 ### Terminal Functions
 
    |Name |	No.|	I/O |	Description   |
------- ----  -----  -----------
+|------| ----|  -----|  -----------|
   |D[0:9]|1-10|I   |	Digital inputs |
   | EN  |	11 |	I|	Enable pin    |
   | VDD |	12 |	I|	Digital power supply(1.8)     |
