@@ -8,7 +8,7 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 
 * [Need for a potentiometric DAC(PDAC)](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
 
-* [IP Block diagram and parameters]()
+* [IP Block diagram and parameters](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#ip-block-diagram-and-parameters)
 
 * [Design of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#design-of-10bit-pdac)
 
@@ -57,17 +57,17 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 
 ### Terminal Functions
 
-|Name|	No.|	I/O|	Description|
+   |Name |	No.|	I/O |	Description   |
 ------ ----  -----  -----------
-|D[0:9]|	1-10|	I|	Digital inputs|
-|EN|	11|	I|	Enable pin|
-|VDD|	12|	I|	Digital power supply(1.8)|
-|VSS	|13	|I	|Digital ground|
-|OUT	|14	|O	|DAC analog voltage output|
-|VDDA	|15|	I	|Analog voltage supply (3.3)|
-|VSSA	|16|	I	|Analog ground|
-|VREFH	|17|	I	|Reference voltage high for DAC|
-|VREFL	|18|	I	|Reference voltage low for DAC|
+  |D[0:9]|1-10|I   |	Digital inputs |
+  | EN  |	11 |	I|	Enable pin    |
+  | VDD |	12 |	I|	Digital power supply(1.8)     |
+  |VSS	|13  |   I	|Digital ground|
+  |OUT	|14  |   O	|DAC analog voltage output|
+  |VDDA	|1  |	I	|Analog voltage supply (3.3)|
+  |VSSA	|16 |	I	|Analog ground   |
+  |VREFH|17 |	I	|Reference voltage high for DAC|
+  |VREFL|18 |	I	|Reference voltage low for DAC   |
 
 ### Parameters
 
