@@ -71,7 +71,6 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 
 ### Parameters
 
-					
    |  Parameter   |	Description |	min  |  typ    |	max  | Unit  |	Condition    |
   | ------ | ---------- |  --- |  --- | --------- | ----------|
   |RL	|Load resistance|	50|	||	Mohm|	T=-40 to 85C|
