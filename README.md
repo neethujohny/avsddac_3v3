@@ -72,24 +72,24 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 ### Parameters
 
   
-   |Parameter |Description  |min   |typ     |max   |Unit     |Condition |
+   |Parameter | Description  | min      | typ     | max      | Unit     | Condition |
    | ------ | ---------- |  --- |  --- | --------- | ----------|
-   |RL	|Load resistance|	50|	||	Mohm|	T=-40 to 85C|
-   |CL |	Load capacitance||1|     pF	|T=-40 to 85C|
-   |VDDA|	Analog supply voltage|	|3.3 |		|V	|T=-40 to 85C|
-   |VDD|	Digital supply voltage|	   |	1.8  |	   |	V|	T=-40 to 85C |
-   |VREFH|	Reference Voltage high |	  |	|3.3 |	V  |	T=-40 to 85C|
-   |VREFL	|Reference Voltage low	|0	  |	|	  |  V  |	T=-40 to 85C |
-   |RES |	Resolution|		|?   |		|bits|	On all above condition for "typ" (T=27C)|
-   |INL |	Integral non-linearity  |		  |  ?    |		|LSB|	On all above condition for "typ" (T=27C)  |
-   |DNL	|Differential non-linearity|	|?   |		|LSB	|On all above condition for "typ" (T=27C)|
-   |TCONV|	Conversion time|	?|		||us  |	T=27C    |
-   |IDDA|	Analog supply current|		|?|	?|	uA|	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
+   |RL	|Load resistance|	50 |	|     |	Mohm     |	T=-40 to 85C  |
+   |CL |	Load capacitance  |    | 1    |     pF	|T=-40 to 85C    |
+   |VDDA|	Analog supply voltage  |	   |  3.3     |		 | V	    | T=-40 to 85C  |
+   |VDD|	Digital supply voltage        |	    |	1.8  |	   |	V|	T=-40 to 85C |
+   |VREFH|	Reference Voltage high   |	   |	 |3.3 |	V   |	T=-40 to 85C|
+   |VREFL|Reference Voltage low	   |0	      |          |    |  V  |	T=-40 to 85C     |
+   |RES |	Resolution    |		 | ?       |		    |bits|	On all above condition for "typ" (T=27C)       |
+   |INL |	Integral non-linearity   |		 |  ?       |		    |LSB |	On all above condition for "typ" (T=27C)  |
+   |DNL	|Differential non-linearity      |	   |?    |	    |LSB	    |On all above condition for "typ" (T=27C)  |
+   |TCONV|	Conversion time    |	?|		||us  |	T=27C    |
+   |IDDA|	Analog supply current    |		 |?  |	?  |	uA    |	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
 				   |-----|----|----|-----|-------  |									
 				   |    |?    |	   |	nA    | T=27C, Data change=1million samples/sec|
-   |IDD|	Digital supply current|		|?   |	?   |	uA    |	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
+   |IDD|	Digital supply current   |		      |?    |	?     |	uA  |2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
 				   |-----|----|----|-----|-------  |
-				   |	|?    |    |   nA|   T=27C, Data change=1million samples/sec|
+				   |	 |?   |    |   nA|   T=27C, Data change=1million samples/sec|
 
 
 ## Design of 10bit PDAC
