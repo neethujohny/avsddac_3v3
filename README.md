@@ -84,12 +84,12 @@ Modern electronic systems dominate due to the evolution in digital technology. H
    |INL |	Integral non-linearity   |		 | -2.0 to +2.654      |		    |LSB |	On all above condition for "typ" (T=27C)  |
    |DNL	|Differential non-linearity      |	   |-1.0 to +1.7    |	    |LSB	    |On all above condition for "typ" (T=27C)  |
    |TCONV|	Conversion time    |	?|		||us  |	T=27C    |
-   |IDDA|	Analog supply current    |     |?  |	?  |	uA    |	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
-				             |-----|----|----|-----|-------  |									
-				             |    |?    |	   |	nA    | T=27C, Data change=1million samples/sec|
-   |IDD|	Digital supply current   |  |?    |	?     |	uA  |2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
-				         |-----|----|----|-----|-------  |
-				      	 |	 |?   |    |   nA|   T=27C, Data change=1million samples/sec|
+   |IDDA|	Analog supply current    |    |?   |	?    |	uA      |	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
+				         |-----   |----  |----|-----|-------  |									
+				         |    |?    |	      |	nA       | T=27C, Data change=1million samples/sec  |
+   |IDD|	Digital supply current   |    |?    |	?     |	uA  |2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
+				         |-----    |---- |----|-----|-------  |
+				      	 |	   |?    |    |   nA|   T=27C, Data change=1million samples/sec|
 
 
 ## Design of 10bit PDAC
