@@ -2,13 +2,13 @@
 
 This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog output volatge and 1.8V digital inputs with a single external reference voltage source. The DAC is designed using multiple stages for better performance and less area requirements compared to a single stage DAC.
 
-  ![block diagram](https://user-images.githubusercontent.com/65214115/92021510-836be980-ed77-11ea-8246-8c1da8a081be.PNG)
-
-The required design specifications can be found here [pdac_IP.pdf](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf)
+ The required design specifications can be found [here](https://github.com/neethujohny/avsddac_3v3/files/5164067/pdac_IP.pdf)
 
 # Table of contents
 
-* [Need for a potentiometric DAC(PDAC) IP](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
+* [Need for a potentiometric DAC(PDAC)](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
+
+* [IP Block diagram and parameters]()
 
 * [Design of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#design-of-10bit-pdac)
 
@@ -47,12 +47,50 @@ The required design specifications can be found here [pdac_IP.pdf](https://githu
   
   
 
-## Need for a potentiometric DAC(PDAC) IP
+## Need for a potentiometric DAC(PDAC) 
 
 Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
 
+## IP Block Diagram and parameters
 
-### Design of 10bit PDAC
+![IP Block](https://user-images.githubusercontent.com/65214115/92079653-e4c6a380-eddd-11ea-9ce1-d0cf2178a660.PNG)
+
+### Terminal Functions
+
+|Name|	No.|	I/O|	Description|
+------ ----  -----  -----------
+|D[0:9]|	1-10|	I|	Digital inputs|
+|EN|	11|	I|	Enable pin|
+|VDD|	12|	I|	Digital power supply(1.8)|
+|VSS	|13	|I	|Digital ground|
+|OUT	|14	|O	|DAC analog voltage output|
+|VDDA	|15|	I	|Analog voltage supply (3.3)|
+|VSSA	|16|	I	|Analog ground|
+|VREFH	|17|	I	|Reference voltage high for DAC|
+|VREFL	|18|	I	|Reference voltage low for DAC|
+
+### Parameters
+
+avsddac_3v3						
+|Parameter|	Description|	min	|typ|	max	|Unit|	Condition|
+---------- ------------   ----  --- ---------  -----------
+|RL	|Load resistance|	50|	|	|	Mohm|	T=-40 to 85C|
+|CL|	Load capacitance|	|		|1	|pF	|T=-40 to 85C|
+|VDDA|	Analog supply voltage|		|3.3|		|V	|T=-40 to 85C|
+|VDD|	Digital supply voltage|	|	1.8|	|	V|	T=-40 to 85C|
+VREFH	Reference Voltage high			3.3	V	T=-40 to 85C
+VREFL	Reference Voltage low	0			V	T=-40 to 85C
+RES	Resolution		?		bits	On all above condition for "typ" (T=27C)
+INL	Integral non-linearity		?		LSB	On all above condition for "typ" (T=27C)
+DNL	Differential non-linearity		?		LSB	On all above condition for "typ" (T=27C)
+TCONV	Conversion time	?			us	T=27C
+IDDA	Analog supply current		?	?	uA	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec
+			?		nA	T=27C, Data change=1million samples/sec
+IDD	Digital supply current		?	?	uA	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec
+			?		nA	T=27C, Data change=1million samples/sec
+
+
+## Design of 10bit PDAC
 
 The 10bit DAC is designed in three stages to save area and reduce the runtime. 
    - The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type          decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. 
