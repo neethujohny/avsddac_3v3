@@ -71,11 +71,10 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 
 ### Parameters
 
-   |Parameter |	Description  |	 min   |  typ     |	max   | Unit     |Condition |
-  
+   |Parameter |Description  |min   |typ     |max   |Unit     |Condition |
    | ------ | ---------- |  --- |  --- | --------- | ----------|
   |RL	|Load resistance|	50|	||	Mohm|	T=-40 to 85C|
-  |CL|	Load capacitance|	|	|1	|pF	|T=-40 to 85C|
+  |CL |	Load capacitance||1|     pF	|T=-40 to 85C|
   |VDDA|	Analog supply voltage|	|3.3 |		|V	|T=-40 to 85C|
   |VDD|	Digital supply voltage|	   |	1.8  |	   |	V|	T=-40 to 85C |
   |VREFH|	Reference Voltage high |	  |	|3.3 |	V  |	T=-40 to 85C|
