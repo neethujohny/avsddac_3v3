@@ -94,7 +94,7 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 
 The 10bit DAC is designed in three stages to save area and reduce the runtime. The prelayout and postlayout simulations ran within 3 minutes. It requires a total of 44 resistors and 79 switch pairs.
    - The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type          decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. 
-     -  One set outputs VH and the other set outputs VL. A total of 158 switches are required. The two-voltage selector chooses two adjacent voltages from the reference                 voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. 
+     -  One set outputs VH and the other set outputs VL. A total of 124 switches are required. The two-voltage selector chooses two adjacent voltages from the reference                 voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. 
    - The second stage is again a 3-b tree-type two-voltage selector which outputs VH and VL based on subsequent LSB bits from b4 to b2. 
    - The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
 
@@ -104,7 +104,7 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime. T
 
 #### Stage 1 Circuit Diagram - VH VL 5-bitstage
 
-The circuit is an extended version of stage 2 circuit with 5-bit selector switches. It is created using the subcircuits of stage 2 circuit.
+The circuit is an extended version of stage 2 circuit with 5-bit selector switches. It is created using the subcircuits of stage 2 circuit and switch pair circuit.
 
 
 ![stage1](https://user-images.githubusercontent.com/65214115/92019614-89140000-ed74-11ea-8b38-4579eea33e9f.PNG)
@@ -143,34 +143,40 @@ Note- While integrating the different stages, the resistance values have been ch
 ![dac_output margin based](https://user-images.githubusercontent.com/65214115/90310313-14386d80-df0e-11ea-9c24-7aa74c3a0dba.PNG)
 
 
-## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3
+
+## To obtain DNL vs Input code characteristics @T=27C and VREF&VDD=3.3V
 
 The differential nonlinearity (DNL) is the difference between the measured and ideal 1LSB amplitude change of any two adjacent codes. Using the values noted earlier and the formula given below, we can find all the DNL values. These vaues are uploaded in the repository with the name DNL_INL_calculations.
 
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
+
 ### Prelayout DNL characteristics
 
 ![DNL](https://user-images.githubusercontent.com/65214115/90310268-a55b1480-df0d-11ea-8aeb-d972454d7643.jpg)
+
 
 ### Post-layout DNL characteristics
 
 ![dnlpost](https://user-images.githubusercontent.com/65214115/92227683-3f3a2f80-eec4-11ea-8022-1c4a2ada41d9.jpg)
 
 
-## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3
+## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3V
 
 The relative accuracy or integral nonlinearity (INL) is the maximum deviation of the output from the line between zero and full scale excluding the effects of zero code and full-scale errors. The calculated INL values are uploaded in the repository in the file with the name DNL_INL_calculations.
 
 INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
+
 ### Prelayout DNL characteristics
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
 
+
 ### Post-layout DNL characteristics
 
 ![INLpost](https://user-images.githubusercontent.com/65214115/92227687-406b5c80-eec4-11ea-899d-afd05ecde6a1.jpg)
+
 
 
 ### DNL and INL Table
@@ -183,15 +189,18 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 
 
-## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
-The obtained ouptput values are tabulated and given in the folder 'caluclations and plots' and plotted using the SCIdavis plotting sotware.
+## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3V
+
+The obtained ouptput values are tabulated and given in the folder '''caluclations and plots''' and plotted using the SciDAVis plotting sotware.
+
 
 ### Prelayout Output characteristics
 
 ![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
 
 Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =3.292069V
+
 
 ### Post-layout Output characteristics
 
@@ -236,13 +245,12 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Copy paste the below commands one after another
 
-'''
     
-    $ cd Downloads/
+     $ cd Downloads/
     
-    $ chmod +x magic.sh
+     $ chmod +x magic.sh
   
-    $ ./magic.sh
+     $ ./magic.sh
   
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
@@ -280,6 +288,7 @@ $  cd avsddac_3v3/Prelayout_Netlist
 $ ngspice Vh_Vl_cascaded.cir.out
 
 $ plot out_10bitdac
+
 
 #### Output of 10bit PDAC - Transient Analysis Prelayout
 
@@ -344,7 +353,6 @@ $ ngspice 10bit_dac.spice
   - Build a more compact layout to meet the area specifications.
   - Improve the DNL and INL by increasing the resolution of different stages.
   - Improve the conversion rate to meet the specification.
-  - Build a capacitor in the layout to filter out the spikes. Here the capacitors are manually added in the extracted netlist.
   - Modify the design (Resistor chain) to meet the power consumption requirements.
   
   
