@@ -92,9 +92,9 @@ Modern electronic systems dominate due to the evolution in digital technology. H
 
 ## Design of 10bit PDAC
 
-The 10bit DAC is designed in three stages to save area and reduce the runtime. 
+The 10bit DAC is designed in three stages to save area and reduce the runtime. The prelayout and postlayout simulations ran within 3 minutes. It requires a total of 44 resistors and 79 switch pairs.
    - The development of an area-efficient multiple-output voltage selector starts from a 5-b tree-type two-voltage selector. This circuit requires two sets of 5-b tree-type          decoders, arranged with a 1-b offset, in order to select two adjacent voltages from a resistor string. 
-     -  One set outputs VH and the other set outputs VL. A total of 124 switches are required. The two-voltage selector chooses two adjacent voltages from the reference                 voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. 
+     -  One set outputs VH and the other set outputs VL. A total of 79 switches are required. The two-voltage selector chooses two adjacent voltages from the reference                 voltages of a global resistor string according to the higher digital bits (MSB bits b9 to b5) and connects them to the succeeding DAC stages. 
    - The second stage is again a 3-b tree-type two-voltage selector which outputs VH and VL based on subsequent LSB bits from b4 to b2. 
    - The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
 
@@ -182,6 +182,7 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 
 
+
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
 The obtained ouptput values are tabulated and given in the folder 'caluclations and plots' and plotted using the SCIdavis plotting sotware.
@@ -195,6 +196,7 @@ Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =
 ### Post-layout Output characteristics
 
 ![out_post](https://user-images.githubusercontent.com/65214115/92227690-4103f300-eec4-11ea-8f05-89070639e8ff.jpg)
+
 
 
 ## Open source EDA Tools used to develop the IP
@@ -337,13 +339,14 @@ $ ngspice 10bit_dac.spice
 
     Note: For the stage wise simulation outputs, please refer post layout simulation file uploaded above.
 
-## Future Work
+## Future Works
 
   - Build a more compact layout to meet the area specifications.
   - Improve the DNL and INL by increasing the resolution of different stages.
   - Improve the conversion rate to meet the specification.
   - Build a capacitor in the layout to filter out the spikes. Here the capacitors are manually added in the extracted netlist.
   - Modify the design (Resistor chain) to meet the power consumption requirements.
+  
   
 ## Author
 
