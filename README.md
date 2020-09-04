@@ -149,9 +149,13 @@ The differential nonlinearity (DNL) is the difference between the measured and i
 
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
-
+### Prelayout DNL characteristics
 
 ![DNL](https://user-images.githubusercontent.com/65214115/90310268-a55b1480-df0d-11ea-8aeb-d972454d7643.jpg)
+
+### Prelayout DNL characteristics
+
+![dnlpost](https://user-images.githubusercontent.com/65214115/92227683-3f3a2f80-eec4-11ea-8022-1c4a2ada41d9.jpg)
 
 
 ## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3
@@ -160,26 +164,36 @@ The relative accuracy or integral nonlinearity (INL) is the maximum deviation of
 
 INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
-
+### Prelayout DNL characteristics
 
 ![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
+
+### Prelayout DNL characteristics
+
+![INLpost](https://user-images.githubusercontent.com/65214115/92227687-406b5c80-eec4-11ea-899d-afd05ecde6a1.jpg)
 
 
 ### DNL and INL Table
 
-| Parameter    | Pre-layout     |
-| ------------- | -------------   |
-| DNL(LSB)     |-1.0 to +1.7     |
-| INL	(LSB)    | -2.0 to +2.654  |
-
-
+| Parameter    | Pre-layout     | Post-layout |
+| ------------- | -------------   | ---- |
+| DNL(LSB)     |-1.0 to +1.7     | -0.247 to +1.44 |
+| INL	(LSB)    | -2.0 to +2.654  |  -0.921 to +2.374 |
 
 
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3
 
+The obtained ouptput values are tabulated and given in the folder 'caluclations and plots' and plotted using the SCIdavis plotting sotware.
+
+### Prelayout Output characteristics
+
 ![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
 
 Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =3.292069V
+
+### Post-layout Output characteristics
+
+![out_post](https://user-images.githubusercontent.com/65214115/92227690-4103f300-eec4-11ea-8f05-89070639e8ff.jpg)
 
 
 ## Open source EDA Tools used to develop the IP
