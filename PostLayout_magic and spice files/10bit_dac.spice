@@ -3318,11 +3318,11 @@ C2003 Vh_Vl_3bit_1/switch_3/w_44_3# gnd 0.53fF
 
 * C2004 to C2008 are maunally added to remove the noise
 
-C2004 outH_stage1 gnd 10pF
-C2005 outL_stage1 gnd 10pF
-C2006 outH_stage2 gnd 10pF
-C2007 outL_stage2 gnd 10pF
-C2008 out_10bitdac gnd 10pF
+*C2004 outH_stage1 gnd 1pF
+*C2005 outL_stage1 gnd 1pF
+*C2006 outH_stage2 gnd 1pF
+*C2007 outL_stage2 gnd 1pF
+C2008 out_10bitdac gnd 1pF
 
 
 .subckt nwellResistor d s W=1 L=1 Rsquare = 929
