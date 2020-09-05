@@ -153,14 +153,14 @@ The differential nonlinearity (DNL) is the difference between the measured and i
 DNL(LSB)= (Actual height- Ideal height)/1LSB
 
 
-### Prelayout DNL characteristics
+## 1.  Pre-layout DNL characteristics
 
-![DNL](https://user-images.githubusercontent.com/65214115/90310268-a55b1480-df0d-11ea-8aeb-d972454d7643.jpg)
+![DNL_prelayout](https://user-images.githubusercontent.com/65214115/92308969-029f2e80-efbf-11ea-95e5-478443eb0bb1.PNG)
 
 
-### Post-layout DNL characteristics
+## 2. Post-layout DNL characteristics
 
-![dnlpost](https://user-images.githubusercontent.com/65214115/92227683-3f3a2f80-eec4-11ea-8022-1c4a2ada41d9.jpg)
+![DNL_postlayout](https://user-images.githubusercontent.com/65214115/92308966-00d56b00-efbf-11ea-9991-d18aa68c7cfc.PNG)
 
 
 ## To obtain INL vs Input code characteristics @T=27C and VREF&VDD=3.3V
@@ -170,23 +170,24 @@ The relative accuracy or integral nonlinearity (INL) is the maximum deviation of
 INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 
-### Prelayout DNL characteristics
+## 1.  Pre-layout INL characteristics
 
-![INL](https://user-images.githubusercontent.com/65214115/90310285-c91e5a80-df0d-11ea-8229-c1868439badc.jpg)
-
-
-### Post-layout DNL characteristics
-
-![INLpost](https://user-images.githubusercontent.com/65214115/92227687-406b5c80-eec4-11ea-899d-afd05ecde6a1.jpg)
+![INL_prelayout](https://user-images.githubusercontent.com/65214115/92308973-05018880-efbf-11ea-9d18-0557441d6ffd.PNG)
 
 
+## 2. Post-layout INL characteristics
 
-### DNL and INL Table
+![INL_postlayout](https://user-images.githubusercontent.com/65214115/92308972-03d05b80-efbf-11ea-8356-8a11c59c4796.PNG)
 
-| Parameter    | Pre-layout     | Post-layout |
-| ------------- | -------------   | ---- |
-| DNL(LSB)     |-1.0 to +1.7     | -0.247 to +1.44 |
-| INL	(LSB)    | -2.0 to +2.654  |  -0.921 to +2.374 |
+
+
+
+## DNL and INL Table
+
+| Parameter    | Pre-layout     | Post-layout  |
+| ------------- | -------------   | ----       |
+| DNL(LSB)     |-1.0  to  +1.7     | -0.247  to  +1.44 |
+| INL	(LSB)    | -2.0  to  +2.654  |  -0.921  to  +2.374 |
 
 
 
@@ -197,16 +198,17 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 The obtained ouptput values are tabulated and given in the folder '''caluclations and plots''' and plotted using the SciDAVis plotting sotware.
 
 
-### Prelayout Output characteristics
+## 1.  Pre-layout Output characteristics
 
-![OUTPUT vs INPUT](https://user-images.githubusercontent.com/65214115/90310494-64fc9600-df0f-11ea-9a82-64a97d47ada3.jpg)
+![vout_prelayout](https://user-images.githubusercontent.com/65214115/92308977-07fc7900-efbf-11ea-8235-ea4561e2a0cc.PNG)
+
 
 Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =3.292069V
 
 
-### Post-layout Output characteristics
+## 2.  Post-layout Output characteristics
 
-![out_post](https://user-images.githubusercontent.com/65214115/92227690-4103f300-eec4-11ea-8f05-89070639e8ff.jpg)
+![Vout_postlayout](https://user-images.githubusercontent.com/65214115/92308976-06cb4c00-efbf-11ea-8db4-e2189e4871db.PNG)
 
 
 
