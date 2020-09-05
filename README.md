@@ -390,6 +390,6 @@ R. Timothy Edwards, Open Circuit Design
 
 Neethu Johny, B.M.S College of Engineering, Bangalore - neethujohny123@gmail.com
 
-Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
 
 Philipp Gühring, Software Architect, LibreSilicon Assocation - pg@futureware.at
