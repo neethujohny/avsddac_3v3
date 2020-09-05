@@ -187,8 +187,8 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
     | Parameter            | Pre-layout         | Post-layout         |
     | -------------        | -------------       | ----               |
-    | DNL(LSB)     |-1.0  to  +1.7     | -0.247  to  +1.44 |
-    | INL	(LSB)    | -2.0  to  +2.654  |  -0.921  to  +2.374 |
+    | DNL(LSB)      |-1.0  to  +1.7     | -0.247  to  +1.44 |
+    | INL	(LSB)     | -2.0  to  +2.654  |  -0.921  to  +2.374 |
 
 
 
