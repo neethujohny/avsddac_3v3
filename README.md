@@ -107,30 +107,30 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime. T
 The circuit is an extended version of stage 2 circuit with 5-bit selector switches. It is created using the subcircuits of stage 2 circuit and switch pair circuit.
 
 
-![stage1](https://user-images.githubusercontent.com/65214115/92019614-89140000-ed74-11ea-8b38-4579eea33e9f.PNG)
+![final stage1_ckt](https://user-images.githubusercontent.com/65214115/92308156-43944480-efb9-11ea-9ad6-6920324d6030.PNG)
 
 
 #### Stage 2 Circuit Diagram - VH VL 3-bitstage
 
 
-![stage2_circuit diagram](https://user-images.githubusercontent.com/65214115/92018009-30436800-ed72-11ea-9940-9ec261c5dbd4.PNG)
+![stage2](https://user-images.githubusercontent.com/65214115/92308157-468f3500-efb9-11ea-9f2a-0dfc19364d89.PNG)
 
 
 #### Stage 3 Circuit Diagram - 2 bit DAC
 
 
-![stage3_circuit](https://user-images.githubusercontent.com/65214115/92018889-69300c80-ed73-11ea-96b8-1bfcfb71238c.PNG)
+![stage3](https://user-images.githubusercontent.com/65214115/92308161-4a22bc00-efb9-11ea-90f7-f16d2270c83e.PNG)
 
 
 #### Subcircuit- Switch_pair
 
-![switch](https://user-images.githubusercontent.com/65214115/92019282-fa9f7e80-ed73-11ea-8c12-b2e83cdbd909.PNG)
+![switch](https://user-images.githubusercontent.com/65214115/92308164-4c851600-efb9-11ea-8279-08636e57fcab.PNG)
 
 
 ### Complete Schematic of 10bit PDAC
 
 
-![completecircuit](https://user-images.githubusercontent.com/65214115/92020000-18211800-ed75-11ea-89d8-c20330282068.PNG)
+![completeckt](https://user-images.githubusercontent.com/65214115/92308153-3e36fa00-efb9-11ea-8251-40b920d6af9a.PNG)
 
 
 The complete circuit diagram can be downloaded using this link [10bitDAC_Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078507/10bitDAC_Circuit.pdf)
