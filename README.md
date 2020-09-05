@@ -354,6 +354,7 @@ $ ngspice 10bit_dac.spice
   - Improve the DNL and INL by increasing the resolution of different stages.
   - Improve the conversion rate to meet the specification.
   - Modify the design (Resistor chain) to meet the power consumption requirements.
+  - Build the layout of a capacitor (the necessary layers are not included in the osu). In this project the capacitor is manually added in the extracted netlist.
   
   
 ## Author
