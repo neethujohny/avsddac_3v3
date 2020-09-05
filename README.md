@@ -371,6 +371,8 @@ Neethu Johny, Research Scholar, B.M.S College of Engineering, Bangalore
 3. Yoo-Chang Sung, Oh-Kyong Kwon,Jong-Kee Kim ,10-bit source driver with resistor-resistor-string digital-to-analog converter,Journal of the SID 14/4, 2006 
 4. https://github.com/ankursah5/avsdbgp_3v3
 5. https://github.com/VSD-DACteam/avsddac_3v3
+6. https://github.com/FOSSEE/eSim
+7. http://opencircuitdesign.com/magic
 
 
 ## Acknowledgements
@@ -378,6 +380,10 @@ Neethu Johny, Research Scholar, B.M.S College of Engineering, Bangalore
 Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 
 Philipp Gühring, Software Architect, LibreSilicon Assocation
+
+FOSSEE Team, IIT Bombay
+
+R. Timothy Edwards, Open Circuit Design
 
 
 ## Contact Information
