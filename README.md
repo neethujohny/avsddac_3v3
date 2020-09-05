@@ -41,7 +41,7 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
  
  * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
  
- * [References]()
+ * [References](https://github.com/neethujohny/avsddac_3v3#references)
  
  * [Acknowledgements](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#acknowledgements)
  
@@ -183,20 +183,18 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 
 
-
 ## DNL and INL Table
 
-| Parameter            | Pre-layout         | Post-layout         |
-| -------------        | -------------       | ----               |
-| DNL(LSB)     |-1.0  to  +1.7     | -0.247  to  +1.44 |
-| INL	(LSB)    | -2.0  to  +2.654  |  -0.921  to  +2.374 |
-
+    | Parameter            | Pre-layout         | Post-layout         |
+    | -------------        | -------------       | ----               |
+    | DNL(LSB)     |-1.0  to  +1.7     | -0.247  to  +1.44 |
+    | INL	(LSB)    | -2.0  to  +2.654  |  -0.921  to  +2.374 |
 
 
 
 ## To obtain Output Voltage vs Input code characteristics @T=27C and VREF&VDD=3.3V
 
-The obtained ouptput values are tabulated and given in the folder '''caluclations and plots''' and plotted using the SciDAVis plotting sotware.
+The obtained ouptput values are tabulated and given in the folder 'caluclations and plots' and can be plotted using excel or SciDAVis plotting software.
 
 
 ## 1.  Pre-layout Output characteristics
