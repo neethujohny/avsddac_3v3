@@ -1,4 +1,4 @@
-# 10bit-potentiometric-DAC-3.3V-analog-voltage-1.8V-digital-voltage-and-1-off-chip-voltage-reference
+# 10bit-potentiometric DAC 3.3V analog voltage 1.8V digital voltage and 1 off chip voltage reference
 
 This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog output volatge and 1.8V digital inputs with a single external reference voltage source. The DAC is designed using multiple stages for better performance and less area requirements compared to a single stage DAC.
 
