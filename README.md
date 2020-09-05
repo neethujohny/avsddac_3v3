@@ -49,7 +49,9 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 
 ## Need for a potentiometric DAC(PDAC) 
 
-Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
+Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. 
+
+Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
 
 ## IP Block Diagram and parameters
 
@@ -84,9 +86,7 @@ Modern electronic systems dominate due to the evolution in digital technology. H
    |INL |	Integral non-linearity   |		 | -2.0 to +2.654      |		    |LSB |	On all above condition for "typ" (T=27C)  |
    |DNL	|Differential non-linearity      |	   |-1.0 to +1.7    |	    |LSB	    |On all above condition for "typ" (T=27C)  |
    |TCONV|	Conversion time    |	9.99|		||us  |	T=27C    |
-   |IDDA|	Analog supply current    |    |?   |	?    |	uA      |	2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
    |IDDA|	Analog supply current    |    |100    |	      |	mA       | T=27C, Data change=16K samples/sec  |
-   |IDD|	Digital supply current   |    |?    |	?     |	uA  |2 values at T=27C, one with EN=1 & one with Conversion rate=1million samples/sec|
    |IDD|	Digital supply current 	 |    |114.25    |    |   mA|   T=27C, Data change=16K samples/sec|
 
 
