@@ -53,7 +53,7 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 
 Modern electronic systems dominate due to the evolution in digital technology. However the outside world remains analog in nature. DACs form an important link to connect between the digital systems to the analog world. 
 
-Binary weighted DAC, R-2R DAC, current steering DAC, resister string DAC are some of the other DAC architectures used in various applications.
+Binary weighted DAC, R-2R DAC, current steering DAC are some of the DAC architectures used in various applications. However this work is done to develop a potentiometric DAC.
 
 ## IP Block Diagram and parameters
 
