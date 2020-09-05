@@ -362,7 +362,7 @@ Note: For the stage wise simulation outputs, please refer post layout simulation
   
 ## Author
 
-Neethu Johny, B.M.S College of Engineering, Bangalore
+Neethu Johny, Research Scholar, B.M.S College of Engineering, Bangalore
 
 ## References
 
