@@ -102,7 +102,7 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime. T
          Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
 
 
-#### Stage 1 Circuit Diagram - VH VL 5-bitstage
+### 1. Stage 1 Circuit Diagram - VH VL 5-bitstage
 
 The circuit is an extended version of stage 2 circuit with 5-bit selector switches. It is created using the subcircuits of stage 2 circuit and switch pair circuit.
 
@@ -110,35 +110,37 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 ![final stage1_ckt](https://user-images.githubusercontent.com/65214115/92308156-43944480-efb9-11ea-9ad6-6920324d6030.PNG)
 
 
-#### Stage 2 Circuit Diagram - VH VL 3-bitstage
+### 2. Stage 2 Circuit Diagram - VH VL 3-bitstage
 
 
 ![stage2](https://user-images.githubusercontent.com/65214115/92308157-468f3500-efb9-11ea-9f2a-0dfc19364d89.PNG)
 
 
-#### Stage 3 Circuit Diagram - 2 bit DAC
+### 3. Stage 3 Circuit Diagram - 2 bit DAC
 
 
 ![stage3](https://user-images.githubusercontent.com/65214115/92308161-4a22bc00-efb9-11ea-90f7-f16d2270c83e.PNG)
 
 
-#### Subcircuit- Switch_pair
+### 4. Subcircuit- Switch_pair
+
 
 ![switch](https://user-images.githubusercontent.com/65214115/92308164-4c851600-efb9-11ea-8279-08636e57fcab.PNG)
 
 
-### Complete Schematic of 10bit PDAC
+### 5. Complete Schematic of 10bit PDAC
 
 
 ![completeckt](https://user-images.githubusercontent.com/65214115/92308153-3e36fa00-efb9-11ea-8251-40b920d6af9a.PNG)
 
 
-The complete circuit diagram can be downloaded using this link [10bitDAC_Circuit.pdf](https://github.com/neethujohny/avsddac_3v3/files/5078507/10bitDAC_Circuit.pdf)
+The complete circuit diagram can be downloaded using this link [10bitDAC_Circuit.pdf](https://user-images.githubusercontent.com/65214115/92308153-3e36fa00-efb9-11ea-8251-40b920d6af9a.PNG)
 
 Note- While integrating the different stages, the resistance values have been changed appropriately.
 
 
-#### 10bit DAC Output and Inputs plot
+### 10bit DAC Output and Inputs plot
+
 
 ![dac_output margin based](https://user-images.githubusercontent.com/65214115/90310313-14386d80-df0e-11ea-9c24-7aa74c3a0dba.PNG)
 
