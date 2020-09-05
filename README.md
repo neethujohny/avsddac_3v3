@@ -99,7 +99,7 @@ The 10bit DAC is designed in three stages to save area and reduce the runtime. T
    - The third stage ia a 2 bit DAC which subsequently divides the voltage between these two voltage levels based on lower 2 digital bits b1 and b0.
 
  
-         Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
+    Note: The accuracy of the conversion can be still improved by adjusting the number of stages and granularity of the various stages. 
 
 
 ### 1. Stage 1 Circuit Diagram - VH VL 5-bitstage
