@@ -41,6 +41,8 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
  
  * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
  
+ * [References]()
+ 
  * [Acknowledgements](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#acknowledgements)
  
  * [Contact Information](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#contact-information)
@@ -184,11 +186,10 @@ INL(LSB)= (Actual Vout-Reference Vout)/1LSB
 
 ## DNL and INL Table
 
-| Parameter    | Pre-layout     | Post-layout  |
-| ------------- | -------------   | ----       |
+| Parameter            | Pre-layout         | Post-layout         |
+| -------------        | -------------       | ----               |
 | DNL(LSB)     |-1.0  to  +1.7     | -0.247  to  +1.44 |
 | INL	(LSB)    | -2.0  to  +2.654  |  -0.921  to  +2.374 |
-
 
 
 
@@ -216,19 +217,19 @@ Note- The input code ranges from 0 to 1023. The Full Scale output voltage, VFS =
 
 The design is done using opensource EDA tools such as eSim for the prelayout simulatioms and MAGIC for the layout and postlayout simulations. eSim is a free and open source EDA tool for circuit design, simulation, analysis and PCB design. It is an integrated tool built using open source software such as KiCad, Ngspice and GHDL. Magic is an opensource VLSI layout tool.
 
-### Steps to Install eSim on Ubuntu 16.04
+### 1.  Steps to Install eSim on Ubuntu 16.04
 
 * Go to the link https://github.com/FOSSEE/eSim/releases/tag/v1.1.3 and download eSim-1.1.3 for Ubuntu.
 
 * After downloading eSim, extract it using: 
   
-   $ unzip eSim-1.1.3.zip
+      $ unzip eSim-1.1.3.zip
 
 * Now change directories in to the top-level source directory (where this INSTALL file can be found).
 
    To install eSim and other dependecies run the following command.
 
-   $ ./install-eSim.sh --install
+      $ ./install-eSim.sh --install
 
    Above script will install eSim along with dependencies.
    
@@ -236,25 +237,25 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
   Double click eSim desktop icon. To open through terminal, use the command
            
-   $ esim
+       $ esim
   
  ##### eSim Spoken Tutorials
  
   Refer `Spoken Tutorial` (https://spoken-tutorial.org/tutorial-search/?search_foss=eSim) for eSim installation on Linux and MS Windows.
   
 
-### Steps to Install Magic 8.1 on Ubuntu 16.04
+### 2. Steps to Install Magic 8.1 on Ubuntu 16.04
 
 * Download the https://drive.google.com/file/d/1F0y1xuYWIgeYEpzKnGlaCQH3urdSFc4E/view file
 
 * Copy paste the below commands one after another
 
     
-     $ cd Downloads/
+      $ cd Downloads/
     
-     $ chmod +x magic.sh
+      $ chmod +x magic.sh
   
-     $ ./magic.sh
+      $ ./magic.sh
   
 
 * Magic tool will be opened with minimum technology file by default. Follow below steps to open magic with osu180nm tech file.
@@ -263,15 +264,15 @@ The design is done using opensource EDA tools such as eSim for the prelayout sim
 
 * Open the Terminal and copy, paste the commands mentioned below.
 
-  $ sudo cp osu180nm.tech /usr/local/lib/magic/sys/
+      $ sudo cp osu180nm.tech /usr/local/lib/magic/sys/
 
-  $ cd /usr/local/lib/magic/sys/
+      $ cd /usr/local/lib/magic/sys/
 
-  $ ls 
+      $ ls 
 
-  $ cd
+      $ cd
 
-  $ clear
+      $ clear
 
 You have successfully added osu180nm.tech file!
 
@@ -281,17 +282,17 @@ Just open the terminal and type magic -T osu180nm.tech filename.mag to begin lay
 
 * To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
 
-$  sudo apt install -y git
+      $ sudo apt install -y git
 
-$  git clone https://https://github.com/neethujohny/avsddac_3v3
+      $ git clone https://https://github.com/neethujohny/avsddac_3v3
 
-$  cd avsddac_3v3/Prelayout_Netlist
+      $ cd avsddac_3v3/Prelayout_Netlist
 
 * To run the Transient Analysis , enter the following command
 
-$ ngspice Vh_Vl_cascaded.cir.out
+      $ ngspice Vh_Vl_cascaded.cir.out
 
-$ plot out_10bitdac
+      $ plot out_10bitdac
 
 
 #### Output of 10bit PDAC - Transient Analysis Prelayout
@@ -299,33 +300,33 @@ $ plot out_10bitdac
 ![10bit_dac_output](https://user-images.githubusercontent.com/65214115/89987830-4c387a00-dc9c-11ea-9722-3f6dcdaf27c3.PNG)
 
 
-## 10bit PDAC Layout
+# 10bit PDAC Layout
 
 
-#### Stage 1 Circuit Layout
+## 1. Stage 1 Circuit Layout
 
 
 ![5bitstage](https://user-images.githubusercontent.com/65214115/92036288-9c7f9500-ed8d-11ea-8b5f-3b023897a42d.PNG)
 
 
-#### Stage 2 Circuit Layout
+## 2. Stage 2 Circuit Layout
 
 
 ![3bitstage_layout](https://user-images.githubusercontent.com/65214115/92035192-fb440f00-ed8b-11ea-8782-30c39654c919.PNG)
 
 
-#### Stage 3 Circuit Layout
+## 3. Stage 3 Circuit Layout
 
 ![2bitstage_layout](https://user-images.githubusercontent.com/65214115/92035187-fa12e200-ed8b-11ea-8e99-dbe0d8ec6da7.PNG)
 
 
-#### Subcircuit- Switch_pair Layout
+## 4. Subcircuit- Switch_pair Layout
 
 
 ![switch](https://user-images.githubusercontent.com/65214115/92036291-9db0c200-ed8d-11ea-8908-7ad8a319deef.PNG)
 
 
-#### Complete Circuit Layout
+## 5. Complete Circuit Layout
 
 ![10bitdac_layout](https://user-images.githubusercontent.com/65214115/92035196-fb440f00-ed8b-11ea-9a2f-a67dca694a7d.PNG)
 
@@ -334,23 +335,23 @@ $ plot out_10bitdac
 
 * To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
 
-$  sudo apt install -y git
+      $ sudo apt install -y git
 
-$  git clone https://https://github.com/neethujohny/avsddac_3v3
+      $ git clone https://https://github.com/neethujohny/avsddac_3v3
 
-$  cd avsddac_3v3/PostLayout_magic and spice files
+      $ cd avsddac_3v3/PostLayout_magic and spice files
 
 * To run the Transient Analysis , enter the following command
 
-$ ngspice 10bit_dac.spice
+      $ ngspice 10bit_dac.spice
 
 
-### Output of 10bit PDAC - Post Layout
+## Output of 10bit PDAC - Post Layout
 
 ![10bitdac_out](https://user-images.githubusercontent.com/65214115/92032729-37757080-ed88-11ea-9a77-d384cd36dbbf.PNG)
 
 
-    Note: For the stage wise simulation outputs, please refer post layout simulation file uploaded above.
+Note: For the stage wise simulation outputs, please refer post layout simulation file uploaded above.
 
 ## Future Works
 
@@ -365,11 +366,21 @@ $ ngspice 10bit_dac.spice
 
 Neethu Johny, B.M.S College of Engineering, Bangalore
 
+## References
+
+1. https://patents.google.com/patent/US6249239
+2. Chih-Wen Lu, Member, IEEE, Ching-Min Hsiao, and Ping-Yeh Yin, A 10-b Two-Stage DAC with an Area-Efficient Multiple-Output Voltage Selector and a Linearity-Enhanced DAC-     Embedded Op-Amp for LCD Column Driver ICs, IEEE JOURNAL OF SOLID-STATE CIRCUITS, VOL. 48, NO. 6, JUNE 2013
+3. Yoo-Chang Sung, Oh-Kyong Kwon,Jong-Kee Kim ,10-bit source driver with resistor-resistor-string digital-to-analog converter,Journal of the SID 14/4, 2006 
+4. https://github.com/ankursah5/avsdbgp_3v3
+5. https://github.com/VSD-DACteam/avsddac_3v3
+
+
 ## Acknowledgements
 
 Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
 
 Philipp Gühring, Software Architect, LibreSilicon Assocation
+
 
 ## Contact Information
 
