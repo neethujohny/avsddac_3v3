@@ -29,15 +29,15 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
  
  * [10bit PDAC Layout](https://github.com/neethujohny/avsddac_3v3#10bit-pdac-layout)
  
-   - [Stage 1 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-1-circuit-layout)
-   - [Stage 2 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-2-circuit-layout)
-   - [Stage 3 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#stage-3-circuit-layout)
-   - [Subcircuit Layout](https://github.com/neethujohny/avsddac_3v3#subcircuit--switch_pair-layout)
-   - [Complete Layout of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3#complete-circuit-layout)
+   - [Stage 1 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#1-stage-1-circuit-layout)
+   - [Stage 2 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#2-stage-2-circuit-layoutt)
+   - [Stage 3 Circuit Layout](https://github.com/neethujohny/avsddac_3v3#3-stage-3-circuit-layout)
+   - [Subcircuit Layout](https://github.com/neethujohny/avsddac_3v3#4-subcircuit--switch_pair-layout)
+   - [Complete Layout of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3#5-complete-circuit-layout)
  
  * [Postlayout Simulations](https://github.com/neethujohny/avsddac_3v3#postlayout-simulations)
  
- * [Future Works](https://github.com/neethujohny/avsddac_3v3#future-work)
+ * [Future Works](https://github.com/neethujohny/avsddac_3v3#future-works)
  
  * [Author](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#author)
  
