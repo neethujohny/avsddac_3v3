@@ -17,13 +17,13 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
   - [Stage 3 Circuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#3-stage-3-circuit-diagram---2-bit-dac)
   - [Subcircuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#4-subcircuit--switch_pair)
   - [Complete Schematic of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#5-complete-schematic-of-10bit-pdac)
-  - [10bit DAC Output and Input plot](https://github.com/neethujohny/avsddac_3v3#ngspice-output-plot-with-10bit-inputs)
+  - [10bit DAC Output and Input plot](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#10bit-dac-output-and-inputs-plot)
   
  * [To obtain DNL vs Input code characteristics](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-dnl-vs-input-code-characteristics-t27c-and-vrefvdd33v)
  
  * [To obtain INL vs Input code characteristics](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-inl-vs-input-code-characteristics-t27c-and-vrefvdd33v)
  
- * [Open source EDA Tools used to develop the IP](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-output-voltage-vs-input-code-characteristics-t27c-and-vrefvdd33v)
+ * [Open source EDA Tools used to develop the IP](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#open-source-eda-tools-used-to-develop-the-ip)
  
  * [Prelayout Simulations](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#prelayout-simulations)
  
