@@ -6,26 +6,26 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
 
 # Table of contents
 
-* [Need for a potentiometric DAC(PDAC)](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#need-for-a-potentiometric-dacpdac-ip)
+* [Need for a potentiometric DAC(PDAC)](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#need-for-a-potentiometric-dacpdac)
 
 * [IP Block diagram and parameters](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#ip-block-diagram-and-parameters)
 
-* [Design of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#design-of-10bit-pdac)
+* [Design of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#design-of-10bit-pdac)
 
-  - [Stage 1 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-1-circuit-diagram---vh-vl-5-bitstage)
-  - [Stage 2 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-2-circuit-diagram---vh-vl-3-bitstage)
-  - [Stage 3 Circuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#stage-3-circuit-diagram---2-bit-dac)
-  - [Subcircuit Diagram](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#subcircuit--switch_pair)
-  - [Complete Schematic of 10bit PDAC](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#complete-schematic-of-10bit-pdac)
+  - [Stage 1 Circuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#1-stage-1-circuit-diagram---vh-vl-5-bitstage)
+  - [Stage 2 Circuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#2-stage-2-circuit-diagram---vh-vl-3-bitstage)
+  - [Stage 3 Circuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#3-stage-3-circuit-diagram---2-bit-dac)
+  - [Subcircuit Diagram](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#4-subcircuit--switch_pair)
+  - [Complete Schematic of 10bit PDAC](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#5-complete-schematic-of-10bit-pdac)
   - [10bit DAC Output and Input plot](https://github.com/neethujohny/avsddac_3v3#ngspice-output-plot-with-10bit-inputs)
   
- * [To obtain DNL vs Input code characteristics](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#to-obtain-dnl-vs-input-code-characteristics-t27c-and-vrefvdd33)
+ * [To obtain DNL vs Input code characteristics](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-dnl-vs-input-code-characteristics-t27c-and-vrefvdd33v)
  
- * [To obtain INL vs Input code characteristics](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#to-obtain-inl-vs-input-code-characteristics-t27c-and-vrefvdd33)
+ * [To obtain INL vs Input code characteristics](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-inl-vs-input-code-characteristics-t27c-and-vrefvdd33v)
  
- * [Open source EDA Tools used to develop the IP](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#open-source-eda-tools-used-to-develop-the-ip)
+ * [Open source EDA Tools used to develop the IP](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#to-obtain-output-voltage-vs-input-code-characteristics-t27c-and-vrefvdd33v)
  
- * [Prelayout Simulations](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#prelayout-simulations)
+ * [Prelayout Simulations](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#prelayout-simulations)
  
  * [10bit PDAC Layout](https://github.com/neethujohny/avsddac_3v3#10bit-pdac-layout)
  
@@ -39,13 +39,13 @@ This work is aimed at design of a 10bit potentiometric DAC with 3.3V analog outp
  
  * [Future Works](https://github.com/neethujohny/avsddac_3v3#future-work)
  
- * [Author](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#author)
+ * [Author](https://github.com/neethujohny/avsddac_3v3/blob/master/README.md#author)
  
  * [References](https://github.com/neethujohny/avsddac_3v3#references)
  
- * [Acknowledgements](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#acknowledgements)
+ * [Acknowledgements](https://github.com/neethujohny/avsddac_3v3#acknowledgements)
  
- * [Contact Information](https://github.com/neethujohny/10bit-potentiometric-DAC-3.3v-analog-voltage-1.8v-digital-voltage-and-1-off-chip-voltage-reference#contact-information)
+ * [Contact Information](https://github.com/neethujohny/avsddac_3v3#contact-information)
   
   
 
