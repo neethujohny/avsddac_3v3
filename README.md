@@ -115,7 +115,7 @@ The circuit is an extended version of stage 2 circuit with 5-bit selector switch
 ### 2. Stage 2 Circuit Diagram - VH VL 3-bitstage
 
 
-![stage2](https://user-images.githubusercontent.com/65214115/92308157-468f3500-efb9-11ea-9f2a-0dfc19364d89.PNG)
+![stag2](https://user-images.githubusercontent.com/65214115/92326163-b828bb00-f06d-11ea-9ce4-c7848bb31c1c.PNG)
 
 
 ### 3. Stage 3 Circuit Diagram - 2 bit DAC
