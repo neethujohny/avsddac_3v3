@@ -85,8 +85,8 @@ Binary weighted DAC, R-2R DAC, current steering DAC are some of the DAC architec
    |VREFH|	Reference Voltage high   |	   |	 |3.3 |	V   |	T=-40 to 85C|
    |VREFL|Reference Voltage low	   |0	      |          |    |  V  |	T=-40 to 85C     |
    |RES |	Resolution    |		 | 10       |		    |bits|	On all above condition for "typ" (T=27C)       |
-   |INL |	Integral non-linearity   |		 | -2.0 to +2.654      |		    |LSB |	On all above condition for "typ" (T=27C)  |
-   |DNL	|Differential non-linearity      |	   |-1.0 to +1.7    |	    |LSB	    |On all above condition for "typ" (T=27C)  |
+   |INL |	Integral non-linearity   |		 |-0.921  to  +2.374      |		    |LSB |	On all above condition for "typ" (T=27C)  |
+   |DNL	|Differential non-linearity      |	   |-0.247  to  +1.44    |	    |LSB	    |On all above condition for "typ" (T=27C)  |
    |TCONV|	Conversion time    |	9.99|		||us  |	T=27C    |
    |IDDA|	Analog supply current    |    |100    |	      |	mA       | T=27C, Data change=16K samples/sec  |
    |IDD|	Digital supply current 	 |    |114.25    |    |   mA|   T=27C, Data change=16K samples/sec|
